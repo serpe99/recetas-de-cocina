@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comparte tus Recetas de Cocina</title>
+    <title>Compartează Rețete de Bucătărie</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -63,30 +63,97 @@
             bottom: 0;
             width: 100%;
         }
+        .language-selector {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Comparte tus Recetas de Cocina</h1>
+        <h1 id="pageTitle">Compartează Rețete de Bucătărie</h1>
+        <div class="language-selector">
+            <select id="languageSelect" onchange="changeLanguage()">
+                <option value="ro">Română</option>
+                <option value="en">English</option>
+                <option value="es">Español</option>
+            </select>
+        </div>
     </header>
     <main>
         <div class="recipe-form">
-            <h2>Añadir una nueva receta</h2>
-            <input type="text" id="recipeName" placeholder="Nombre de la receta" required>
-            <textarea id="recipeIngredients" placeholder="Ingredientes (separados por comas)" rows="4" required></textarea>
-            <textarea id="recipeInstructions" placeholder="Instrucciones" rows="6" required></textarea>
-            <button onclick="addRecipe()">Guardar Receta</button>
+            <h2 id="addRecipeTitle">Adaugă o nouă rețetă</h2>
+            <input type="text" id="recipeName" placeholder="Numele rețetei" required>
+            <textarea id="recipeIngredients" placeholder="Ingrediente (separate prin virgulă)" rows="4" required></textarea>
+            <textarea id="recipeInstructions" placeholder="Instrucțiuni" rows="6" required></textarea>
+            <button onclick="addRecipe()"><span id="saveButton">Salvează Rețeta</span></button>
         </div>
         <div class="recipes-list">
-            <h2>Recetas Compartidas</h2>
+            <h2 id="sharedRecipesTitle">Rețete Împărtășite</h2>
             <div id="recipesContainer"></div>
         </div>
     </main>
     <footer>
-        <p>&copy; 2023 Compartiendo Recetas</p>
+        <p id="footerText">&copy; 2023 Compartează Rețete</p>
     </footer>
     <script>
-        // Simulación de base de datos usando localStorage
+        // Texte în diferite limbi
+        const translations = {
+            ro: {
+                pageTitle: "Compartează Rețete de Bucătărie",
+                addRecipeTitle: "Adaugă o nouă rețetă",
+                recipeNamePlaceholder: "Numele rețetei",
+                recipeIngredientsPlaceholder: "Ingrediente (separate prin virgulă)",
+                recipeInstructionsPlaceholder: "Instrucțiuni",
+                saveButton: "Salvează Rețeta",
+                sharedRecipesTitle: "Rețete Împărtășite",
+                footerText: "&copy; 2023 Compartează Rețete"
+            },
+            en: {
+                pageTitle: "Share Cooking Recipes",
+                addRecipeTitle: "Add a New Recipe",
+                recipeNamePlaceholder: "Recipe Name",
+                recipeIngredientsPlaceholder: "Ingredients (comma-separated)",
+                recipeInstructionsPlaceholder: "Instructions",
+                saveButton: "Save Recipe",
+                sharedRecipesTitle: "Shared Recipes",
+                footerText: "&copy; 2023 Share Recipes"
+            },
+            es: {
+                pageTitle: "Comparte Recetas de Cocina",
+                addRecipeTitle: "Añadir una Nueva Receta",
+                recipeNamePlaceholder: "Nombre de la Receta",
+                recipeIngredientsPlaceholder: "Ingredientes (separados por comas)",
+                recipeInstructionsPlaceholder: "Instrucciones",
+                saveButton: "Guardar Receta",
+                sharedRecipesTitle: "Recetas Compartidas",
+                footerText: "&copy; 2023 Compartiendo Recetas"
+            }
+        };
+
+        // Limba implicită
+        let currentLanguage = 'ro';
+        updateTexts();
+
+        function changeLanguage() {
+            currentLanguage = document.getElementById('languageSelect').value;
+            updateTexts();
+        }
+
+        function updateTexts() {
+            const lang = translations[currentLanguage];
+            document.getElementById('pageTitle').innerText = lang.pageTitle;
+            document.getElementById('addRecipeTitle').innerText = lang.addRecipeTitle;
+            document.getElementById('recipeName').placeholder = lang.recipeNamePlaceholder;
+            document.getElementById('recipeIngredients').placeholder = lang.recipeIngredientsPlaceholder;
+            document.getElementById('recipeInstructions').placeholder = lang.recipeInstructionsPlaceholder;
+            document.getElementById('saveButton').innerText = lang.saveButton;
+            document.getElementById('sharedRecipesTitle').innerText = lang.sharedRecipesTitle;
+            document.getElementById('footerText').innerHTML = lang.footerText;
+        }
+
+        // Simularea bazei de date folosind localStorage
         let recipes = JSON.parse(localStorage.getItem('recipes')) || [];
 
         function addRecipe() {
@@ -95,7 +162,7 @@
             const instructions = document.getElementById('recipeInstructions').value.trim();
 
             if (!name || !ingredients || !instructions) {
-                alert('Por favor, completa todos los campos.');
+                alert(translations[currentLanguage].recipeNamePlaceholder + ' este obligatoriu.');
                 return;
             }
 
@@ -120,9 +187,9 @@
                 recipeDiv.classList.add('recipe-item');
                 recipeDiv.innerHTML = `
                     <h3>${recipe.name}</h3>
-                    <p><strong>Ingredientes:</strong> ${recipe.ingredients.join(', ')}</p>
-                    <p><strong>Instrucciones:</strong> ${recipe.instructions}</p>
-                    <button onclick="deleteRecipe(${index})">Eliminar</button>
+                    <p><strong>${translations[currentLanguage].recipeIngredientsPlaceholder}:</strong> ${recipe.ingredients.join(', ')}</p>
+                    <p><strong>${translations[currentLanguage].recipeInstructionsPlaceholder}:</strong> ${recipe.instructions}</p>
+                    <button onclick="deleteRecipe(${index})">${translations[currentLanguage].saveButton.replace('Salvează', 'Șterge')}</button>
                 `;
                 container.appendChild(recipeDiv);
             });
@@ -140,7 +207,7 @@
             document.getElementById('recipeInstructions').value = '';
         }
 
-        // Cargar las recetas al iniciar
+        // Încarcă rețetele la început
         window.onload = renderRecipes;
     </script>
 </body>
