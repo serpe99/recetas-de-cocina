@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparte tus Recetas de Cocina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .recipe-form, .recipes-list {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .recipe-form input, .recipe-form textarea, .recipe-form button {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .recipe-form button {
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .recipe-form button:hover {
+            background-color: #e5563f;
+        }
+        .recipe-item {
+            background: #fff8dc;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            border-left: 5px solid #ff6347;
+        }
+        .recipe-item h3 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ff6347;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Comparte tus Recetas de Cocina</h1>
+    </header>
+    <main>
+        <div class="recipe-form">
+            <h2>Añadir una nueva receta</h2>
+            <input type="text" id="recipeName" placeholder="Nombre de la receta" required>
+            <textarea id="recipeIngredients" placeholder="Ingredientes (separados por comas)" rows="4" required></textarea>
+            <textarea id="recipeInstructions" placeholder="Instrucciones" rows="6" required></textarea>
+            <button onclick="addRecipe()">Guardar Receta</button>
+        </div>
+        <div class="recipes-list">
+            <h2>Recetas Compartidas</h2>
+            <div id="recipesContainer"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Compartiendo Recetas</p>
+    </footer>
+    <script>
+        // Simulación de base de datos usando localStorage
+        let recipes = JSON.parse(localStorage.getItem('recipes')) || [];
+
+        function addRecipe() {
+            const name = document.getElementById('recipeName').value.trim();
+            const ingredients = document.getElementById('recipeIngredients').value.trim();
+            const instructions = document.getElementById('recipeInstructions').value.trim();
+
+            if (!name || !ingredients || !instructions) {
+                alert('Por favor, completa todos los campos.');
+                return;
+            }
+
+            const newRecipe = {
+                name,
+                ingredients: ingredients.split(',').map(item => item.trim()),
+                instructions
+            };
+
+            recipes.push(newRecipe);
+            localStorage.setItem('recipes', JSON.stringify(recipes));
+            renderRecipes();
+            clearForm();
+        }
+
+        function renderRecipes() {
+            const container = document.getElementById('recipesContainer');
+            container.innerHTML = '';
+
+            recipes.forEach((recipe, index) => {
+                const recipeDiv = document.createElement('div');
+                recipeDiv.classList.add('recipe-item');
+                recipeDiv.innerHTML = `
+                    <h3>${recipe.name}</h3>
+                    <p><strong>Ingredientes:</strong> ${recipe.ingredients.join(', ')}</p>
+                    <p><strong>Instrucciones:</strong> ${recipe.instructions}</p>
+                    <button onclick="deleteRecipe(${index})">Eliminar</button>
+                `;
+                container.appendChild(recipeDiv);
+            });
+        }
+
+        function deleteRecipe(index) {
+            recipes.splice(index, 1);
+            localStorage.setItem('recipes', JSON.stringify(recipes));
+            renderRecipes();
+        }
+
+        function clearForm() {
+            document.getElementById('recipeName').value = '';
+            document.getElementById('recipeIngredients').value = '';
+            document.getElementById('recipeInstructions').value = '';
+        }
+
+        // Cargar las recetas al iniciar
+        window.onload = renderRecipes;
+    </script>
+</body>
+</html>
