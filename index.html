@@ -1,214 +1,97 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compartează Rețete de Bucătărie</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-        }
-        header {
-            background-color: #ff6347;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-        }
-        .recipe-form, .recipes-list {
-            max-width: 600px;
-            margin: 0 auto;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .recipe-form input, .recipe-form textarea, .recipe-form button {
-            width: 100%;
-            margin-bottom: 15px;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-        .recipe-form button {
-            background-color: #ff6347;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-        .recipe-form button:hover {
-            background-color: #e5563f;
-        }
-        .recipe-item {
-            background: #fff8dc;
-            padding: 15px;
-            margin-bottom: 10px;
-            border-radius: 4px;
-            border-left: 5px solid #ff6347;
-        }
-        .recipe-item h3 {
-            margin-top: 0;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #ff6347;
-            color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        .language-selector {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-        }
-    </style>
+    <title>Libro de Recetas</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1 id="pageTitle">Compartează Rețete de Bucătărie</h1>
+        <h1 id="pageTitle">Libro de Recetas</h1>
         <div class="language-selector">
             <select id="languageSelect" onchange="changeLanguage()">
                 <option value="ro">Română</option>
                 <option value="en">English</option>
-                <option value="es">Español</option>
+                <option value="es" selected>Español</option>
             </select>
         </div>
     </header>
     <main>
-        <div class="recipe-form">
-            <h2 id="addRecipeTitle">Adaugă o nouă rețetă</h2>
-            <input type="text" id="recipeName" placeholder="Numele rețetei" required>
-            <textarea id="recipeIngredients" placeholder="Ingrediente (separate prin virgulă)" rows="4" required></textarea>
-            <textarea id="recipeInstructions" placeholder="Instrucțiuni" rows="6" required></textarea>
-            <button onclick="addRecipe()"><span id="saveButton">Salvează Rețeta</span></button>
-        </div>
         <div class="recipes-list">
-            <h2 id="sharedRecipesTitle">Rețete Împărtășite</h2>
+            <h2 id="recipesTitle">Nuestras Recetas</h2>
             <div id="recipesContainer"></div>
         </div>
     </main>
     <footer>
-        <p id="footerText">&copy; 2023 Compartează Rețete</p>
+        <p id="footerText">&copy; 2023 Libro de Recetas</p>
     </footer>
     <script>
-        // Texte în diferite limbi
+        // Cargar datos desde data.json
+        async function fetchRecipes() {
+            try {
+                const response = await fetch('data.json');
+                const recipes = await response.json();
+                renderRecipes(recipes);
+            } catch (error) {
+                console.error('Error al cargar las recetas:', error);
+            }
+        }
+
+        // Traducciones
         const translations = {
             ro: {
-                pageTitle: "Compartează Rețete de Bucătărie",
-                addRecipeTitle: "Adaugă o nouă rețetă",
-                recipeNamePlaceholder: "Numele rețetei",
-                recipeIngredientsPlaceholder: "Ingrediente (separate prin virgulă)",
-                recipeInstructionsPlaceholder: "Instrucțiuni",
-                saveButton: "Salvează Rețeta",
-                sharedRecipesTitle: "Rețete Împărtășite",
-                footerText: "&copy; 2023 Compartează Rețete"
+                pageTitle: "Cartea de Retete",
+                recipesTitle: "Retetele Noastre",
+                footerText: "&copy; 2023 Cartea de Retete"
             },
             en: {
-                pageTitle: "Share Cooking Recipes",
-                addRecipeTitle: "Add a New Recipe",
-                recipeNamePlaceholder: "Recipe Name",
-                recipeIngredientsPlaceholder: "Ingredients (comma-separated)",
-                recipeInstructionsPlaceholder: "Instructions",
-                saveButton: "Save Recipe",
-                sharedRecipesTitle: "Shared Recipes",
-                footerText: "&copy; 2023 Share Recipes"
+                pageTitle: "Recipe Book",
+                recipesTitle: "Our Recipes",
+                footerText: "&copy; 2023 Recipe Book"
             },
             es: {
-                pageTitle: "Comparte Recetas de Cocina",
-                addRecipeTitle: "Añadir una Nueva Receta",
-                recipeNamePlaceholder: "Nombre de la Receta",
-                recipeIngredientsPlaceholder: "Ingredientes (separados por comas)",
-                recipeInstructionsPlaceholder: "Instrucciones",
-                saveButton: "Guardar Receta",
-                sharedRecipesTitle: "Recetas Compartidas",
-                footerText: "&copy; 2023 Compartiendo Recetas"
+                pageTitle: "Libro de Recetas",
+                recipesTitle: "Nuestras Recetas",
+                footerText: "&copy; 2023 Libro de Recetas"
             }
         };
 
-        // Limba implicită
-        let currentLanguage = 'ro';
+        // Idioma predeterminado
+        let currentLanguage = 'es';
         updateTexts();
 
         function changeLanguage() {
             currentLanguage = document.getElementById('languageSelect').value;
             updateTexts();
+            renderRecipes(JSON.parse(localStorage.getItem('recipes')) || []);
         }
 
         function updateTexts() {
             const lang = translations[currentLanguage];
             document.getElementById('pageTitle').innerText = lang.pageTitle;
-            document.getElementById('addRecipeTitle').innerText = lang.addRecipeTitle;
-            document.getElementById('recipeName').placeholder = lang.recipeNamePlaceholder;
-            document.getElementById('recipeIngredients').placeholder = lang.recipeIngredientsPlaceholder;
-            document.getElementById('recipeInstructions').placeholder = lang.recipeInstructionsPlaceholder;
-            document.getElementById('saveButton').innerText = lang.saveButton;
-            document.getElementById('sharedRecipesTitle').innerText = lang.sharedRecipesTitle;
+            document.getElementById('recipesTitle').innerText = lang.recipesTitle;
             document.getElementById('footerText').innerHTML = lang.footerText;
         }
 
-        // Simularea bazei de date folosind localStorage
-        let recipes = JSON.parse(localStorage.getItem('recipes')) || [];
-
-        function addRecipe() {
-            const name = document.getElementById('recipeName').value.trim();
-            const ingredients = document.getElementById('recipeIngredients').value.trim();
-            const instructions = document.getElementById('recipeInstructions').value.trim();
-
-            if (!name || !ingredients || !instructions) {
-                alert(translations[currentLanguage].recipeNamePlaceholder + ' este obligatoriu.');
-                return;
-            }
-
-            const newRecipe = {
-                name,
-                ingredients: ingredients.split(',').map(item => item.trim()),
-                instructions
-            };
-
-            recipes.push(newRecipe);
-            localStorage.setItem('recipes', JSON.stringify(recipes));
-            renderRecipes();
-            clearForm();
-        }
-
-        function renderRecipes() {
+        function renderRecipes(recipes) {
             const container = document.getElementById('recipesContainer');
             container.innerHTML = '';
 
-            recipes.forEach((recipe, index) => {
+            recipes.forEach(recipe => {
                 const recipeDiv = document.createElement('div');
                 recipeDiv.classList.add('recipe-item');
                 recipeDiv.innerHTML = `
                     <h3>${recipe.name}</h3>
-                    <p><strong>${translations[currentLanguage].recipeIngredientsPlaceholder}:</strong> ${recipe.ingredients.join(', ')}</p>
-                    <p><strong>${translations[currentLanguage].recipeInstructionsPlaceholder}:</strong> ${recipe.instructions}</p>
-                    <button onclick="deleteRecipe(${index})">${translations[currentLanguage].saveButton.replace('Salvează', 'Șterge')}</button>
+                    <p><strong>Ingredientes:</strong> ${recipe.ingredients.join(', ')}</p>
+                    <p><strong>Instrucciones:</strong> ${recipe.instructions}</p>
                 `;
                 container.appendChild(recipeDiv);
             });
         }
 
-        function deleteRecipe(index) {
-            recipes.splice(index, 1);
-            localStorage.setItem('recipes', JSON.stringify(recipes));
-            renderRecipes();
-        }
-
-        function clearForm() {
-            document.getElementById('recipeName').value = '';
-            document.getElementById('recipeIngredients').value = '';
-            document.getElementById('recipeInstructions').value = '';
-        }
-
-        // Încarcă rețetele la început
-        window.onload = renderRecipes;
+        // Cargar las recetas al iniciar
+        window.onload = fetchRecipes;
     </script>
 </body>
 </html>
