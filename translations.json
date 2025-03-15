@@ -1,0 +1,38 @@
+{
+    "ro": {
+        "pageTitle": "Cartea de Retete",
+        "recipesTitle": "Retetele Noastre",
+        "footerText": "Cartea de Retete",
+        "allCategories": "Toate",
+        "filterByCategory": "Filtrare după categorie:",
+        "categories": {
+            "Postres": "Deserturi",
+            "Pastas": "Paste",
+            "Ensaladas": "Salate"
+        }
+    },
+    "en": {
+        "pageTitle": "Recipe Book",
+        "recipesTitle": "Our Recipes",
+        "footerText": "Recipe Book",
+        "allCategories": "All",
+        "filterByCategory": "Filter by category:",
+        "categories": {
+            "Postres": "Desserts",
+            "Pastas": "Pasta",
+            "Ensaladas": "Salads"
+        }
+    },
+    "es": {
+        "pageTitle": "Libro de Recetas",
+        "recipesTitle": "Nuestras Recetas",
+        "footerText": "Libro de Recetas",
+        "allCategories": "Todas",
+        "filterByCategory": "Filtrar por categoría:",
+        "categories": {
+            "Postres": "Postres",
+            "Pastas": "Pastas",
+            "Ensaladas": "Ensaladas"
+        }
+    }
+}
