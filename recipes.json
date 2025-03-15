@@ -335,8 +335,6 @@
             }
         }
     },
-
-[
     {
         "id": 17,
         "category": "Postres",
@@ -672,10 +670,7 @@
                 "instructions": "Mezclar los ingredientes. Dejar que suba. Hornear a 180°C durante 40 minutos."
             }
         }
-    }
-]
-
-[
+    },
     {
         "id": 33,
         "category": "Postres",
@@ -864,9 +859,7 @@
                 "instructions": "Mezclar los ingredientes y hornear a 180°C durante 30 minutos."
             }
         }
-    }
-]
-[
+    },
     {
         "id": 42,
         "category": "Pastas",
@@ -1034,9 +1027,7 @@
                 "instructions": "Hervir los frijoles y cocinar los caltabos. Servir con cebolla sofrita."
             }
         }
-    }
-]
-[
+    },
     {
         "id": 50,
         "category": "Ensaladas",
@@ -1225,9 +1216,7 @@
                 "instructions": "Cocinar el pescado y mezclarlo con pepinos, tomates, limón y aceite de oliva."
             }
         }
-    }
-]
-[
+    },
     {
         "id": 59,
         "category": "Sopas",
@@ -1416,9 +1405,7 @@
                 "instructions": "Hervir la calabaza con zanahorias y cebolla. Condimentar con sal y pimienta."
             }
         }
-    }
-]
-[
+    },
     {
         "id": 68,
         "category": "Carnes",
@@ -1586,9 +1573,7 @@
                 "instructions": "Hervir el pollo con cebolla. Añadir la salsa de tomate y cocinar hasta que espese."
             }
         }
-    }
-]
-[
+    },
     {
         "id": 76,
         "category": "Pescados",
@@ -1672,9 +1657,7 @@
                 "instructions": "Servir el pescado con polenta caliente, sazonado con sal y pimienta."
             }
         }
-    }
-]
-[
+    },
     {
         "id": 80,
         "category": "Bebidas",
@@ -1737,9 +1720,7 @@
                 "instructions": "Calienta el vino con canela, clavos y azúcar hasta que esté caliente y aromático."
             }
         }
-    }
-]
-[
+    },
     {
         "id": 83,
         "category": "Panadería",
@@ -1781,5 +1762,48 @@
                 "instructions": "Mezcla los ingredientes para la masa y deja que repose. Hornea hasta que esté dorado."
             }
         }
+    },
+    {
+        "id": 85,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Clătite",
+                "ingredients": ["Făină", "Ouă", "Lapte", "Zahăr", "Sare"],
+                "instructions": "Amestecă ingredientele și prăjește clătitele într-o tigaie încinsă."
+            },
+            "en": {
+                "name": "Pancakes",
+                "ingredients": ["Flour", "Eggs", "Milk", "Sugar", "Salt"],
+                "instructions": "Mix the ingredients and fry the pancakes in a hot pan."
+            },
+            "es": {
+                "name": "Panqueques",
+                "ingredients": ["Harina", "Huevos", "Leche", "Azúcar", "Sal"],
+                "instructions": "Mezclar los ingredientes y freír los panqueques en una sartén caliente."
+            }
+        }
+    },
+    {
+        "id": 84,
+        "category": "Panadería",
+        "translations": {
+            "ro": {
+                "name": "Cozonac",
+                "ingredients": ["Făină", "Zahăr", "Ouă", "Drojdii", "Lapte", "Esență de vanilie"],
+                "instructions": "Amestecă ingredientele pentru aluat și lasă să dospească. Coace în cuptor până devine rumen."
+            },
+            "en": {
+                "name": "Cozonac",
+                "ingredients": ["Flour", "Sugar", "Eggs", "Yeast", "Milk", "Vanilla essence"],
+                "instructions": "Mix the dough ingredients and let it rise. Bake until golden brown."
+            },
+            "es": {
+                "name": "Cozonac",
+                "ingredients": ["Harina", "Azúcar", "Huevos", "Levadura", "Leche", "Esencia de vainilla"],
+                "instructions": "Mezcla los ingredientes para la masa y deja que repose. Hornea hasta que esté dorado."
+            }
+        }
     }
 ]
+
