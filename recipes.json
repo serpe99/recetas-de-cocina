@@ -1,0 +1,108 @@
+[
+    {
+        "id": 1,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Placinta cu Mere",
+                "ingredients": ["Mere", "Zahar", "Faina", "Unt", "Scortisoara"],
+                "instructions": "Curata si taie merele. Amesteca cu zahar si scortisoara. Pune in blat. Coace la 180°C timp de 30 de minute."
+            },
+            "en": {
+                "name": "Apple Pie",
+                "ingredients": ["Apples", "Sugar", "Flour", "Butter", "Cinnamon"],
+                "instructions": "Peel and slice the apples. Mix with sugar and cinnamon. Place in the crust. Bake at 180°C for 30 minutes."
+            },
+            "es": {
+                "name": "Tarta de Manzana",
+                "ingredients": ["Manzanas", "Azúcar", "Harina", "Mantequilla", "Canela"],
+                "instructions": "Pelar y cortar las manzanas. Mezclar con azúcar y canela. Colocar en una base de masa. Hornear a 180°C durante 30 minutos."
+            }
+        }
+    },
+    {
+        "id": 2,
+        "category": "Pastas",
+        "translations": {
+            "ro": {
+                "name": "Spaghete la Bolonieza",
+                "ingredients": ["Spaghete", "Carne tocata", "Sos de rosii", "Ceapa", "Usturoi", "Ulei de masline"],
+                "instructions": "Fierbe spaghetele. Sofreaza ceapa si usturoiul. Adauga carnea tocata si gateste pana se rumeneste. Adauga sosul de rosii si lasa la foc mic. Serveste pe spaghete."
+            },
+            "en": {
+                "name": "Spaghetti Bolognese",
+                "ingredients": ["Spaghetti", "Ground beef", "Tomato sauce", "Onion", "Garlic", "Olive oil"],
+                "instructions": "Cook the spaghetti. Sauté the onion and garlic. Add the ground beef and cook until browned. Add the tomato sauce and simmer. Serve over spaghetti."
+            },
+            "es": {
+                "name": "Espaguetis a la Boloñesa",
+                "ingredients": ["Espaguetis", "Carne molida", "Salsa de tomate", "Cebolla", "Ajo", "Aceite de oliva"],
+                "instructions": "Cocinar los espaguetis. Sofreír la cebolla y el ajo. Añadir la carne molida y cocinar hasta dorar. Agregar la salsa de tomate y cocinar a fuego lento. Servir sobre los espaguetis."
+            }
+        }
+    },
+    {
+        "id": 3,
+        "category": "Ensaladas",
+        "translations": {
+            "ro": {
+                "name": "Salata Caesar",
+                "ingredients": ["Salata romana", "Pui", "Crutoane", "Parmezan", "Dressing Caesar"],
+                "instructions": "Taie salata in bucati mari. Gatesti si taie puiul in fasi. Toaca painea pentru crutoane. Amesteca totul si adauga dressing Caesar."
+            },
+            "en": {
+                "name": "Caesar Salad",
+                "ingredients": ["Romaine lettuce", "Chicken", "Croutons", "Parmesan", "Caesar dressing"],
+                "instructions": "Cut the lettuce into large pieces. Cook and slice the chicken. Toast bread to make croutons. Mix everything and add Caesar dressing."
+            },
+            "es": {
+                "name": "Ensalada César",
+                "ingredients": ["Lechuga romana", "Pollo", "Pan tostado", "Queso parmesano", "Aderezo César"],
+                "instructions": "Cortar la lechuga en trozos grandes. Cocinar el pollo y cortarlo en tiras. Tostar el pan para hacer crutones. Mezclar todos los ingredientes y añadir aderezo César."
+            }
+        }
+    },
+    {
+        "id": 4,
+        "category": "Pastas",
+        "translations": {
+            "ro": {
+                "name": "Paste cu Sos de Roșii și Busuioc",
+                "ingredients": [
+                    "400 g de paste (spaghete, penne sau ce preferi)",
+                    "2 linguri de ulei de măsline",
+                    "1 cățel de usturoi tocat",
+                    "800 g de roșii decojite din conservă sau roșii proaspete mărunțite",
+                    "1 linguriță de zahăr (opțional, pentru a reduce aciditatea)",
+                    "Sare și piper după gust",
+                    "Frunze de busuioc proaspăt",
+                    "Brânză parmezan rasă (opțional)"
+                ],
+                "instructions": "Fierbe pastele în apă clocotită cu sare până devin al dente. Între timp, încălzește uleiul de măsline într-o tigaie mare și sotează usturoiul tocat. Adaugă roșiile mărunțite și gătește la foc mic timp de 20-30 de minute. Adaugă zahărul, sarea și piperul după gust. Amestecă pastele fierte cu sosul de roșii și servește cu frunze de busuioc proaspăt și brânză parmezan rasă."            },
+            "en":
+            {
+                "name": "Pasta with Tomato Sauce and Basil",
+                "ingredients": [
+                    "400 g of pasta (spaghetti, penne, or your choice)",
+                    "2 tablespoons of olive oil",
+                    "1 garlic clove, minced",
+                    "800 g of peeled canned tomatoes or fresh crushed tomatoes",
+                    "1 teaspoon of sugar (optional, to reduce acidity)",
+                    "Salt and pepper to taste",
+                    "Fresh basil leaves",
+                    "Grated Parmesan cheese (optional)"
+                ],
+                "instructions": "Cook the pasta in boiling salted water until al dente. Meanwhile, heat the olive oil in a large skillet and sauté the minced garlic. Add the crushed tomatoes and simmer for about 20-30 minutes. Add sugar, salt, and pepper to taste. Mix the cooked pasta with the tomato sauce and serve with fresh basil leaves and grated Parmesan cheese."
+            },          
+
+            "es":
+             {
+                "name": "Pasta con Salsa de Tomate y Albahaca",
+                "ingredients": ["400 g de pasta (espaguetis, penne o la que prefieras)", "2 cucharadas de aceite de oliva", "1 diente de ajo picado", "800 g de tomates pelados en conserva o frescos triturados", "1 cucharadita de azúcar (opcional, para reducir la acidez)", "Sal y pimienta al gusto", "Hojas de albahaca fresca", "Queso parmesano rallado (opcional)"],
+                "instructions": "Cocina la pasta en agua hirviendo con sal hasta que esté al dente. Mientras tanto, calienta el aceite de oliva en una sartén grande y sofríe el ajo picado. Agrega los tomates triturados y cocina a fuego lento durante unos 20-30 minutos. Agrega azúcar, sal y pimienta al gusto. Mezcla la pasta cocida con la salsa de tomate y sirve con hojas de albahaca fresca y queso parmesano rallado."
+            }
+        }
+    }
+
+
+]
