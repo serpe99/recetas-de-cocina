@@ -3,95 +3,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Libro de Recetas</title>
+    <title>Libro de Recetas 🍳</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1 id="pageTitle">Libro de Recetas</h1>
-        <div class="language-selector">
-            <select id="languageSelect" onchange="changeLanguage()">
-                <option value="ro">Română</option>
-                <option value="en">English</option>
-                <option value="es" selected>Español</option>
-            </select>
+        <div class="container">
+            <h1 id="pageTitle">Libro de Recetas 📖</h1>
+            <div class="language-selector">
+                <label for="languageSelect">🌐 Selecciona un idioma:</label>
+                <select id="languageSelect" onchange="changeLanguage()">
+                    <option value="ro">Română 🇷🇴</option>
+                    <option value="en">English 🇬🇧</option>
+                    <option value="es" selected>Español 🇪🇸</option>
+                </select>
+            </div>
         </div>
     </header>
     <main>
-        <div class="recipes-list">
-            <h2 id="recipesTitle">Nuestras Recetas</h2>
+        <div class="container">
+            <h2 id="recipesTitle">Nuestras Recetas 🥘</h2>
+            <div class="category-filter">
+                <label id="filterLabel" for="categorySelect"></label>
+                <select id="categorySelect" onchange="filterRecipes()">
+                    <option value="all">Todas 🌟</option>
+                </select>
+            </div>
             <div id="recipesContainer"></div>
         </div>
     </main>
     <footer>
-        <p id="footerText">&copy; 2023 Libro de Recetas</p>
+        <div class="container">
+            <p id="footerText">&copy; 2023 Libro de Recetas 🍴</p>
+        </div>
     </footer>
+
+    <!-- Modal para mostrar la receta completa -->
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h3 id="modalRecipeName"></h3>
+            <p><strong>🛒 Ingredientes:</strong></p>
+            <ul id="modalIngredientsList"></ul>
+            <p><strong>📝 Instrucciones:</strong></p>
+            <ul id="modalInstructionsList"></ul>
+        </div>
+    </div>
+
     <script>
-        // Cargar datos desde data.json
-        async function fetchRecipes() {
+        // Variables globales
+        let currentLanguage = 'es';
+        let translations = {};
+        let recipesData = [];
+        let categories = [];
+
+        // Cargar traducciones desde translations.json
+        async function loadTranslations() {
             try {
-                const response = await fetch('data.json');
-                const recipes = await response.json();
-                renderRecipes(recipes);
+                const response = await fetch('translations.json');
+                translations = await response.json();
+                updateTexts();
+            } catch (error) {
+                console.error('Error al cargar las traducciones:', error);
+            }
+        }
+
+        // Cargar recetas desde recipes.json
+        async function loadRecipes() {
+            try {
+                const response = await fetch('recipes.json');
+                recipesData = await response.json();
+                extractCategories();
+                renderRecipes();
             } catch (error) {
                 console.error('Error al cargar las recetas:', error);
             }
         }
 
-        // Traducciones
-        const translations = {
-            ro: {
-                pageTitle: "Cartea de Retete",
-                recipesTitle: "Retetele Noastre",
-                footerText: "&copy; 2023 Cartea de Retete"
-            },
-            en: {
-                pageTitle: "Recipe Book",
-                recipesTitle: "Our Recipes",
-                footerText: "&copy; 2023 Recipe Book"
-            },
-            es: {
-                pageTitle: "Libro de Recetas",
-                recipesTitle: "Nuestras Recetas",
-                footerText: "&copy; 2023 Libro de Recetas"
-            }
-        };
+        // Extraer categorías únicas
+        function extractCategories() {
+            categories = [...new Set(recipesData.map(recipe => recipe.category))];
+            populateCategoryFilter();
+        }
 
-        // Idioma predeterminado
-        let currentLanguage = 'es';
-        updateTexts();
+        // Poblar el filtro de categorías
+        function populateCategoryFilter() {
+            const categorySelect = document.getElementById('categorySelect');
+            categorySelect.innerHTML = `<option value="all">${translations[currentLanguage].allCategories} 🌟</option>`;
+            categories.forEach(category => {
+                const option = document.createElement('option');
+                option.value = category;
+                option.textContent = `${translations[currentLanguage].categories[category]} 🍽️`;
+                categorySelect.appendChild(option);
+            });
+        }
 
         function changeLanguage() {
             currentLanguage = document.getElementById('languageSelect').value;
             updateTexts();
-            renderRecipes(JSON.parse(localStorage.getItem('recipes')) || []);
+            populateCategoryFilter();
+            renderRecipes();
+        }
+
+        function filterRecipes() {
+            renderRecipes();
         }
 
         function updateTexts() {
             const lang = translations[currentLanguage];
-            document.getElementById('pageTitle').innerText = lang.pageTitle;
-            document.getElementById('recipesTitle').innerText = lang.recipesTitle;
-            document.getElementById('footerText').innerHTML = lang.footerText;
+            document.getElementById('pageTitle').innerText = `${lang.pageTitle} 📖`;
+            document.getElementById('recipesTitle').innerText = `${lang.recipesTitle} 🥘`;
+            document.getElementById('footerText').innerHTML = `&copy; 2023 ${lang.footerText} 🍴`;
+            document.getElementById('filterLabel').innerText = `${lang.filterByCategory} 🔍`;
         }
 
-        function renderRecipes(recipes) {
+        function renderRecipes() {
             const container = document.getElementById('recipesContainer');
             container.innerHTML = '';
 
-            recipes.forEach(recipe => {
+            const selectedCategory = document.getElementById('categorySelect').value;
+
+            const filteredRecipes = selectedCategory === 'all'
+                ? recipesData
+                : recipesData.filter(recipe => recipe.category === selectedCategory);
+
+            filteredRecipes.forEach(recipe => {
                 const recipeDiv = document.createElement('div');
                 recipeDiv.classList.add('recipe-item');
+
+                // Obtener la traducción de la receta según el idioma actual
+                const translatedRecipe = recipe.translations[currentLanguage];
+
+                // Dividir las instrucciones en pasos numerados
+                const steps = translatedRecipe.instructions.split('. ').filter(step => step.trim() !== '');
+
                 recipeDiv.innerHTML = `
-                    <h3>${recipe.name}</h3>
-                    <p><strong>Ingredientes:</strong> ${recipe.ingredients.join(', ')}</p>
-                    <p><strong>Instrucciones:</strong> ${recipe.instructions}</p>
+                    <h3>${translatedRecipe.name} 🍽️</h3>
+                    <p><strong>🛒 Ingredientes:</strong></p>
+                    <ul class="ingredients-list">
+                        ${translatedRecipe.ingredients.slice(0, 3).map(ingredient => `<li>${ingredient}</li>`).join('')}
+                        <li class="show-more">... Ver más</li>
+                    </ul>
                 `;
+                recipeDiv.querySelector('.show-more').addEventListener('click', () => openRecipeModal(recipe));
                 container.appendChild(recipeDiv);
             });
         }
 
-        // Cargar las recetas al iniciar
-        window.onload = fetchRecipes;
+        // Abrir el modal con la receta completa
+        function openRecipeModal(recipe) {
+            const modal = document.getElementById('recipeModal');
+            const closeBtn = modal.querySelector('.close-button');
+            const modalRecipeName = document.getElementById('modalRecipeName');
+            const modalIngredientsList = document.getElementById('modalIngredientsList');
+            const modalInstructionsList = document.getElementById('modalInstructionsList');
+
+            // Obtener la traducción de la receta según el idioma actual
+            const translatedRecipe = recipe.translations[currentLanguage];
+
+            // Dividir las instrucciones en pasos numerados
+            const steps = translatedRecipe.instructions.split('. ').filter(step => step.trim() !== '');
+
+            // Rellenar el modal con los datos de la receta
+            modalRecipeName.innerText = `${translatedRecipe.name} 🍽️`;
+            modalIngredientsList.innerHTML = translatedRecipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('');
+            modalInstructionsList.innerHTML = steps.map((step, index) => `<li>Paso ${index + 1}: ${step.trim()}</li>`).join('');
+
+            // Mostrar el modal
+            modal.style.display = 'block';
+
+            // Cerrar el modal al hacer clic en la "X"
+            closeBtn.onclick = () => {
+                modal.style.display = 'none';
+            };
+
+            // Cerrar el modal al hacer clic fuera de él
+            window.onclick = event => {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                }
+            };
+        }
+
+        // Cargar traducciones y recetas al iniciar
+        window.onload = async () => {
+            await loadTranslations();
+            await loadRecipes();
+        };
     </script>
 </body>
 </html>
