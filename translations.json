@@ -8,7 +8,12 @@
         "categories": {
             "Postres": "Deserturi",
             "Pastas": "Paste",
-            "Ensaladas": "Salate"
+            "Ensaladas": "Salate",
+            "Sopas": "Ciorbe",
+            "Carnes": "Carne",
+            "Pescados": "Pește",
+            "Bebidas": "Băuturi",
+            "Panadería": "Cozonac"
         }
     },
     "en": {
@@ -20,7 +25,12 @@
         "categories": {
             "Postres": "Desserts",
             "Pastas": "Pasta",
-            "Ensaladas": "Salads"
+            "Ensaladas": "Salads",
+            "Sopas": "Soups",
+            "Carnes": "Meat",
+            "Pescados": "Fish",
+            "Bebidas": "Drinks",
+            "Panadería": "Bakery"
         }
     },
     "es": {
@@ -32,7 +42,12 @@
         "categories": {
             "Postres": "Postres",
             "Pastas": "Pastas",
-            "Ensaladas": "Ensaladas"
+            "Ensaladas": "Ensaladas",
+            "Sopas": "Sopas",
+            "Carnes": "Carnes",
+            "Pescados": "Pescados",
+            "Bebidas": "Bebidas",
+            "Panadería": "Panadería"
         }
     }
 }
