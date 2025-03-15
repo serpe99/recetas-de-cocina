@@ -11,7 +11,7 @@
         <div class="container">
             <h1 id="pageTitle">Libro de Recetas 📖</h1>
             <div class="language-selector">
-                <label for="languageSelect">🌐 Selecciona un idioma:</label>
+                <label for="languageSelect">🌐 Idioma:</label>
                 <select id="languageSelect" onchange="changeLanguage()">
                     <option value="ro">Română 🇷🇴</option>
                     <option value="en">English 🇬🇧</option>
@@ -86,16 +86,32 @@
             populateCategoryFilter();
         }
 
-        // Poblar el filtro de categorías
+        // Poblar el filtro de categorías con emojis
         function populateCategoryFilter() {
             const categorySelect = document.getElementById('categorySelect');
             categorySelect.innerHTML = `<option value="all">${translations[currentLanguage].allCategories} 🌟</option>`;
             categories.forEach(category => {
+                const emoji = getCategoryEmoji(category);
                 const option = document.createElement('option');
                 option.value = category;
-                option.textContent = `${translations[currentLanguage].categories[category]} 🍽️`;
+                option.textContent = `${emoji} ${translations[currentLanguage].categories[category]}`;
                 categorySelect.appendChild(option);
             });
+        }
+
+        // Obtener emoji según la categoría
+        function getCategoryEmoji(category) {
+            const emojis = {
+                "Postres": "🍰",
+                "Pastas": "🍝",
+                "Ensaladas": "🥗",
+                "Sopas": "🍲",
+                "Carnes": "🍖",
+                "Pescados": "🐟",
+                "Bebidas": "🍹",
+                "Panadería": "🍞"
+            };
+            return emojis[category] || "🍴"; // Emoji por defecto si no hay coincidencia
         }
 
         function changeLanguage() {
@@ -138,7 +154,7 @@
                 const steps = translatedRecipe.instructions.split('. ').filter(step => step.trim() !== '');
 
                 recipeDiv.innerHTML = `
-                    <h3>${translatedRecipe.name} 🍽️</h3>
+                    <h3>${getCategoryEmoji(recipe.category)} ${translatedRecipe.name} 🍽️</h3>
                     <p><strong>🛒 Ingredientes:</strong></p>
                     <ul class="ingredients-list">
                         ${translatedRecipe.ingredients.slice(0, 3).map(ingredient => `<li>${ingredient}</li>`).join('')}
@@ -165,7 +181,7 @@
             const steps = translatedRecipe.instructions.split('. ').filter(step => step.trim() !== '');
 
             // Rellenar el modal con los datos de la receta
-            modalRecipeName.innerText = `${translatedRecipe.name} 🍽️`;
+            modalRecipeName.innerText = `${getCategoryEmoji(recipe.category)} ${translatedRecipe.name} 🍽️`;
             modalIngredientsList.innerHTML = translatedRecipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('');
             modalInstructionsList.innerHTML = steps.map((step, index) => `<li>Paso ${index + 1}: ${step.trim()}</li>`).join('');
 
