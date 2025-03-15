@@ -22,6 +22,344 @@
     },
     {
         "id": 2,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Clatite cu Ciocolata",
+                "ingredients": ["Faina", "Lapte", "Oua", "Ciocolata"],
+                "instructions": "Amesteca ingredientele. Coace clatitele. Adauga ciocolata topita."
+            },
+            "en": {
+                "name": "Chocolate Pancakes",
+                "ingredients": ["Flour", "Milk", "Eggs", "Chocolate"],
+                "instructions": "Mix the ingredients. Cook the pancakes. Add melted chocolate."
+            },
+            "es": {
+                "name": "Pancakes de Chocolate",
+                "ingredients": ["Harina", "Leche", "Huevos", "Chocolate"],
+                "instructions": "Mezclar los ingredientes. Cocinar los pancakes. Añadir chocolate derretido."
+            }
+        }
+    },
+    {
+        "id": 3,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Inghetata de Vanilie",
+                "ingredients": ["Lapte", "Zahar", "Esenta de vanilie"],
+                "instructions": "Amesteca ingredientele. Congeleaza. Serveste rece."
+            },
+            "en": {
+                "name": "Vanilla Ice Cream",
+                "ingredients": ["Milk", "Sugar", "Vanilla essence"],
+                "instructions": "Mix the ingredients. Freeze. Serve cold."
+            },
+            "es": {
+                "name": "Helado de Vainilla",
+                "ingredients": ["Leche", "Azúcar", "Esencia de vainilla"],
+                "instructions": "Mezclar los ingredientes. Congelar. Servir frío."
+            }
+        }
+    },
+    {
+        "id": 4,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Tiramisu",
+                "ingredients": ["Biscuiti savoiardi", "Cafea", "Crema de mascarpone", "Cacao"],
+                "instructions": "Amesteca crema de mascarpone. Inmuia biscuitii in cafea. Alterneaza straturi. Presar cacao."
+            },
+            "en": {
+                "name": "Tiramisu",
+                "ingredients": ["Ladyfingers", "Coffee", "Mascarpone cream", "Cocoa"],
+                "instructions": "Mix the mascarpone cream. Dip ladyfingers in coffee. Alternate layers. Sprinkle cocoa."
+            },
+            "es": {
+                "name": "Tiramisú",
+                "ingredients": ["Dedos de dama", "Café", "Crema de mascarpone", "Cacao"],
+                "instructions": "Mezclar la crema de mascarpone. Mojar los dedos de dama en café. Alternar capas. Espolvorear cacao."
+            }
+        }
+    },
+    {
+        "id": 5,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Chec cu Stafide",
+                "ingredients": ["Faina", "Zahar", "Oua", "Stafide", "Unt"],
+                "instructions": "Amesteca ingredientele. Adauga stafidele. Coace la 180°C timp de 45 de minute."
+            },
+            "en": {
+                "name": "Raisin Cake",
+                "ingredients": ["Flour", "Sugar", "Eggs", "Raisins", "Butter"],
+                "instructions": "Mix the ingredients. Add raisins. Bake at 180°C for 45 minutes."
+            },
+            "es": {
+                "name": "Pastel de Pasas",
+                "ingredients": ["Harina", "Azúcar", "Huevos", "Pasas", "Mantequilla"],
+                "instructions": "Mezclar los ingredientes. Añadir pasas. Hornear a 180°C durante 45 minutos."
+            }
+        }
+    },
+    {
+        "id": 6,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Prajitura cu Fructe",
+                "ingredients": ["Fructe proaspete", "Faina", "Zahar", "Unt", "Oua"],
+                "instructions": "Amesteca faina cu zahar. Adauga ouale si untul. Adauga fructele. Coace la 180°C timp de 40 de minute."
+            },
+            "en": {
+                "name": "Fruit Tart",
+                "ingredients": ["Fresh fruits", "Flour", "Sugar", "Butter", "Eggs"],
+                "instructions": "Mix flour with sugar. Add eggs and butter. Add fruits. Bake at 180°C for 40 minutes."
+            },
+            "es": {
+                "name": "Tarta de Frutas",
+                "ingredients": ["Frutas frescas", "Harina", "Azúcar", "Mantequilla", "Huevos"],
+                "instructions": "Mezclar harina con azúcar. Añadir huevos y mantequilla. Añadir frutas. Hornear a 180°C durante 40 minutos."
+            }
+        }
+    },
+    {
+        "id": 7,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Puding cu Lapte",
+                "ingredients": ["Lapte", "Zahar", "Faina", "Oua"],
+                "instructions": "Amesteca ingredientele. Fierte pana se ingroasa. Raceste."
+            },
+            "en": {
+                "name": "Milk Pudding",
+                "ingredients": ["Milk", "Sugar", "Flour", "Eggs"],
+                "instructions": "Mix the ingredients. Boil until thickened. Cool."
+            },
+            "es": {
+                "name": "Pudín de Leche",
+                "ingredients": ["Leche", "Azúcar", "Harina", "Huevos"],
+                "instructions": "Mezclar los ingredientes. Hervir hasta que espese. Enfriar."
+            }
+        }
+    },
+    {
+        "id": 8,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Biscuiti cu Cacao",
+                "ingredients": ["Faina", "Zahar", "Cacao", "Unt", "Oua"],
+                "instructions": "Amesteca ingredientele. Modeleaza biscuitii. Coace la 180°C timp de 20 de minute."
+            },
+            "en": {
+                "name": "Chocolate Cookies",
+                "ingredients": ["Flour", "Sugar", "Cocoa", "Butter", "Eggs"],
+                "instructions": "Mix the ingredients. Shape the cookies. Bake at 180°C for 20 minutes."
+            },
+            "es": {
+                "name": "Galletas de Chocolate",
+                "ingredients": ["Harina", "Azúcar", "Cacao", "Mantequilla", "Huevos"],
+                "instructions": "Mezclar los ingredientes. Moldear las galletas. Hornear a 180°C durante 20 minutos."
+            }
+        }
+    },
+    {
+        "id": 9,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Prajitura cu Crema Diplomat",
+                "ingredients": ["Faina", "Zahar", "Crema de vanilie", "Gem"],
+                "instructions": "Prepară blatul. Adauga crema diplomat. Decoreaza cu gem."
+            },
+            "en": {
+                "name": "Diplomat Cream Cake",
+                "ingredients": ["Flour", "Sugar", "Vanilla cream", "Jam"],
+                "instructions": "Prepare the cake base. Add diplomat cream. Decorate with jam."
+            },
+            "es": {
+                "name": "Pastel de Crema Diplomática",
+                "ingredients": ["Harina", "Azúcar", "Crema de vainilla", "Mermelada"],
+                "instructions": "Preparar la base del pastel. Añadir crema diplomática. Decorar con mermelada."
+            }
+        }
+    },
+    {
+        "id": 10,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Cozonac cu Nuci",
+                "ingredients": ["Faina", "Zahar", "Nuci", "Lapte", "Unt"],
+                "instructions": "Amesteca ingredientele. Adauga nucile. Coace la 180°C timp de 50 de minute."
+            },
+            "en": {
+                "name": "Walnut Bread",
+                "ingredients": ["Flour", "Sugar", "Walnuts", "Milk", "Butter"],
+                "instructions": "Mix the ingredients. Add walnuts. Bake at 180°C for 50 minutes."
+            },
+            "es": {
+                "name": "Pan Dulce de Nuez",
+                "ingredients": ["Harina", "Azúcar", "Nueces", "Leche", "Mantequilla"],
+                "instructions": "Mezclar los ingredientes. Añadir nueces. Hornear a 180°C durante 50 minutos."
+            }
+        }
+    },
+    {
+        "id": 11,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Prajitura cu Mere si Scortisoara",
+                "ingredients": ["Mere", "Zahar", "Faina", "Scortisoara", "Unt"],
+                "instructions": "Curata merele. Amesteca cu zahar si scortisoara. Coace la 180°C timp de 30 de minute."
+            },
+            "en": {
+                "name": "Apple Cinnamon Cake",
+                "ingredients": ["Apples", "Sugar", "Flour", "Cinnamon", "Butter"],
+                "instructions": "Peel the apples. Mix with sugar and cinnamon. Bake at 180°C for 30 minutes."
+            },
+            "es": {
+                "name": "Pastel de Manzana y Canela",
+                "ingredients": ["Manzanas", "Azúcar", "Harina", "Canela", "Mantequilla"],
+                "instructions": "Pelar las manzanas. Mezclar con azúcar y canela. Hornear a 180°C durante 30 minutos."
+            }
+        }
+    },
+    {
+        "id": 12,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Prajitura cu Ananas",
+                "ingredients": ["Ananas", "Faina", "Zahar", "Oua", "Unt"],
+                "instructions": "Tai ananasul. Amesteca cu faina si zahar. Coace la 180°C timp de 40 de minute."
+            },
+            "en": {
+                "name": "Pineapple Cake",
+                "ingredients": ["Pineapple", "Flour", "Sugar", "Eggs", "Butter"],
+                "instructions": "Slice the pineapple. Mix with flour and sugar. Bake at 180°C for 40 minutes."
+            },
+            "es": {
+                "name": "Pastel de Piña",
+                "ingredients": ["Piña", "Harina", "Azúcar", "Huevos", "Mantequilla"],
+                "instructions": "Cortar la piña. Mezclar con harina y azúcar. Hornear a 180°C durante 40 minutos."
+            }
+        }
+    },
+    {
+        "id": 13,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Prajitura cu Zmeura",
+                "ingredients": ["Zmeura", "Faina", "Zahar", "Oua", "Unt"],
+                "instructions": "Spala zmeura. Amesteca cu faina si zahar. Coace la 180°C timp de 35 de minute."
+            },
+            "en": {
+                "name": "Raspberry Cake",
+                "ingredients": ["Raspberries", "Flour", "Sugar", "Eggs", "Butter"],
+                "instructions": "Wash the raspberries. Mix with flour and sugar. Bake at 180°C for 35 minutes."
+            },
+            "es": {
+                "name": "Pastel de Frambuesa",
+                "ingredients": ["Frambuesas", "Harina", "Azúcar", "Huevos", "Mantequilla"],
+                "instructions": "Lavar las frambuesas. Mezclar con harina y azúcar. Hornear a 180°C durante 35 minutos."
+            }
+        }
+    },
+    {
+        "id": 14,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Prajitura cu Portocale",
+                "ingredients": ["Portocale", "Faina", "Zahar", "Oua", "Unt"],
+                "instructions": "Sparge portocalele. Amesteca cu faina si zahar. Coace la 180°C timp de 40 de minute."
+            },
+            "en": {
+                "name": "Orange Cake",
+                "ingredients": ["Oranges", "Flour", "Sugar", "Eggs", "Butter"],
+                "instructions": "Blend the oranges. Mix with flour and sugar. Bake at 180°C for 40 minutes."
+            },
+            "es": {
+                "name": "Pastel de Naranja",
+                "ingredients": ["Naranjas", "Harina", "Azúcar", "Huevos", "Mantequilla"],
+                "instructions": "Licuar las naranjas. Mezclar con harina y azúcar. Hornear a 180°C durante 40 minutos."
+            }
+        }
+    },
+    {
+        "id": 15,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Prajitura cu Capsuni",
+                "ingredients": ["Capsuni", "Faina", "Zahar", "Oua", "Unt"],
+                "instructions": "Spala capsunile. Amesteca cu faina si zahar. Coace la 180°C timp de 35 de minute."
+            },
+            "en": {
+                "name": "Strawberry Cake",
+                "ingredients": ["Strawberries", "Flour", "Sugar", "Eggs", "Butter"],
+                "instructions": "Wash the strawberries. Mix with flour and sugar. Bake at 180°C for 35 minutes."
+            },
+            "es": {
+                "name": "Pastel de Fresa",
+                "ingredients": ["Fresas", "Harina", "Azúcar", "Huevos", "Mantequilla"],
+                "instructions": "Lavar las fresas. Mezclar con harina y azúcar. Hornear a 180°C durante 35 minutos."
+            }
+        }
+    },
+    {
+        "id": 16,
+        "category": "Pastas",
+        "translations": {
+            "ro": {
+                "name": "Spaghete la Bolonieza",
+                "ingredients": ["Spaghete", "Carne tocata", "Sos de rosii", "Ceapa", "Usturoi", "Ulei de masline"],
+                "instructions": "Fierbe spaghetele. Sofreaza ceapa si usturoiul. Adauga carnea tocata si gateste pana se rumeneste. Adauga sosul de rosii si lasa la foc mic. Serveste pe spaghete."
+            },
+            "en": {
+                "name": "Spaghetti Bolognese",
+                "ingredients": ["Spaghetti", "Ground beef", "Tomato sauce", "Onion", "Garlic", "Olive oil"],
+                "instructions": "Cook the spaghetti. Sauté the onion and garlic. Add the ground beef and cook until browned. Add the tomato sauce and simmer. Serve over spaghetti."
+            },
+            "es": {
+                "name": "Espaguetis a la Boloñesa",
+                "ingredients": ["Espaguetis", "Carne molida", "Salsa de tomate", "Cebolla", "Ajo", "Aceite de oliva"],
+                "instructions": "Cocinar los espaguetis. Sofreír la cebolla y el ajo. Añadir la carne molida y cocinar hasta dorar. Agregar la salsa de tomate y cocinar a fuego lento. Servir sobre los espaguetis."
+            }
+        }
+    },
+
+[
+    {
+        "id": 17,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Placinta cu Mere",
+                "ingredients": ["Mere", "Zahar", "Faina", "Unt", "Scortisoara"],
+                "instructions": "Curata si taie merele. Amesteca cu zahar si scortisoara. Pune in blat. Coace la 180°C timp de 30 de minute."
+            },
+            "en": {
+                "name": "Apple Pie",
+                "ingredients": ["Apples", "Sugar", "Flour", "Butter", "Cinnamon"],
+                "instructions": "Peel and slice the apples. Mix with sugar and cinnamon. Place in the crust. Bake at 180°C for 30 minutes."
+            },
+            "es": {
+                "name": "Tarta de Manzana",
+                "ingredients": ["Manzanas", "Azúcar", "Harina", "Mantequilla", "Canela"],
+                "instructions": "Pelar y cortar las manzanas. Mezclar con azúcar y canela. Colocar en una base de masa. Hornear a 180°C durante 30 minutos."
+            }
+        }
+    },
+    {
+        "id": 18,
         "category": "Pastas",
         "translations": {
             "ro": {
@@ -42,7 +380,7 @@
         }
     },
     {
-        "id": 3,
+        "id": 19,
         "category": "Ensaladas",
         "translations": {
             "ro": {
@@ -63,46 +401,1385 @@
         }
     },
     {
-        "id": 4,
+        "id": 20,
+        "category": "Sopas",
+        "translations": {
+            "ro": {
+                "name": "Ciorba de Legume",
+                "ingredients": ["Morcovi", "Telina", "Cartofi", "Ceapa", "Usturoi", "Condimente"],
+                "instructions": "Taie legumele in cuburi. Fierbe apa cu legumele. Adauga condimentele. Las-o la fiert timp de 30 de minute."
+            },
+            "en": {
+                "name": "Vegetable Soup",
+                "ingredients": ["Carrots", "Celery", "Potatoes", "Onion", "Garlic", "Seasonings"],
+                "instructions": "Chop the vegetables into cubes. Boil water with the vegetables. Add seasonings. Let it simmer for 30 minutes."
+            },
+            "es": {
+                "name": "Sopa de Verduras",
+                "ingredients": ["Zanahorias", "Apio", "Papas", "Cebolla", "Ajo", "Condimentos"],
+                "instructions": "Cortar las verduras en cubos. Hervir agua con las verduras. Añadir condimentos. Dejar hervir durante 30 minutos."
+            }
+        }
+    },
+    {
+        "id": 21,
+        "category": "Carnes",
+        "translations": {
+            "ro": {
+                "name": "Friptura de Porc",
+                "ingredients": ["Carne de porc", "Sare", "Piper", "Ulei", "Legume proaspete"],
+                "instructions": "Marineaza carnea cu sare si piper. Prăjește în ulei până devine crocantă. Serveste cu legume."
+            },
+            "en": {
+                "name": "Grilled Pork",
+                "ingredients": ["Pork meat", "Salt", "Pepper", "Oil", "Fresh vegetables"],
+                "instructions": "Marinate the meat with salt and pepper. Grill in oil until crispy. Serve with vegetables."
+            },
+            "es": {
+                "name": "Chuletas de Cerdo",
+                "ingredients": ["Carne de cerdo", "Sal", "Pimienta", "Aceite", "Verduras frescas"],
+                "instructions": "Marinar la carne con sal y pimienta. Freír en aceite hasta que esté crujiente. Servir con verduras."
+            }
+        }
+    },
+    {
+        "id": 22,
+        "category": "Pescados",
+        "translations": {
+            "ro": {
+                "name": "Peste la Gratar",
+                "ingredients": ["Peste", "Sare", "Lamaie", "Ulei", "Legume"],
+                "instructions": "Marineaza pestele cu sare si lamaie. Gătește la grătar. Serveste cu legume."
+            },
+            "en": {
+                "name": "Grilled Fish",
+                "ingredients": ["Fish", "Salt", "Lemon", "Oil", "Vegetables"],
+                "instructions": "Marinate the fish with salt and lemon. Grill it. Serve with vegetables."
+            },
+            "es": {
+                "name": "Pescado a la Parrilla",
+                "ingredients": ["Pescado", "Sal", "Limón", "Aceite", "Verduras"],
+                "instructions": "Marinar el pescado con sal y limón. Asar a la parrilla. Servir con verduras."
+            }
+        }
+    },
+    {
+        "id": 23,
+        "category": "Bebidas",
+        "translations": {
+            "ro": {
+                "name": "Suc Natural",
+                "ingredients": ["Fructe", "Apa", "Zahar"],
+                "instructions": "Sparge fructele. Amesteca cu apa si zahar. Filtraza si serveste rece."
+            },
+            "en": {
+                "name": "Fresh Juice",
+                "ingredients": ["Fruits", "Water", "Sugar"],
+                "instructions": "Blend the fruits. Mix with water and sugar. Strain and serve cold."
+            },
+            "es": {
+                "name": "Jugo Natural",
+                "ingredients": ["Frutas", "Agua", "Azúcar"],
+                "instructions": "Licuar las frutas. Mezclar con agua y azúcar. Colar y servir frío."
+            }
+        }
+    },
+    {
+        "id": 24,
+        "category": "Panadería",
+        "translations": {
+            "ro": {
+                "name": "Cozonac",
+                "ingredients": ["Faina", "Zahar", "Lapte", "Oua", "Unt", "Esenta de rom"],
+                "instructions": "Amesteca ingredientele. Las-o sa creasca. Coace la 180°C timp de 40 de minute."
+            },
+            "en": {
+                "name": "Sweet Bread",
+                "ingredients": ["Flour", "Sugar", "Milk", "Eggs", "Butter", "Vanilla essence"],
+                "instructions": "Mix the ingredients. Let it rise. Bake at 180°C for 40 minutes."
+            },
+            "es": {
+                "name": "Pan Dulce",
+                "ingredients": ["Harina", "Azúcar", "Leche", "Huevos", "Mantequilla", "Esencia de vainilla"],
+                "instructions": "Mezclar los ingredientes. Dejar que suba. Hornear a 180°C durante 40 minutos."
+            }
+        }
+    },
+    {
+        "id": 25,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Placinta cu Mere",
+                "ingredients": ["Mere", "Zahar", "Faina", "Unt", "Scortisoara"],
+                "instructions": "Curata si taie merele. Amesteca cu zahar si scortisoara. Pune in blat. Coace la 180°C timp de 30 de minute."
+            },
+            "en": {
+                "name": "Apple Pie",
+                "ingredients": ["Apples", "Sugar", "Flour", "Butter", "Cinnamon"],
+                "instructions": "Peel and slice the apples. Mix with sugar and cinnamon. Place in the crust. Bake at 180°C for 30 minutes."
+            },
+            "es": {
+                "name": "Tarta de Manzana",
+                "ingredients": ["Manzanas", "Azúcar", "Harina", "Mantequilla", "Canela"],
+                "instructions": "Pelar y cortar las manzanas. Mezclar con azúcar y canela. Colocar en una base de masa. Hornear a 180°C durante 30 minutos."
+            }
+        }
+    },
+    {
+        "id": 26,
         "category": "Pastas",
         "translations": {
             "ro": {
-                "name": "Paste cu Sos de Roșii și Busuioc",
-                "ingredients": [
-                    "400 g de paste (spaghete, penne sau ce preferi)",
-                    "2 linguri de ulei de măsline",
-                    "1 cățel de usturoi tocat",
-                    "800 g de roșii decojite din conservă sau roșii proaspete mărunțite",
-                    "1 linguriță de zahăr (opțional, pentru a reduce aciditatea)",
-                    "Sare și piper după gust",
-                    "Frunze de busuioc proaspăt",
-                    "Brânză parmezan rasă (opțional)"
-                ],
-                "instructions": "Fierbe pastele în apă clocotită cu sare până devin al dente. Între timp, încălzește uleiul de măsline într-o tigaie mare și sotează usturoiul tocat. Adaugă roșiile mărunțite și gătește la foc mic timp de 20-30 de minute. Adaugă zahărul, sarea și piperul după gust. Amestecă pastele fierte cu sosul de roșii și servește cu frunze de busuioc proaspăt și brânză parmezan rasă."            },
-            "en":
-            {
-                "name": "Pasta with Tomato Sauce and Basil",
-                "ingredients": [
-                    "400 g of pasta (spaghetti, penne, or your choice)",
-                    "2 tablespoons of olive oil",
-                    "1 garlic clove, minced",
-                    "800 g of peeled canned tomatoes or fresh crushed tomatoes",
-                    "1 teaspoon of sugar (optional, to reduce acidity)",
-                    "Salt and pepper to taste",
-                    "Fresh basil leaves",
-                    "Grated Parmesan cheese (optional)"
-                ],
-                "instructions": "Cook the pasta in boiling salted water until al dente. Meanwhile, heat the olive oil in a large skillet and sauté the minced garlic. Add the crushed tomatoes and simmer for about 20-30 minutes. Add sugar, salt, and pepper to taste. Mix the cooked pasta with the tomato sauce and serve with fresh basil leaves and grated Parmesan cheese."
-            },          
-
-            "es":
-             {
-                "name": "Pasta con Salsa de Tomate y Albahaca",
-                "ingredients": ["400 g de pasta (espaguetis, penne o la que prefieras)", "2 cucharadas de aceite de oliva", "1 diente de ajo picado", "800 g de tomates pelados en conserva o frescos triturados", "1 cucharadita de azúcar (opcional, para reducir la acidez)", "Sal y pimienta al gusto", "Hojas de albahaca fresca", "Queso parmesano rallado (opcional)"],
-                "instructions": "Cocina la pasta en agua hirviendo con sal hasta que esté al dente. Mientras tanto, calienta el aceite de oliva en una sartén grande y sofríe el ajo picado. Agrega los tomates triturados y cocina a fuego lento durante unos 20-30 minutos. Agrega azúcar, sal y pimienta al gusto. Mezcla la pasta cocida con la salsa de tomate y sirve con hojas de albahaca fresca y queso parmesano rallado."
+                "name": "Spaghete la Bolonieza",
+                "ingredients": ["Spaghete", "Carne tocata", "Sos de rosii", "Ceapa", "Usturoi", "Ulei de masline"],
+                "instructions": "Fierbe spaghetele. Sofreaza ceapa si usturoiul. Adauga carnea tocata si gateste pana se rumeneste. Adauga sosul de rosii si lasa la foc mic. Serveste pe spaghete."
+            },
+            "en": {
+                "name": "Spaghetti Bolognese",
+                "ingredients": ["Spaghetti", "Ground beef", "Tomato sauce", "Onion", "Garlic", "Olive oil"],
+                "instructions": "Cook the spaghetti. Sauté the onion and garlic. Add the ground beef and cook until browned. Add the tomato sauce and simmer. Serve over spaghetti."
+            },
+            "es": {
+                "name": "Espaguetis a la Boloñesa",
+                "ingredients": ["Espaguetis", "Carne molida", "Salsa de tomate", "Cebolla", "Ajo", "Aceite de oliva"],
+                "instructions": "Cocinar los espaguetis. Sofreír la cebolla y el ajo. Añadir la carne molida y cocinar hasta dorar. Agregar la salsa de tomate y cocinar a fuego lento. Servir sobre los espaguetis."
+            }
+        }
+    },
+    {
+        "id": 27,
+        "category": "Ensaladas",
+        "translations": {
+            "ro": {
+                "name": "Salata Caesar",
+                "ingredients": ["Salata romana", "Pui", "Crutoane", "Parmezan", "Dressing Caesar"],
+                "instructions": "Taie salata in bucati mari. Gatesti si taie puiul in fasi. Toaca painea pentru crutoane. Amesteca totul si adauga dressing Caesar."
+            },
+            "en": {
+                "name": "Caesar Salad",
+                "ingredients": ["Romaine lettuce", "Chicken", "Croutons", "Parmesan", "Caesar dressing"],
+                "instructions": "Cut the lettuce into large pieces. Cook and slice the chicken. Toast bread to make croutons. Mix everything and add Caesar dressing."
+            },
+            "es": {
+                "name": "Ensalada César",
+                "ingredients": ["Lechuga romana", "Pollo", "Pan tostado", "Queso parmesano", "Aderezo César"],
+                "instructions": "Cortar la lechuga en trozos grandes. Cocinar el pollo y cortarlo en tiras. Tostar el pan para hacer crutones. Mezclar todos los ingredientes y añadir aderezo César."
+            }
+        }
+    },
+    {
+        "id": 28,
+        "category": "Sopas",
+        "translations": {
+            "ro": {
+                "name": "Ciorba de Legume",
+                "ingredients": ["Morcovi", "Telina", "Cartofi", "Ceapa", "Usturoi", "Condimente"],
+                "instructions": "Taie legumele in cuburi. Fierbe apa cu legumele. Adauga condimentele. Las-o la fiert timp de 30 de minute."
+            },
+            "en": {
+                "name": "Vegetable Soup",
+                "ingredients": ["Carrots", "Celery", "Potatoes", "Onion", "Garlic", "Seasonings"],
+                "instructions": "Chop the vegetables into cubes. Boil water with the vegetables. Add seasonings. Let it simmer for 30 minutes."
+            },
+            "es": {
+                "name": "Sopa de Verduras",
+                "ingredients": ["Zanahorias", "Apio", "Papas", "Cebolla", "Ajo", "Condimentos"],
+                "instructions": "Cortar las verduras en cubos. Hervir agua con las verduras. Añadir condimentos. Dejar hervir durante 30 minutos."
+            }
+        }
+    },
+    {
+        "id": 29,
+        "category": "Carnes",
+        "translations": {
+            "ro": {
+                "name": "Friptura de Porc",
+                "ingredients": ["Carne de porc", "Sare", "Piper", "Ulei", "Legume proaspete"],
+                "instructions": "Marineaza carnea cu sare si piper. Prăjește în ulei până devine crocantă. Serveste cu legume."
+            },
+            "en": {
+                "name": "Grilled Pork",
+                "ingredients": ["Pork meat", "Salt", "Pepper", "Oil", "Fresh vegetables"],
+                "instructions": "Marinate the meat with salt and pepper. Grill in oil until crispy. Serve with vegetables."
+            },
+            "es": {
+                "name": "Chuletas de Cerdo",
+                "ingredients": ["Carne de cerdo", "Sal", "Pimienta", "Aceite", "Verduras frescas"],
+                "instructions": "Marinar la carne con sal y pimienta. Freír en aceite hasta que esté crujiente. Servir con verduras."
+            }
+        }
+    },
+    {
+        "id": 30,
+        "category": "Pescados",
+        "translations": {
+            "ro": {
+                "name": "Peste la Gratar",
+                "ingredients": ["Peste", "Sare", "Lamaie", "Ulei", "Legume"],
+                "instructions": "Marineaza pestele cu sare si lamaie. Gătește la grătar. Serveste cu legume."
+            },
+            "en": {
+                "name": "Grilled Fish",
+                "ingredients": ["Fish", "Salt", "Lemon", "Oil", "Vegetables"],
+                "instructions": "Marinate the fish with salt and lemon. Grill it. Serve with vegetables."
+            },
+            "es": {
+                "name": "Pescado a la Parrilla",
+                "ingredients": ["Pescado", "Sal", "Limón", "Aceite", "Verduras"],
+                "instructions": "Marinar el pescado con sal y limón. Asar a la parrilla. Servir con verduras."
+            }
+        }
+    },
+    {
+        "id": 31,
+        "category": "Bebidas",
+        "translations": {
+            "ro": {
+                "name": "Suc Natural",
+                "ingredients": ["Fructe", "Apa", "Zahar"],
+                "instructions": "Sparge fructele. Amesteca cu apa si zahar. Filtraza si serveste rece."
+            },
+            "en": {
+                "name": "Fresh Juice",
+                "ingredients": ["Fruits", "Water", "Sugar"],
+                "instructions": "Blend the fruits. Mix with water and sugar. Strain and serve cold."
+            },
+            "es": {
+                "name": "Jugo Natural",
+                "ingredients": ["Frutas", "Agua", "Azúcar"],
+                "instructions": "Licuar las frutas. Mezclar con agua y azúcar. Colar y servir frío."
+            }
+        }
+    },
+    {
+        "id": 32,
+        "category": "Panadería",
+        "translations": {
+            "ro": {
+                "name": "Cozonac",
+                "ingredients": ["Faina", "Zahar", "Lapte", "Oua", "Unt", "Esenta de rom"],
+                "instructions": "Amesteca ingredientele. Las-o sa creasca. Coace la 180°C timp de 40 de minute."
+            },
+            "en": {
+                "name": "Sweet Bread",
+                "ingredients": ["Flour", "Sugar", "Milk", "Eggs", "Butter", "Vanilla essence"],
+                "instructions": "Mix the ingredients. Let it rise. Bake at 180°C for 40 minutes."
+            },
+            "es": {
+                "name": "Pan Dulce",
+                "ingredients": ["Harina", "Azúcar", "Leche", "Huevos", "Mantequilla", "Esencia de vainilla"],
+                "instructions": "Mezclar los ingredientes. Dejar que suba. Hornear a 180°C durante 40 minutos."
             }
         }
     }
+]
 
-
+[
+    {
+        "id": 33,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Papanasi",
+                "ingredients": ["Branza de vaci", "Faina", "Ou", "Zahar", "Ulei", "Smantana", "Fructe de padure"],
+                "instructions": "Amesteca branza cu faina, ou si zahar. Formeaza bilute, prajeste-le in ulei. Serveste cu smantana si fructe de padure."
+            },
+            "en": {
+                "name": "Papanasi",
+                "ingredients": ["Cottage cheese", "Flour", "Egg", "Sugar", "Oil", "Sour cream", "Berries"],
+                "instructions": "Mix the cheese with flour, egg, and sugar. Form small balls and fry them in oil. Serve with sour cream and berries."
+            },
+            "es": {
+                "name": "Papanasi",
+                "ingredients": ["Queso cottage", "Harina", "Huevo", "Azúcar", "Aceite", "Crema agria", "Frutos rojos"],
+                "instructions": "Mezclar el queso con la harina, el huevo y el azúcar. Formar bolitas y freírlas en aceite. Servir con crema agria y frutos rojos."
+            }
+        }
+    },
+    {
+        "id": 34,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Cozonac",
+                "ingredients": ["Faina", "Zahar", "Lapte", "Ou", "Unt", "Esenta de rom"],
+                "instructions": "Amesteca ingredientele. Las-o sa creasca. Coace la 180°C timp de 40 de minute."
+            },
+            "en": {
+                "name": "Sweet Bread",
+                "ingredients": ["Flour", "Sugar", "Milk", "Eggs", "Butter", "Vanilla essence"],
+                "instructions": "Mix the ingredients. Let it rise. Bake at 180°C for 40 minutes."
+            },
+            "es": {
+                "name": "Pan Dulce",
+                "ingredients": ["Harina", "Azúcar", "Leche", "Huevos", "Mantequilla", "Esencia de vainilla"],
+                "instructions": "Mezclar los ingredientes. Dejar que suba. Hornear a 180°C durante 40 minutos."
+            }
+        }
+    },
+    {
+        "id": 35,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Turta Dulce",
+                "ingredients": ["Faina", "Zahar", "Lapte", "Oua", "Scortisoara", "Esenta de vanilie"],
+                "instructions": "Amesteca ingredientele. Coace la 180°C timp de 35 de minute."
+            },
+            "en": {
+                "name": "Sweet Cake",
+                "ingredients": ["Flour", "Sugar", "Milk", "Eggs", "Cinnamon", "Vanilla essence"],
+                "instructions": "Mix the ingredients. Bake at 180°C for 35 minutes."
+            },
+            "es": {
+                "name": "Pastel Dulce",
+                "ingredients": ["Harina", "Azúcar", "Leche", "Huevos", "Canela", "Esencia de vainilla"],
+                "instructions": "Mezclar los ingredientes. Hornear a 180°C durante 35 minutos."
+            }
+        }
+    },
+    {
+        "id": 36,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Placinta cu Branza",
+                "ingredients": ["Branza de vaci", "Faina", "Unt", "Zahar", "Ou"],
+                "instructions": "Pregateste aluatul si pune branza de vaci. Coace la 180°C timp de 25 de minute."
+            },
+            "en": {
+                "name": "Cheese Pie",
+                "ingredients": ["Cottage cheese", "Flour", "Butter", "Sugar", "Egg"],
+                "instructions": "Prepare the dough and add cottage cheese. Bake at 180°C for 25 minutes."
+            },
+            "es": {
+                "name": "Pastel de Queso",
+                "ingredients": ["Queso cottage", "Harina", "Mantequilla", "Azúcar", "Huevo"],
+                "instructions": "Preparar la masa y agregar queso cottage. Hornear a 180°C durante 25 minutos."
+            }
+        }
+    },
+    {
+        "id": 37,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Clatite cu Dulceata",
+                "ingredients": ["Faina", "Ou", "Laptele", "Zahar", "Dulceata"],
+                "instructions": "Fierbe clatitele si umple-le cu dulceata."
+            },
+            "en": {
+                "name": "Pancakes with Jam",
+                "ingredients": ["Flour", "Egg", "Milk", "Sugar", "Jam"],
+                "instructions": "Cook the pancakes and fill them with jam."
+            },
+            "es": {
+                "name": "Crepas con Mermelada",
+                "ingredients": ["Harina", "Huevo", "Leche", "Azúcar", "Mermelada"],
+                "instructions": "Cocinar las crepas y rellenarlas con mermelada."
+            }
+        }
+    },
+    {
+        "id": 38,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Fursecuri cu Zahar",
+                "ingredients": ["Faina", "Zahar", "Unt", "Ou"],
+                "instructions": "Amesteca ingredientele, formeaza bilute si coace la 180°C timp de 15 minute."
+            },
+            "en": {
+                "name": "Sugar Cookies",
+                "ingredients": ["Flour", "Sugar", "Butter", "Egg"],
+                "instructions": "Mix the ingredients, form balls, and bake at 180°C for 15 minutes."
+            },
+            "es": {
+                "name": "Galletas de Azúcar",
+                "ingredients": ["Harina", "Azúcar", "Mantequilla", "Huevo"],
+                "instructions": "Mezclar los ingredientes, formar bolitas y hornear a 180°C durante 15 minutos."
+            }
+        }
+    },
+    {
+        "id": 39,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Faguri cu Miere",
+                "ingredients": ["Faina", "Miere", "Zahar", "Ulei", "Nuci"],
+                "instructions": "Amesteca ingredientele si formeaza faguri. Coace la 180°C timp de 25 de minute."
+            },
+            "en": {
+                "name": "Honeycombs",
+                "ingredients": ["Flour", "Honey", "Sugar", "Oil", "Walnuts"],
+                "instructions": "Mix the ingredients and form honeycombs. Bake at 180°C for 25 minutes."
+            },
+            "es": {
+                "name": "Panales de Miel",
+                "ingredients": ["Harina", "Miel", "Azúcar", "Aceite", "Nueces"],
+                "instructions": "Mezclar los ingredientes y formar panales. Hornear a 180°C durante 25 minutos."
+            }
+        }
+    },
+    {
+        "id": 40,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Colaci cu Zahar",
+                "ingredients": ["Faina", "Zahar", "Lapte", "Ulei", "Ou"],
+                "instructions": "Formeaza aluatul, coace si presara zahar."
+            },
+            "en": {
+                "name": "Sugar Bread",
+                "ingredients": ["Flour", "Sugar", "Milk", "Oil", "Egg"],
+                "instructions": "Form the dough, bake, and sprinkle with sugar."
+            },
+            "es": {
+                "name": "Pan de Azúcar",
+                "ingredients": ["Harina", "Azúcar", "Leche", "Aceite", "Huevo"],
+                "instructions": "Formar la masa, hornear y espolvorear con azúcar."
+            }
+        }
+    },
+    {
+        "id": 41,
+        "category": "Postres",
+        "translations": {
+            "ro": {
+                "name": "Prajitura cu Nuca",
+                "ingredients": ["Faina", "Nuci", "Zahar", "Ou", "Smantana"],
+                "instructions": "Amesteca ingredientele si coace la 180°C timp de 30 de minute."
+            },
+            "en": {
+                "name": "Walnut Cake",
+                "ingredients": ["Flour", "Walnuts", "Sugar", "Egg", "Sour cream"],
+                "instructions": "Mix the ingredients and bake at 180°C for 30 minutes."
+            },
+            "es": {
+                "name": "Pastel de Nuez",
+                "ingredients": ["Harina", "Nueces", "Azúcar", "Huevo", "Crema agria"],
+                "instructions": "Mezclar los ingredientes y hornear a 180°C durante 30 minutos."
+            }
+        }
+    }
+]
+[
+    {
+        "id": 42,
+        "category": "Pastas",
+        "translations": {
+            "ro": {
+                "name": "Spaghete cu Sos de Rosii",
+                "ingredients": ["Spaghete", "Sos de rosii", "Ulei de masline", "Usturoi", "Busuioc"],
+                "instructions": "Fierbe spaghetele. Sotareste usturoiul in ulei de masline, adauga sosul de rosii si busuiocul. Serveste spaghetele cu sos."
+            },
+            "en": {
+                "name": "Spaghetti with Tomato Sauce",
+                "ingredients": ["Spaghetti", "Tomato sauce", "Olive oil", "Garlic", "Basil"],
+                "instructions": "Boil the spaghetti. Sauté garlic in olive oil, add tomato sauce and basil. Serve the spaghetti with sauce."
+            },
+            "es": {
+                "name": "Espaguetis con Salsa de Tomate",
+                "ingredients": ["Espaguetis", "Salsa de tomate", "Aceite de oliva", "Ajo", "Albahaca"],
+                "instructions": "Cocinar los espaguetis. Sofreír el ajo en aceite de oliva, añadir la salsa de tomate y la albahaca. Servir los espaguetis con salsa."
+            }
+        }
+    },
+    {
+        "id": 43,
+        "category": "Pastas",
+        "translations": {
+            "ro": {
+                "name": "Lasagna",
+                "ingredients": ["Lasagna", "Carne tocata", "Sos bechamel", "Parmezan", "Mozzarella", "Sos de rosii"],
+                "instructions": "Fierbe foile de lasagna. Sotareste carnea tocata cu sos de rosii. Pune in straturi, adauga sos bechamel si branza. Coace la 180°C timp de 40 de minute."
+            },
+            "en": {
+                "name": "Lasagna",
+                "ingredients": ["Lasagna sheets", "Ground beef", "Bechamel sauce", "Parmesan", "Mozzarella", "Tomato sauce"],
+                "instructions": "Boil the lasagna sheets. Sauté the ground beef with tomato sauce. Layer it, adding bechamel sauce and cheese. Bake at 180°C for 40 minutes."
+            },
+            "es": {
+                "name": "Lasagna",
+                "ingredients": ["Hojas de lasagna", "Carne molida", "Salsa bechamel", "Parmesano", "Mozzarella", "Salsa de tomate"],
+                "instructions": "Hervir las hojas de lasagna. Sofreír la carne molida con salsa de tomate. Montar en capas, añadiendo salsa bechamel y queso. Hornear a 180°C durante 40 minutos."
+            }
+        }
+    },
+    {
+        "id": 44,
+        "category": "Pastas",
+        "translations": {
+            "ro": {
+                "name": "Fettuccine cu Pui si Smantana",
+                "ingredients": ["Fettuccine", "Piept de pui", "Smantana", "Usturoi", "Parmezan"],
+                "instructions": "Fierbe fettuccinele. Gătește puiul și taie-l în fâșii. Sotareste usturoiul, adaugă smântâna și puiul. Serveste cu fettuccine și parmezan."
+            },
+            "en": {
+                "name": "Fettuccine with Chicken and Cream",
+                "ingredients": ["Fettuccine", "Chicken breast", "Cream", "Garlic", "Parmesan"],
+                "instructions": "Boil the fettuccine. Cook the chicken and slice it. Sauté garlic, add cream and chicken. Serve with fettuccine and Parmesan."
+            },
+            "es": {
+                "name": "Fettuccine con Pollo y Crema",
+                "ingredients": ["Fettuccine", "Pechuga de pollo", "Crema", "Ajo", "Parmesano"],
+                "instructions": "Hervir los fettuccine. Cocinar el pollo y cortarlo en tiras. Sofreír el ajo, añadir la crema y el pollo. Servir con fettuccine y parmesano."
+            }
+        }
+    },
+    {
+        "id": 45,
+        "category": "Pastas",
+        "translations": {
+            "ro": {
+                "name": "Mamaliga cu Branza si Smantana",
+                "ingredients": ["Mamaliga", "Branza de vaci", "Smantana", "Unt"],
+                "instructions": "Fierbe mamaliga si amesteca cu branza si smantana. Serveste cu unt."
+            },
+            "en": {
+                "name": "Polenta with Cheese and Sour Cream",
+                "ingredients": ["Polenta", "Cottage cheese", "Sour cream", "Butter"],
+                "instructions": "Boil the polenta and mix it with cheese and sour cream. Serve with butter."
+            },
+            "es": {
+                "name": "Polenta con Queso y Crema Agria",
+                "ingredients": ["Polenta", "Queso cottage", "Crema agria", "Mantequilla"],
+                "instructions": "Hervir la polenta y mezclarla con queso y crema agria. Servir con mantequilla."
+            }
+        }
+    },
+    {
+        "id": 46,
+        "category": "Pastas",
+        "translations": {
+            "ro": {
+                "name": "Spaghete cu Peste",
+                "ingredients": ["Spaghete", "Peste", "Ulei de masline", "Lamai", "Patrunjel"],
+                "instructions": "Fierbe spaghetele. Gateste pestele cu ulei de masline, adauga lamaie si patrunjel. Serveste cu spaghete."
+            },
+            "en": {
+                "name": "Spaghetti with Fish",
+                "ingredients": ["Spaghetti", "Fish", "Olive oil", "Lemon", "Parsley"],
+                "instructions": "Boil the spaghetti. Cook the fish with olive oil, add lemon and parsley. Serve with spaghetti."
+            },
+            "es": {
+                "name": "Espaguetis con Pescado",
+                "ingredients": ["Espaguetis", "Pescado", "Aceite de oliva", "Limón", "Perejil"],
+                "instructions": "Cocinar los espaguetis. Cocinar el pescado con aceite de oliva, añadir limón y perejil. Servir con los espaguetis."
+            }
+        }
+    },
+    {
+        "id": 47,
+        "category": "Pastas",
+        "translations": {
+            "ro": {
+                "name": "Sarmale",
+                "ingredients": ["Carne tocata", "Orez", "Varza", "Ceapa", "Sare", "Piper"],
+                "instructions": "Pregateste umplutura din carne, orez si ceapa. Ruleaza in frunze de varza si fierbe la foc mic."
+            },
+            "en": {
+                "name": "Sarmale",
+                "ingredients": ["Ground meat", "Rice", "Cabbage", "Onion", "Salt", "Pepper"],
+                "instructions": "Prepare the filling from meat, rice, and onion. Roll in cabbage leaves and simmer on low heat."
+            },
+            "es": {
+                "name": "Sarmale",
+                "ingredients": ["Carne molida", "Arroz", "Col", "Cebolla", "Sal", "Pimienta"],
+                "instructions": "Preparar el relleno de carne, arroz y cebolla. Enrollar en hojas de col y hervir a fuego bajo."
+            }
+        }
+    },
+    {
+        "id": 48,
+        "category": "Pastas",
+        "translations": {
+            "ro": {
+                "name": "Spaghete cu Carne si Sos de Branza",
+                "ingredients": ["Spaghete", "Carne tocata", "Sos de branza", "Ulei de masline", "Piper"],
+                "instructions": "Fierbe spaghetele. Gateste carnea cu ulei de masline. Adauga sosul de branza si serveste."
+            },
+            "en": {
+                "name": "Spaghetti with Meat and Cheese Sauce",
+                "ingredients": ["Spaghetti", "Ground beef", "Cheese sauce", "Olive oil", "Pepper"],
+                "instructions": "Boil the spaghetti. Cook the ground beef with olive oil. Add the cheese sauce and serve."
+            },
+            "es": {
+                "name": "Espaguetis con Carne y Salsa de Queso",
+                "ingredients": ["Espaguetis", "Carne molida", "Salsa de queso", "Aceite de oliva", "Pimienta"],
+                "instructions": "Cocinar los espaguetis. Cocinar la carne con aceite de oliva. Añadir la salsa de queso y servir."
+            }
+        }
+    },
+    {
+        "id": 49,
+        "category": "Pastas",
+        "translations": {
+            "ro": {
+                "name": "Fasole cu Caltabos",
+                "ingredients": ["Fasole", "Caltabos", "Ceapa", "Ulei"],
+                "instructions": "Fierbe fasolea si gateste caltabosii. Serveste cu ceapa calita."
+            },
+            "en": {
+                "name": "Beans with Caltabos",
+                "ingredients": ["Beans", "Caltabos", "Onion", "Oil"],
+                "instructions": "Boil the beans and cook the caltabos. Serve with sautéed onion."
+            },
+            "es": {
+                "name": "Frijoles con Caltabos",
+                "ingredients": ["Frijoles", "Caltabos", "Cebolla", "Aceite"],
+                "instructions": "Hervir los frijoles y cocinar los caltabos. Servir con cebolla sofrita."
+            }
+        }
+    }
+]
+[
+    {
+        "id": 50,
+        "category": "Ensaladas",
+        "translations": {
+            "ro": {
+                "name": "Salata de Crudități",
+                "ingredients": ["Morcovi", "Castraveti", "Ardei gras", "Rosii", "Lapte fermentat"],
+                "instructions": "Tăiați legumele în cuburi. Amestecați-le și adăugați lapte fermentat."
+            },
+            "en": {
+                "name": "Raw Vegetable Salad",
+                "ingredients": ["Carrots", "Cucumbers", "Bell pepper", "Tomatoes", "Fermented milk"],
+                "instructions": "Cut the vegetables into cubes. Mix them and add fermented milk."
+            },
+            "es": {
+                "name": "Ensalada de Verduras Crudas",
+                "ingredients": ["Zanahorias", "Pepinos", "Pimiento", "Tomates", "Leche fermentada"],
+                "instructions": "Cortar las verduras en cubos. Mezclarlas y añadir leche fermentada."
+            }
+        }
+    },
+    {
+        "id": 51,
+        "category": "Ensaladas",
+        "translations": {
+            "ro": {
+                "name": "Salată de Varză cu Mărar",
+                "ingredients": ["Varză", "Mărar", "Ulei de măsline", "Sare", "Oțet"],
+                "instructions": "Tăiați varza subțire. Amestecați cu mărar, ulei de măsline, sare și oțet."
+            },
+            "en": {
+                "name": "Cabbage Salad with Dill",
+                "ingredients": ["Cabbage", "Dill", "Olive oil", "Salt", "Vinegar"],
+                "instructions": "Slice the cabbage thinly. Mix with dill, olive oil, salt, and vinegar."
+            },
+            "es": {
+                "name": "Ensalada de Col con Eneldo",
+                "ingredients": ["Col", "Eneldo", "Aceite de oliva", "Sal", "Vinagre"],
+                "instructions": "Cortar la col en tiras finas. Mezclar con eneldo, aceite de oliva, sal y vinagre."
+            }
+        }
+    },
+    {
+        "id": 52,
+        "category": "Ensaladas",
+        "translations": {
+            "ro": {
+                "name": "Salată de Ton",
+                "ingredients": ["Ton", "Roșii", "Castraveti", "Ulei de măsline", "Sare", "Lămâie"],
+                "instructions": "Amestecați tonul cu roșiile și castraveții. Adăugați ulei de măsline, sare și suc de lămâie."
+            },
+            "en": {
+                "name": "Tuna Salad",
+                "ingredients": ["Tuna", "Tomatoes", "Cucumbers", "Olive oil", "Salt", "Lemon"],
+                "instructions": "Mix the tuna with tomatoes and cucumbers. Add olive oil, salt, and lemon juice."
+            },
+            "es": {
+                "name": "Ensalada de Atún",
+                "ingredients": ["Atún", "Tomates", "Pepinos", "Aceite de oliva", "Sal", "Limón"],
+                "instructions": "Mezclar el atún con tomates y pepinos. Añadir aceite de oliva, sal y jugo de limón."
+            }
+        }
+    },
+    {
+        "id": 53,
+        "category": "Ensaladas",
+        "translations": {
+            "ro": {
+                "name": "Salată de Cartofi cu Castraveți",
+                "ingredients": ["Cartofi", "Castraveti", "Ulei de masline", "Maioneză", "Sare"],
+                "instructions": "Fierbe cartofii și taie-i în cuburi. Amestecă cu castraveți, maioneză și ulei de măsline."
+            },
+            "en": {
+                "name": "Potato Salad with Cucumbers",
+                "ingredients": ["Potatoes", "Cucumbers", "Olive oil", "Mayonnaise", "Salt"],
+                "instructions": "Boil the potatoes and cut them into cubes. Mix with cucumbers, mayonnaise, and olive oil."
+            },
+            "es": {
+                "name": "Ensalada de Papas con Pepinos",
+                "ingredients": ["Papas", "Pepinos", "Aceite de oliva", "Mayonesa", "Sal"],
+                "instructions": "Hervir las papas y cortarlas en cubos. Mezclar con pepinos, mayonesa y aceite de oliva."
+            }
+        }
+    },
+    {
+        "id": 54,
+        "category": "Ensaladas",
+        "translations": {
+            "ro": {
+                "name": "Salată de Orez cu Legume",
+                "ingredients": ["Orez", "Morcovi", "Ardei gras", "Mazăre", "Ulei de măsline", "Sare"],
+                "instructions": "Fierbe orezul și adaugă legumele fierte. Amestecă cu ulei de măsline și sare."
+            },
+            "en": {
+                "name": "Rice Salad with Vegetables",
+                "ingredients": ["Rice", "Carrots", "Bell pepper", "Peas", "Olive oil", "Salt"],
+                "instructions": "Boil the rice and add the cooked vegetables. Mix with olive oil and salt."
+            },
+            "es": {
+                "name": "Ensalada de Arroz con Verduras",
+                "ingredients": ["Arroz", "Zanahorias", "Pimiento", "Guisantes", "Aceite de oliva", "Sal"],
+                "instructions": "Hervir el arroz y añadir las verduras cocidas. Mezclar con aceite de oliva y sal."
+            }
+        }
+    },
+    {
+        "id": 55,
+        "category": "Ensaladas",
+        "translations": {
+            "ro": {
+                "name": "Salată Grecească",
+                "ingredients": ["Roșii", "Castraveti", "Ardei gras", "Feta", "Ulei de măsline", "Măsline"],
+                "instructions": "Tăiați roșiile, castraveții și ardeii. Amestecați cu feta, măsline și ulei de măsline."
+            },
+            "en": {
+                "name": "Greek Salad",
+                "ingredients": ["Tomatoes", "Cucumbers", "Bell pepper", "Feta", "Olive oil", "Olives"],
+                "instructions": "Slice the tomatoes, cucumbers, and bell pepper. Mix with feta, olives, and olive oil."
+            },
+            "es": {
+                "name": "Ensalada Griega",
+                "ingredients": ["Tomates", "Pepinos", "Pimiento", "Feta", "Aceite de oliva", "Aceitunas"],
+                "instructions": "Cortar los tomates, pepinos y pimientos. Mezclar con feta, aceitunas y aceite de oliva."
+            }
+        }
+    },
+    {
+        "id": 56,
+        "category": "Ensaladas",
+        "translations": {
+            "ro": {
+                "name": "Salată de Roșii cu Brânză de Capră",
+                "ingredients": ["Roșii", "Brânză de capră", "Busuioc", "Ulei de măsline", "Sare"],
+                "instructions": "Tăiați roșiile și brânza de capră. Adăugați busuioc, ulei de măsline și sare."
+            },
+            "en": {
+                "name": "Tomato Salad with Goat Cheese",
+                "ingredients": ["Tomatoes", "Goat cheese", "Basil", "Olive oil", "Salt"],
+                "instructions": "Slice the tomatoes and goat cheese. Add basil, olive oil, and salt."
+            },
+            "es": {
+                "name": "Ensalada de Tomate con Queso de Cabra",
+                "ingredients": ["Tomates", "Queso de cabra", "Albahaca", "Aceite de oliva", "Sal"],
+                "instructions": "Cortar los tomates y el queso de cabra. Añadir albahaca, aceite de oliva y sal."
+            }
+        }
+    },
+    {
+        "id": 57,
+        "category": "Ensaladas",
+        "translations": {
+            "ro": {
+                "name": "Salată de Castraveți cu Iaurt",
+                "ingredients": ["Castraveti", "Iaurt", "Usturoi", "Mărar", "Sare"],
+                "instructions": "Tăiați castraveții și adăugați iaurt, usturoi, mărar și sare."
+            },
+            "en": {
+                "name": "Cucumber Salad with Yogurt",
+                "ingredients": ["Cucumbers", "Yogurt", "Garlic", "Dill", "Salt"],
+                "instructions": "Slice the cucumbers and add yogurt, garlic, dill, and salt."
+            },
+            "es": {
+                "name": "Ensalada de Pepino con Yogur",
+                "ingredients": ["Pepinos", "Yogur", "Ajo", "Eneldo", "Sal"],
+                "instructions": "Cortar los pepinos y añadir yogur, ajo, eneldo y sal."
+            }
+        }
+    },
+    {
+        "id": 58,
+        "category": "Ensaladas",
+        "translations": {
+            "ro": {
+                "name": "Salată de Pește",
+                "ingredients": ["Pește", "Castraveti", "Roșii", "Lămâie", "Ulei de măsline"],
+                "instructions": "Gătește peștele și amestecă-l cu castraveți, roșii, lămâie și ulei de măsline."
+            },
+            "en": {
+                "name": "Fish Salad",
+                "ingredients": ["Fish", "Cucumbers", "Tomatoes", "Lemon", "Olive oil"],
+                "instructions": "Cook the fish and mix it with cucumbers, tomatoes, lemon, and olive oil."
+            },
+            "es": {
+                "name": "Ensalada de Pescado",
+                "ingredients": ["Pescado", "Pepinos", "Tomates", "Limón", "Aceite de oliva"],
+                "instructions": "Cocinar el pescado y mezclarlo con pepinos, tomates, limón y aceite de oliva."
+            }
+        }
+    }
+]
+[
+    {
+        "id": 59,
+        "category": "Sopas",
+        "translations": {
+            "ro": {
+                "name": "Ciorbă de Burtă",
+                "ingredients": ["Burtă", "Oase", "Morcovi", "Ceapă", "Usturoi", "Oțet", "Smântână"],
+                "instructions": "Fierbe oasele și burta. Adaugă morcovii și ceapa. Când este gata, adaugă usturoiul, oțetul și smântâna."
+            },
+            "en": {
+                "name": "Tripe Soup",
+                "ingredients": ["Tripe", "Bones", "Carrots", "Onion", "Garlic", "Vinegar", "Sour cream"],
+                "instructions": "Boil the bones and tripe. Add the carrots and onion. Once ready, add the garlic, vinegar, and sour cream."
+            },
+            "es": {
+                "name": "Sopa de Panza",
+                "ingredients": ["Panza", "Huesos", "Zanahorias", "Cebolla", "Ajo", "Vinagre", "Crema agria"],
+                "instructions": "Hervir los huesos y la panza. Agregar las zanahorias y la cebolla. Al estar lista, añadir ajo, vinagre y crema agria."
+            }
+        }
+    },
+    {
+        "id": 60,
+        "category": "Sopas",
+        "translations": {
+            "ro": {
+                "name": "Ciorbă de Fasole cu Ciolan",
+                "ingredients": ["Fasole", "Ciolan afumat", "Ceapă", "Morcovi", "Ardei gras", "Ulei", "Sare"],
+                "instructions": "Fierbe fasolea și ciolanul. Adaugă legumele și lasă la fiert până se înmoaie. Condimentează cu sare."
+            },
+            "en": {
+                "name": "Bean Soup with Smoked Pork Hock",
+                "ingredients": ["Beans", "Smoked pork hock", "Onion", "Carrots", "Bell pepper", "Oil", "Salt"],
+                "instructions": "Boil the beans and smoked pork hock. Add the vegetables and simmer until soft. Season with salt."
+            },
+            "es": {
+                "name": "Sopa de Frijoles con Codillo Ahumado",
+                "ingredients": ["Frijoles", "Codillo ahumado", "Cebolla", "Zanahorias", "Pimiento", "Aceite", "Sal"],
+                "instructions": "Hervir los frijoles y el codillo ahumado. Añadir las verduras y cocinar hasta que se ablanden. Condimentar con sal."
+            }
+        }
+    },
+    {
+        "id": 61,
+        "category": "Sopas",
+        "translations": {
+            "ro": {
+                "name": "Ciorbă de Legume",
+                "ingredients": ["Morcovi", "Telina", "Cartofi", "Ceapă", "Usturoi", "Condimente"],
+                "instructions": "Taie legumele în cuburi. Fierbe apa cu legumele. Adaugă condimentele. Las-o la fiert timp de 30 de minute."
+            },
+            "en": {
+                "name": "Vegetable Soup",
+                "ingredients": ["Carrots", "Celery", "Potatoes", "Onion", "Garlic", "Seasonings"],
+                "instructions": "Chop the vegetables into cubes. Boil water with the vegetables. Add seasonings. Let it simmer for 30 minutes."
+            },
+            "es": {
+                "name": "Sopa de Verduras",
+                "ingredients": ["Zanahorias", "Apio", "Papas", "Cebolla", "Ajo", "Condimentos"],
+                "instructions": "Cortar las verduras en cubos. Hervir agua con las verduras. Añadir condimentos. Dejar hervir durante 30 minutos."
+            }
+        }
+    },
+    {
+        "id": 62,
+        "category": "Sopas",
+        "translations": {
+            "ro": {
+                "name": "Ciorbă de Pui cu Tăiței",
+                "ingredients": ["Pui", "Tăiței", "Morcovi", "Ceapă", "Usturoi", "Sare"],
+                "instructions": "Fierbe puiul și adaugă morcovii și ceapa. Când este gata, pune tăițeii și lasă să fiarbă."
+            },
+            "en": {
+                "name": "Chicken Soup with Noodles",
+                "ingredients": ["Chicken", "Noodles", "Carrots", "Onion", "Garlic", "Salt"],
+                "instructions": "Boil the chicken and add carrots and onion. Once ready, add the noodles and simmer."
+            },
+            "es": {
+                "name": "Sopa de Pollo con Fideos",
+                "ingredients": ["Pollo", "Fideos", "Zanahorias", "Cebolla", "Ajo", "Sal"],
+                "instructions": "Hervir el pollo y agregar las zanahorias y la cebolla. Cuando esté listo, añadir los fideos y cocinar."
+            }
+        }
+    },
+    {
+        "id": 63,
+        "category": "Sopas",
+        "translations": {
+            "ro": {
+                "name": "Ciorbă de Pește",
+                "ingredients": ["Pește", "Legume", "Usturoi", "Lămâie", "Sare"],
+                "instructions": "Gătește peștele și legumele. Adaugă usturoiul, lămâia și sare după gust."
+            },
+            "en": {
+                "name": "Fish Soup",
+                "ingredients": ["Fish", "Vegetables", "Garlic", "Lemon", "Salt"],
+                "instructions": "Cook the fish and vegetables. Add garlic, lemon, and salt to taste."
+            },
+            "es": {
+                "name": "Sopa de Pescado",
+                "ingredients": ["Pescado", "Verduras", "Ajo", "Limón", "Sal"],
+                "instructions": "Cocinar el pescado y las verduras. Añadir ajo, limón y sal al gusto."
+            }
+        }
+    },
+    {
+        "id": 64,
+        "category": "Sopas",
+        "translations": {
+            "ro": {
+                "name": "Ciorbă de Roșii",
+                "ingredients": ["Roșii", "Ceapă", "Usturoi", "Ulei", "Sare", "Busuioc"],
+                "instructions": "Fierbe roșiile cu ceapa și usturoiul. Amestecă totul și adaugă busuioc, sare și ulei."
+            },
+            "en": {
+                "name": "Tomato Soup",
+                "ingredients": ["Tomatoes", "Onion", "Garlic", "Oil", "Salt", "Basil"],
+                "instructions": "Boil the tomatoes with onion and garlic. Mix everything and add basil, salt, and oil."
+            },
+            "es": {
+                "name": "Sopa de Tomate",
+                "ingredients": ["Tomates", "Cebolla", "Ajo", "Aceite", "Sal", "Albahaca"],
+                "instructions": "Hervir los tomates con cebolla y ajo. Mezclar todo y añadir albahaca, sal y aceite."
+            }
+        }
+    },
+    {
+        "id": 65,
+        "category": "Sopas",
+        "translations": {
+            "ro": {
+                "name": "Ciorbă de Roșii cu Ou",
+                "ingredients": ["Roșii", "Ouă", "Ceapă", "Usturoi", "Sare", "Piper"],
+                "instructions": "Fierbe roșiile și adaugă ceapa și usturoiul. Când este gata, sparge ouăle și adaugă-le în supă."
+            },
+            "en": {
+                "name": "Tomato Soup with Egg",
+                "ingredients": ["Tomatoes", "Eggs", "Onion", "Garlic", "Salt", "Pepper"],
+                "instructions": "Boil the tomatoes and add onion and garlic. Once ready, crack the eggs and add them to the soup."
+            },
+            "es": {
+                "name": "Sopa de Tomate con Huevo",
+                "ingredients": ["Tomates", "Huevos", "Cebolla", "Ajo", "Sal", "Pimienta"],
+                "instructions": "Hervir los tomates y añadir la cebolla y el ajo. Cuando esté lista, romper los huevos y añadirlos a la sopa."
+            }
+        }
+    },
+    {
+        "id": 66,
+        "category": "Sopas",
+        "translations": {
+            "ro": {
+                "name": "Ciorbă de Pătrunjel",
+                "ingredients": ["Pătrunjel", "Usturoi", "Ceapă", "Sare", "Piper"],
+                "instructions": "Fierbe pătrunjelul cu usturoiul și ceapa. Condimentează cu sare și piper."
+            },
+            "en": {
+                "name": "Parsley Soup",
+                "ingredients": ["Parsley", "Garlic", "Onion", "Salt", "Pepper"],
+                "instructions": "Boil the parsley with garlic and onion. Season with salt and pepper."
+            },
+            "es": {
+                "name": "Sopa de Perejil",
+                "ingredients": ["Perejil", "Ajo", "Cebolla", "Sal", "Pimienta"],
+                "instructions": "Hervir el perejil con ajo y cebolla. Condimentar con sal y pimienta."
+            }
+        }
+    },
+    {
+        "id": 67,
+        "category": "Sopas",
+        "translations": {
+            "ro": {
+                "name": "Ciorbă de Dovleac",
+                "ingredients": ["Dovleac", "Morcovi", "Ceapă", "Sare", "Piper"],
+                "instructions": "Fierbe dovleacul cu morcovii și ceapa. Condimentează cu sare și piper."
+            },
+            "en": {
+                "name": "Pumpkin Soup",
+                "ingredients": ["Pumpkin", "Carrots", "Onion", "Salt", "Pepper"],
+                "instructions": "Boil the pumpkin with carrots and onion. Season with salt and pepper."
+            },
+            "es": {
+                "name": "Sopa de Calabaza",
+                "ingredients": ["Calabaza", "Zanahorias", "Cebolla", "Sal", "Pimienta"],
+                "instructions": "Hervir la calabaza con zanahorias y cebolla. Condimentar con sal y pimienta."
+            }
+        }
+    }
+]
+[
+    {
+        "id": 68,
+        "category": "Carnes",
+        "translations": {
+            "ro": {
+                "name": "Friptură de Porc la Cuptor",
+                "ingredients": ["Carne de porc", "Ulei", "Sare", "Piper", "Ierburi de Provence"],
+                "instructions": "Condimentează carnea cu sare, piper și ierburi. Coace la cuptor timp de 1 oră la 180°C."
+            },
+            "en": {
+                "name": "Roast Pork",
+                "ingredients": ["Pork meat", "Oil", "Salt", "Pepper", "Herbs de Provence"],
+                "instructions": "Season the meat with salt, pepper, and herbs. Roast in the oven for 1 hour at 180°C."
+            },
+            "es": {
+                "name": "Cerdo Asado",
+                "ingredients": ["Carne de cerdo", "Aceite", "Sal", "Pimienta", "Hierbas de Provenza"],
+                "instructions": "Sazona la carne con sal, pimienta y hierbas. Hornea durante 1 hora a 180°C."
+            }
+        }
+    },
+    {
+        "id": 69,
+        "category": "Carnes",
+        "translations": {
+            "ro": {
+                "name": "Mâncare de Varză cu Carne de Porc",
+                "ingredients": ["Varză", "Carne de porc", "Ceapă", "Sare", "Piper", "Ulei"],
+                "instructions": "Gătește carnea și adaugă varza tocată. Fierbe până când varza este moale și carnea este gătită."
+            },
+            "en": {
+                "name": "Cabbage Stew with Pork",
+                "ingredients": ["Cabbage", "Pork meat", "Onion", "Salt", "Pepper", "Oil"],
+                "instructions": "Cook the meat and add chopped cabbage. Simmer until the cabbage is soft and the meat is cooked."
+            },
+            "es": {
+                "name": "Estofado de Col con Carne de Cerdo",
+                "ingredients": ["Col", "Carne de cerdo", "Cebolla", "Sal", "Pimienta", "Aceite"],
+                "instructions": "Cocina la carne y añade la col picada. Cocina a fuego lento hasta que la col esté tierna y la carne esté cocida."
+            }
+        }
+    },
+    {
+        "id": 70,
+        "category": "Carnes",
+        "translations": {
+            "ro": {
+                "name": "Sarmale",
+                "ingredients": ["Carne de porc", "Orez", "Varză murată", "Ceapă", "Sare", "Piper"],
+                "instructions": "Amestecă carnea cu orezul. Formează sarmale și înfășoară-le în frunze de varză murată. Fierbe la foc mic timp de 2 ore."
+            },
+            "en": {
+                "name": "Sarmale",
+                "ingredients": ["Pork meat", "Rice", "Sauerkraut", "Onion", "Salt", "Pepper"],
+                "instructions": "Mix the meat with rice. Form the sarmale and wrap them in sauerkraut leaves. Simmer for 2 hours."
+            },
+            "es": {
+                "name": "Sarmale",
+                "ingredients": ["Carne de cerdo", "Arroz", "Col fermentada", "Cebolla", "Sal", "Pimienta"],
+                "instructions": "Mezcla la carne con el arroz. Forma los sarmales y envuélvelos en hojas de col fermentada. Cocina a fuego lento durante 2 horas."
+            }
+        }
+    },
+    {
+        "id": 71,
+        "category": "Carnes",
+        "translations": {
+            "ro": {
+                "name": "Cârnați de Casa",
+                "ingredients": ["Carne de porc", "Usturoi", "Sare", "Piper", "Intestine de porc"],
+                "instructions": "Amestecă carnea cu usturoi, sare și piper. Umple intestinele și fierbe-i până devin crocanți."
+            },
+            "en": {
+                "name": "Homemade Sausages",
+                "ingredients": ["Pork meat", "Garlic", "Salt", "Pepper", "Pork intestines"],
+                "instructions": "Mix the meat with garlic, salt, and pepper. Stuff the intestines and boil until crispy."
+            },
+            "es": {
+                "name": "Salchichas Caseras",
+                "ingredients": ["Carne de cerdo", "Ajo", "Sal", "Pimienta", "Intestinos de cerdo"],
+                "instructions": "Mezcla la carne con ajo, sal y pimienta. Rellena los intestinos y hierve hasta que estén crujientes."
+            }
+        }
+    },
+    {
+        "id": 72,
+        "category": "Carnes",
+        "translations": {
+            "ro": {
+                "name": "Miel de Lână cu Mărar",
+                "ingredients": ["Carne de miel", "Mărar", "Ulei", "Sare", "Piper"],
+                "instructions": "Condimentează carnea cu sare, piper și mărar. Prăjește până devine rumenită."
+            },
+            "en": {
+                "name": "Lamb with Dill",
+                "ingredients": ["Lamb meat", "Dill", "Oil", "Salt", "Pepper"],
+                "instructions": "Season the meat with salt, pepper, and dill. Fry until golden."
+            },
+            "es": {
+                "name": "Cordero con Eneldo",
+                "ingredients": ["Carne de cordero", "Eneldo", "Aceite", "Sal", "Pimienta"],
+                "instructions": "Sazona la carne con sal, pimienta y eneldo. Fría hasta que esté dorada."
+            }
+        }
+    },
+    {
+        "id": 73,
+        "category": "Carnes",
+        "translations": {
+            "ro": {
+                "name": "Friptura de Vită",
+                "ingredients": ["Carne de vită", "Ulei", "Sare", "Piper", "Ierburi aromate"],
+                "instructions": "Prăjește carnea la foc mare și adaugă ierburi aromate. Coace până ajunge la nivelul dorit de preparare."
+            },
+            "en": {
+                "name": "Beef Steak",
+                "ingredients": ["Beef meat", "Oil", "Salt", "Pepper", "Herbs"],
+                "instructions": "Fry the meat on high heat and add herbs. Roast until the desired level of doneness."
+            },
+            "es": {
+                "name": "Bistec de Res",
+                "ingredients": ["Carne de res", "Aceite", "Sal", "Pimienta", "Hierbas"],
+                "instructions": "Freír la carne a fuego alto y agregar hierbas. Hornear hasta el nivel deseado de cocción."
+            }
+        }
+    },
+    {
+        "id": 74,
+        "category": "Carnes",
+        "translations": {
+            "ro": {
+                "name": "Tocăniță de Vită cu Cartofi",
+                "ingredients": ["Carne de vită", "Cartofi", "Ceapă", "Morocovi", "Sare", "Piper"],
+                "instructions": "Gătește carnea și legumele. Adaugă cartofii și fierbe până devin moi."
+            },
+            "en": {
+                "name": "Beef Stew with Potatoes",
+                "ingredients": ["Beef meat", "Potatoes", "Onion", "Carrots", "Salt", "Pepper"],
+                "instructions": "Cook the meat and vegetables. Add the potatoes and simmer until soft."
+            },
+            "es": {
+                "name": "Estofado de Res con Papas",
+                "ingredients": ["Carne de res", "Papas", "Cebolla", "Zanahorias", "Sal", "Pimienta"],
+                "instructions": "Cocina la carne y las verduras. Añade las papas y cocina hasta que estén tiernas."
+            }
+        }
+    },
+    {
+        "id": 75,
+        "category": "Carnes",
+        "translations": {
+            "ro": {
+                "name": "Mâncare de Pui cu Sos de Roșii",
+                "ingredients": ["Pui", "Sos de roșii", "Ulei", "Ceapă", "Sare", "Piper"],
+                "instructions": "Fierbe puiul cu ceapă. Adaugă sosul de roșii și lasă la fiert până se îngroașă."
+            },
+            "en": {
+                "name": "Chicken with Tomato Sauce",
+                "ingredients": ["Chicken", "Tomato sauce", "Oil", "Onion", "Salt", "Pepper"],
+                "instructions": "Boil the chicken with onion. Add the tomato sauce and simmer until thickened."
+            },
+            "es": {
+                "name": "Pollo con Salsa de Tomate",
+                "ingredients": ["Pollo", "Salsa de tomate", "Aceite", "Cebolla", "Sal", "Pimienta"],
+                "instructions": "Hervir el pollo con cebolla. Añadir la salsa de tomate y cocinar hasta que espese."
+            }
+        }
+    }
+]
+[
+    {
+        "id": 76,
+        "category": "Pescados",
+        "translations": {
+            "ro": {
+                "name": "Pește la Grătar",
+                "ingredients": ["Pește", "Ulei", "Lămâie", "Sare", "Piper"],
+                "instructions": "Marinează peștele cu ulei, lămâie, sare și piper. Prăjește la grătar până devine crocant."
+            },
+            "en": {
+                "name": "Grilled Fish",
+                "ingredients": ["Fish", "Oil", "Lemon", "Salt", "Pepper"],
+                "instructions": "Marinate the fish with oil, lemon, salt, and pepper. Grill until crispy."
+            },
+            "es": {
+                "name": "Pescado a la Parrilla",
+                "ingredients": ["Pescado", "Aceite", "Limón", "Sal", "Pimienta"],
+                "instructions": "Marinar el pescado con aceite, limón, sal y pimienta. Asar hasta que esté crujiente."
+            }
+        }
+    },
+    {
+        "id": 77,
+        "category": "Pescados",
+        "translations": {
+            "ro": {
+                "name": "Pește prăjit",
+                "ingredients": ["Pește", "Ulei", "Sare", "Piper"],
+                "instructions": "Frige peștele într-o tigaie cu ulei până devine crocant."
+            },
+            "en": {
+                "name": "Fried Fish",
+                "ingredients": ["Fish", "Oil", "Salt", "Pepper"],
+                "instructions": "Fry the fish in a pan with oil until crispy."
+            },
+            "es": {
+                "name": "Pescado Frito",
+                "ingredients": ["Pescado", "Aceite", "Sal", "Pimienta"],
+                "instructions": "Freír el pescado en una sartén con aceite hasta que quede crujiente."
+            }
+        }
+    },
+    {
+        "id": 78,
+        "category": "Pescados",
+        "translations": {
+            "ro": {
+                "name": "Saramură de Pește",
+                "ingredients": ["Pește", "Sare", "Lămâie", "Ulei", "Mărar"],
+                "instructions": "Marinează peștele cu sare și lămâie. Gătește la grătar și servește cu mărar."
+            },
+            "en": {
+                "name": "Fish in Brine",
+                "ingredients": ["Fish", "Salt", "Lemon", "Oil", "Dill"],
+                "instructions": "Marinate the fish with salt and lemon. Grill and serve with dill."
+            },
+            "es": {
+                "name": "Pescado en Salmuera",
+                "ingredients": ["Pescado", "Sal", "Limón", "Aceite", "Eneldo"],
+                "instructions": "Marinar el pescado con sal y limón. Asar y servir con eneldo."
+            }
+        }
+    },
+    {
+        "id": 79,
+        "category": "Pescados",
+        "translations": {
+            "ro": {
+                "name": "Mămăligă cu Pește",
+                "ingredients": ["Mămăligă", "Pește", "Ulei", "Sare", "Piper"],
+                "instructions": "Servește peștele cu mămăligă fierbinte, condimentat cu sare și piper."
+            },
+            "en": {
+                "name": "Polenta with Fish",
+                "ingredients": ["Polenta", "Fish", "Oil", "Salt", "Pepper"],
+                "instructions": "Serve the fish with hot polenta, seasoned with salt and pepper."
+            },
+            "es": {
+                "name": "Polenta con Pescado",
+                "ingredients": ["Polenta", "Pescado", "Aceite", "Sal", "Pimienta"],
+                "instructions": "Servir el pescado con polenta caliente, sazonado con sal y pimienta."
+            }
+        }
+    }
+]
+[
+    {
+        "id": 80,
+        "category": "Bebidas",
+        "translations": {
+            "ro": {
+                "name": "Șpriț",
+                "ingredients": ["Apă minerală", "Vin alb", "Lămâie"],
+                "instructions": "Amestecă vinul alb cu apă minerală și adaugă câteva felii de lămâie."
+            },
+            "en": {
+                "name": "Spritz",
+                "ingredients": ["Mineral water", "White wine", "Lemon"],
+                "instructions": "Mix white wine with mineral water and add a few slices of lemon."
+            },
+            "es": {
+                "name": "Spritz",
+                "ingredients": ["Agua mineral", "Vino blanco", "Limón"],
+                "instructions": "Mezcla vino blanco con agua mineral y agrega algunas rodajas de limón."
+            }
+        }
+    },
+    {
+        "id": 81,
+        "category": "Bebidas",
+        "translations": {
+            "ro": {
+                "name": "Țuică",
+                "ingredients": ["Prune", "Alcool", "Apă"],
+                "instructions": "Fermentează prunele și distilează-le pentru a obține țuică."
+            },
+            "en": {
+                "name": "Țuică",
+                "ingredients": ["Plums", "Alcohol", "Water"],
+                "instructions": "Ferment the plums and distill them to make țuică."
+            },
+            "es": {
+                "name": "Țuică",
+                "ingredients": ["Ciruelas", "Alcohol", "Agua"],
+                "instructions": "Fermentar las ciruelas y destilarlas para obtener țuică."
+            }
+        }
+    },
+    {
+        "id": 82,
+        "category": "Bebidas",
+        "translations": {
+            "ro": {
+                "name": "Vin Fiert",
+                "ingredients": ["Vin roșu", "Scorțișoară", "Cuisoare", "Zahăr"],
+                "instructions": "Fierbe vinul cu scorțișoara, cuisoarele și zahărul până devine cald și aromatic."
+            },
+            "en": {
+                "name": "Mulled Wine",
+                "ingredients": ["Red wine", "Cinnamon", "Cloves", "Sugar"],
+                "instructions": "Heat the wine with cinnamon, cloves, and sugar until warm and aromatic."
+            },
+            "es": {
+                "name": "Vino Caliente",
+                "ingredients": ["Vino tinto", "Canela", "Clavos", "Azúcar"],
+                "instructions": "Calienta el vino con canela, clavos y azúcar hasta que esté caliente y aromático."
+            }
+        }
+    }
+]
+[
+    {
+        "id": 83,
+        "category": "Panadería",
+        "translations": {
+            "ro": {
+                "name": "Pâine de Casă",
+                "ingredients": ["Făină", "Apa", "Drojdie", "Sare"],
+                "instructions": "Amestecă ingredientele și lasă aluatul să crească. Coace timp de 30-40 minute la 180°C."
+            },
+            "en": {
+                "name": "Homemade Bread",
+                "ingredients": ["Flour", "Water", "Yeast", "Salt"],
+                "instructions": "Mix the ingredients and let the dough rise. Bake for 30-40 minutes at 180°C."
+            },
+            "es": {
+                "name": "Pan Casero",
+                "ingredients": ["Harina", "Agua", "Levadura", "Sal"],
+                "instructions": "Mezcla los ingredientes y deja que la masa suba. Hornea durante 30-40 minutos a 180°C."
+            }
+        }
+    },
+    {
+        "id": 84,
+        "category": "Panadería",
+        "translations": {
+            "ro": {
+                "name": "Cozonac",
+                "ingredients": ["Făină", "Zahăr", "Ouă", "Drojdii", "Lapte", "Esență de vanilie"],
+                "instructions": "Amestecă ingredientele pentru aluat și lasă să dospească. Coace în cuptor până devine rumen."
+            },
+            "en": {
+                "name": "Cozonac",
+                "ingredients": ["Flour", "Sugar", "Eggs", "Yeast", "Milk", "Vanilla essence"],
+                "instructions": "Mix the dough ingredients and let it rise. Bake until golden brown."
+            },
+            "es": {
+                "name": "Cozonac",
+                "ingredients": ["Harina", "Azúcar", "Huevos", "Levadura", "Leche", "Esencia de vainilla"],
+                "instructions": "Mezcla los ingredientes para la masa y deja que repose. Hornea hasta que esté dorado."
+            }
+        }
+    }
 ]
