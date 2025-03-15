@@ -4,10 +4,10 @@ Bine ai venit la Rețete de Gătit, un loc unde găsești rețete inovative, rap
 Fie că ești începător sau bucătar experimentat, aici vei descoperi rețete perfecte pentru orice ocazie.
 
 Ce vei găsi:
-•	Rețete ușor de urmărit
-•	Instrucțiuni pas cu pas
-•	Opțiuni pentru toate preferințele (vegetariene, vegane, fără gluten, etc.)
-•	Descriere detaliată a ingredientelor și a timpilor de preparare
+•	Rețete ușor de urmărit.
+•	Instrucțiuni pas cu pas.
+•	Opțiuni pentru toate preferințele (vegetariene, vegane, fără gluten, etc.).
+•	Descriere detaliată a ingredientelor și a timpilor de preparare.
 
 Licență
 Acest proiect este sub licența MIT.
