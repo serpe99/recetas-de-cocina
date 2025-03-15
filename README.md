@@ -1,56 +1,43 @@
-
+________________________________________
 # Rețete de Gătit
-
-Bine ai venit la **Rețete de Gătit**, un depozit care conține o colecție de rețete delicioase și ușor de preparat. 
-Aici vei găsi rețete pentru orice tip de preparat, de la gustări la deserturi, adaptate pentru diferite gusturi și diete.
-
-## Conținut
-
-Acest depozit include:
-
-- Rețete tradiționale și moderne
-- Categorii precum mic dejun, prânz, cină și deserturi
-- Opțiuni vegetariene, vegane și fără gluten
-Accesează rețetele: În folderul rețete, vei găsi fișiere cu instrucțiuni detaliate pentru fiecare rețetă.
-
-Contribuie: Dacă dorești să adaugi propriile rețete, fă un fork al depozitului și trimite un pull request.
-
-Contribuții
-Contribuțiile sunt binevenite. Dacă ai o rețetă pe care ai dori să o împărtășești, urmează acești pași:
-
-Fă un fork al acestui depozit.
-Adaugă rețeta ta în formatul corespunzător.
-Trimite un pull request în care descrii rețeta ta.
+Bine ai venit la Rețete de Gătit, un loc unde găsești rețete inovative, rapide și gustoase!
+Fie că ești începător sau bucătar experimentat, aici vei descoperi rețete perfecte pentru orice ocazie.
+Ce vei găsi
+•	Rețete ușor de urmărit
+•	Instrucțiuni pas cu pas
+•	Opțiuni pentru toate preferințele (vegetariene, vegane, fără gluten, etc.)
+•	Descriere detaliată a ingredientelor și a timpilor de preparare
+Cum contribui: Dacă vrei să împărtășești propria rețetă, urmează pașii pentru a face un fork și trimite un pull request.
 Licență
 Acest proiect este sub licența MIT.
-
-Mulțumim pentru vizită și poftă bună!
-
-
+Mulțumim pentru vizită și să ai o masă delicioasă!
+https://serpe99.github.io/recetas-de-cocina/
+________________________________________
 # Recetas de Cocina
-
-Bienvenido a **Recetas de Cocina**, un repositorio que contiene una colección de recetas deliciosas y fáciles de preparar.
-Aquí podrás encontrar recetas para todo tipo de platillos, desde entradas hasta postres, adaptadas para diferentes gustos y dietas.
-
-## Contenido
-
-Este repositorio incluye:
-
-- Recetas tradicionales y modernas
-- Categorías como desayuno, almuerzo, cena y postres
-- Opciones vegetarianas, veganas y sin gluten
-
-Accede a las recetas: Dentro de la carpeta recetas, encontrarás archivos con instrucciones detalladas de cada receta.
-
-Contribuye: Si deseas agregar tus propias recetas, simplemente haz un fork del repositorio y envía un pull request.
-
-Contribuciones
-Las contribuciones son bienvenidas. Si tienes una receta que te gustaría compartir, sigue estos pasos:
-
-Haz un fork de este repositorio.
-Añade tu receta en el formato adecuado.
-Envía un pull request describiendo tu receta.
+Bienvenido a Recetas de Cocina, tu lugar para encontrar recetas fáciles, rápidas y deliciosas.
+Ya seas principiante o experto, aquí descubrirás platos perfectos para cada ocasión.
+Qué encontrarás
+•	Recetas fáciles de seguir
+•	Instrucciones paso a paso
+•	Opciones para todos los gustos (vegetarianas, veganas, sin gluten, etc.)
+•	Descripción detallada de los ingredientes y tiempos de preparación
+Cómo contribuir: Si deseas compartir tu receta, sigue los pasos para hacer un fork y envía un pull request.
 Licencia
 Este proyecto está bajo la licencia MIT.
-
-¡Gracias por visitar y buen provecho!
+¡Gracias por tu visita y disfruta de tu comida!
+https://serpe99.github.io/recetas-de-cocina/
+________________________________________
+# Cooking Recipes
+Welcome to Cooking Recipes, your go-to place for quick, easy, and delicious recipes.
+Whether you're a beginner or an experienced cook, you'll find the perfect recipes for any occasion.
+What you’ll find
+•	Easy-to-follow recipes
+•	Step-by-step instructions
+•	Options for all preferences (vegetarian, vegan, gluten-free, etc.)
+•	Detailed descriptions of ingredients and preparation times
+How to contribute: If you want to share your recipe, follow the steps to fork the repository and submit a pull request.
+License
+This project is licensed under the MIT License.
+Thank you for visiting and enjoy your meal!
+https://serpe99.github.io/recetas-de-cocina/
+________________________________________
