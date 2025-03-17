@@ -13,7 +13,66 @@
             "Carnes": "Carne",
             "Pescados": "Pește",
             "Bebidas": "Băuturi",
-            "Panadería": "Cozonac"
+            "Panadería": "Cozonac",
+            "Platos principales": "Feluri principale"
+        },
+        "metadata": {
+            "difficulty": {
+                "easy": "Ușor",
+                "medium": "Mediu",
+                "hard": "Dificil"
+            },
+            "labels": {
+                "prepTime": "Timp de preparare",
+                "cookTime": "Timp de gătit",
+                "totalTime": "Timp total",
+                "difficulty": "Dificultate",
+                "servings": "Porții",
+                "author": "Bucătar",
+                "minutes": "minute",
+                "estimatedTime": "Timp estimat"
+            }
+        },
+        "nutrition": {
+            "calories": "Calorii",
+            "protein": "Proteine",
+            "carbs": "Carbohidrați",
+            "fat": "Grăsimi",
+            "fiber": "Fibre",
+            "sugar": "Zahăr",
+            "sodium": "Sodiu",
+            "servingSize": "Porție"
+        },
+        "recipeLabels": {
+            "details": "Detalii",
+            "nutritionalInfo": "Informații Nutriționale",
+            "ingredients": "Ingrediente",
+            "instructions": "Instrucțiuni",
+            "variations": "Variații",
+            "tips": "Sfaturi",
+            "gallery": "Galerie",
+            "step": "Pasul",
+            "followCarefully": "Asigură-te că urmezi fiecare pas cu atenție",
+            "masa": "Aluat",
+            "relleno": "Umplutură"
+        },
+        "showMore": "Vezi mai mult",
+        "searchPlaceholder": "Caută rețete...",
+        "moreItems": "mai multe ingrediente",
+        "pagination": {
+            "previous": "Anterior",
+            "next": "Următor",
+            "page": "Pagina",
+            "of": "din",
+            "recipes": "rețete"
+        },
+        "footer": {
+            "copyright": "© 2024 Cartea de Retete",
+            "terms": "Termeni și Condiții",
+            "termsShort": "Toate drepturile rezervate. Click pentru mai multe detalii...",
+            "fullTerms": "Acest site web și conținutul său sunt protejate de legile drepturilor de autor. Toate drepturile sunt rezervate.",
+            "privacyPolicy": "Ne angajăm să vă protejăm confidențialitatea și datele personale.",
+            "cookies": "Acest site folosește cookies pentru a îmbunătăți experiența dvs."
         }
     },
     "en": {
@@ -30,7 +89,66 @@
             "Carnes": "Meat",
             "Pescados": "Fish",
             "Bebidas": "Drinks",
-            "Panadería": "Bakery"
+            "Panadería": "Bakery",
+            "Platos principales": "Main Dishes"
+        },
+        "metadata": {
+            "difficulty": {
+                "easy": "Easy",
+                "medium": "Medium",
+                "hard": "Hard"
+            },
+            "labels": {
+                "prepTime": "Prep time",
+                "cookTime": "Cook time",
+                "totalTime": "Total time",
+                "difficulty": "Difficulty",
+                "servings": "Servings",
+                "author": "Chef",
+                "minutes": "minutes",
+                "estimatedTime": "Estimated time"
+            }
+        },
+        "nutrition": {
+            "calories": "Calories",
+            "protein": "Protein",
+            "carbs": "Carbohydrates",
+            "fat": "Fat",
+            "fiber": "Fiber",
+            "sugar": "Sugar",
+            "sodium": "Sodium",
+            "servingSize": "Serving size"
+        },
+        "recipeLabels": {
+            "details": "Details",
+            "nutritionalInfo": "Nutritional Information",
+            "ingredients": "Ingredients",
+            "instructions": "Instructions",
+            "variations": "Variations",
+            "tips": "Tips",
+            "gallery": "Gallery",
+            "step": "Step",
+            "followCarefully": "Follow each step carefully",
+            "masa": "Dough",
+            "relleno": "Filling"
+        },
+        "showMore": "Show more",
+        "searchPlaceholder": "Search recipes...",
+        "moreItems": "more ingredients",
+        "pagination": {
+            "previous": "Previous",
+            "next": "Next",
+            "page": "Page",
+            "of": "of",
+            "recipes": "recipes"
+        },
+        "footer": {
+            "copyright": "© 2024 Recipe Book",
+            "terms": "Terms and Conditions",
+            "termsShort": "All rights reserved. Click for more details...",
+            "fullTerms": "This website and its content are protected by copyright laws. All rights reserved.",
+            "privacyPolicy": "We are committed to protecting your privacy and personal data.",
+            "cookies": "This site uses cookies to improve your experience."
         }
     },
     "es": {
@@ -47,7 +165,66 @@
             "Carnes": "Carnes",
             "Pescados": "Pescados",
             "Bebidas": "Bebidas",
-            "Panadería": "Panadería"
+            "Panadería": "Panadería",
+            "Platos principales": "Platos principales"
+        },
+        "metadata": {
+            "difficulty": {
+                "easy": "Fácil",
+                "medium": "Media",
+                "hard": "Difícil"
+            },
+            "labels": {
+                "prepTime": "Tiempo de preparación",
+                "cookTime": "Tiempo de cocción",
+                "totalTime": "Tiempo total",
+                "difficulty": "Dificultad",
+                "servings": "Porciones",
+                "author": "Chef",
+                "minutes": "minutos",
+                "estimatedTime": "Tiempo estimado"
+            }
+        },
+        "nutrition": {
+            "calories": "Calorías",
+            "protein": "Proteínas",
+            "carbs": "Carbohidratos",
+            "fat": "Grasas",
+            "fiber": "Fibra",
+            "sugar": "Azúcar",
+            "sodium": "Sodio",
+            "servingSize": "Tamaño de la porción"
+        },
+        "recipeLabels": {
+            "details": "Detalles",
+            "nutritionalInfo": "Información Nutricional",
+            "ingredients": "Ingredientes",
+            "instructions": "Instrucciones",
+            "variations": "Variaciones",
+            "tips": "Consejos",
+            "gallery": "Galería",
+            "step": "Paso",
+            "followCarefully": "Sigue cada paso cuidadosamente",
+            "masa": "Masa",
+            "relleno": "Relleno"
+        },
+        "showMore": "Ver más",
+        "searchPlaceholder": "Buscar recetas...",
+        "moreItems": "más ingredientes",
+        "pagination": {
+            "previous": "Anterior",
+            "next": "Siguiente",
+            "page": "Página",
+            "of": "de",
+            "recipes": "recetas"
+        },
+        "footer": {
+            "copyright": "© 2024 Libro de Recetas",
+            "terms": "Términos y Condiciones",
+            "termsShort": "Todos los derechos reservados. Clic para más detalles...",
+            "fullTerms": "Este sitio web y su contenido están protegidos por leyes de derechos de autor. Todos los derechos reservados.",
+            "privacyPolicy": "Nos comprometemos a proteger tu privacidad y datos personales.",
+            "cookies": "Este sitio utiliza cookies para mejorar tu experiencia."
         }
     }
 }
