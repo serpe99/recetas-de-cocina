@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,203 +9,54 @@
 <body>
     <header>
         <div class="container">
-            <h1 id="pageTitle">Libro de Recetas 📖</h1>
-            <div class="language-selector">
-                <label for="languageSelect">🌐 Idioma:</label>
-                <select id="languageSelect" onchange="changeLanguage()">
-                    <option value="ro">Română 🇷🇴</option>
-                    <option value="en">English 🇬🇧</option>
-                    <option value="es" selected>Español 🇪🇸</option>
-                </select>
+            <div class="header-top">
+                <h1 id="pageTitle">Libro de Recetas 🍳</h1>
+                <div class="header-controls">
+                    <div class="search-filter">
+                        <i class="emoji">🔍</i>
+                        <input type="text" 
+                               id="searchInput" 
+                               placeholder="Buscar recetas..." 
+                               onkeyup="filterRecipes()">
+                    </div>
+                    <div class="category-filter">
+                        <i class="emoji">📑</i>
+                        <select id="categorySelect" onchange="filterRecipes()" aria-label="Filtrar por categoría">
+                            <option value="all">Todas</option>
+                        </select>
+                    </div>
+                    <div class="language-selector">
+                        <i class="emoji">🌍</i>
+                        <select id="languageSelect" onchange="changeLanguage(this.value)" aria-label="Seleccionar idioma">
+                            <option value="ro">Română</option>
+                            <option value="es">Español</option>
+                            <option value="en">English</option>
+                        </select>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
+    
     <main>
         <div class="container">
-            <h2 id="recipesTitle">Nuestras Recetas 🥘</h2>
-            <div class="category-filter">
-                <label id="filterLabel" for="categorySelect"></label>
-                <select id="categorySelect" onchange="filterRecipes()">
-                    <option value="all">Todas 🌟</option>
-                </select>
-            </div>
             <div id="recipesContainer"></div>
         </div>
     </main>
+
+    <div id="recipeModal" class="modal">
+        <div class="modal-content"></div>
+    </div>
+
     <footer>
         <div class="container">
-            <p id="footerText">&copy; 2023 Libro de Recetas 🍴</p>
+            <div class="footer-content">
+                <p id="footerText">© 2024 Libro de Recetas</p>
+                <p id="footerTerms" class="footer-terms"></p>
+            </div>
         </div>
     </footer>
 
-    <!-- Modal para mostrar la receta completa -->
-    <div id="recipeModal" class="modal">
-        <div class="modal-content">
-            <span class="close-button">&times;</span>
-            <h3 id="modalRecipeName"></h3>
-            <p><strong>🛒 Ingredientes:</strong></p>
-            <ul id="modalIngredientsList"></ul>
-            <p><strong>📝 Instrucciones:</strong></p>
-            <ul id="modalInstructionsList"></ul>
-        </div>
-    </div>
-
-    <script>
-        // Variables globales
-        let currentLanguage = 'es';
-        let translations = {};
-        let recipesData = [];
-        let categories = [];
-
-        // Cargar traducciones desde translations.json
-        async function loadTranslations() {
-            try {
-                const response = await fetch('translations.json');
-                translations = await response.json();
-                updateTexts();
-            } catch (error) {
-                console.error('Error al cargar las traducciones:', error);
-            }
-        }
-
-        // Cargar recetas desde recipes.json
-        async function loadRecipes() {
-            try {
-                const response = await fetch('recipes.json');
-                recipesData = await response.json();
-                extractCategories();
-                renderRecipes();
-            } catch (error) {
-                console.error('Error al cargar las recetas:', error);
-            }
-        }
-
-        // Extraer categorías únicas
-        function extractCategories() {
-            categories = [...new Set(recipesData.map(recipe => recipe.category))];
-            populateCategoryFilter();
-        }
-
-        // Poblar el filtro de categorías con emojis
-        function populateCategoryFilter() {
-            const categorySelect = document.getElementById('categorySelect');
-            categorySelect.innerHTML = `<option value="all">${translations[currentLanguage].allCategories} 🌟</option>`;
-            categories.forEach(category => {
-                const emoji = getCategoryEmoji(category);
-                const option = document.createElement('option');
-                option.value = category;
-                option.textContent = `${emoji} ${translations[currentLanguage].categories[category]}`;
-                categorySelect.appendChild(option);
-            });
-        }
-
-        // Obtener emoji según la categoría
-        function getCategoryEmoji(category) {
-            const emojis = {
-                "Postres": "🍰",
-                "Pastas": "🍝",
-                "Ensaladas": "🥗",
-                "Sopas": "🍲",
-                "Carnes": "🍖",
-                "Pescados": "🐟",
-                "Bebidas": "🍹",
-                "Panadería": "🍞"
-            };
-            return emojis[category] || "🍴"; // Emoji por defecto si no hay coincidencia
-        }
-
-        function changeLanguage() {
-            currentLanguage = document.getElementById('languageSelect').value;
-            updateTexts();
-            populateCategoryFilter();
-            renderRecipes();
-        }
-
-        function filterRecipes() {
-            renderRecipes();
-        }
-
-        function updateTexts() {
-            const lang = translations[currentLanguage];
-            document.getElementById('pageTitle').innerText = `${lang.pageTitle} 📖`;
-            document.getElementById('recipesTitle').innerText = `${lang.recipesTitle} 🥘`;
-            document.getElementById('footerText').innerHTML = `&copy; 2023 ${lang.footerText} 🍴`;
-            document.getElementById('filterLabel').innerText = `${lang.filterByCategory} 🔍`;
-        }
-
-        function renderRecipes() {
-            const container = document.getElementById('recipesContainer');
-            container.innerHTML = '';
-
-            const selectedCategory = document.getElementById('categorySelect').value;
-
-            const filteredRecipes = selectedCategory === 'all'
-                ? recipesData
-                : recipesData.filter(recipe => recipe.category === selectedCategory);
-
-            filteredRecipes.forEach(recipe => {
-                const recipeDiv = document.createElement('div');
-                recipeDiv.classList.add('recipe-item');
-
-                // Obtener la traducción de la receta según el idioma actual
-                const translatedRecipe = recipe.translations[currentLanguage];
-
-                // Dividir las instrucciones en pasos numerados
-                const steps = translatedRecipe.instructions.split('. ').filter(step => step.trim() !== '');
-
-                recipeDiv.innerHTML = `
-                    <h3>${getCategoryEmoji(recipe.category)} ${translatedRecipe.name} 🍽️</h3>
-                    <p><strong>🛒 Ingredientes:</strong></p>
-                    <ul class="ingredients-list">
-                        ${translatedRecipe.ingredients.slice(0, 3).map(ingredient => `<li>${ingredient}</li>`).join('')}
-                        <li class="show-more">... Ver más</li>
-                    </ul>
-                `;
-                recipeDiv.querySelector('.show-more').addEventListener('click', () => openRecipeModal(recipe));
-                container.appendChild(recipeDiv);
-            });
-        }
-
-        // Abrir el modal con la receta completa
-        function openRecipeModal(recipe) {
-            const modal = document.getElementById('recipeModal');
-            const closeBtn = modal.querySelector('.close-button');
-            const modalRecipeName = document.getElementById('modalRecipeName');
-            const modalIngredientsList = document.getElementById('modalIngredientsList');
-            const modalInstructionsList = document.getElementById('modalInstructionsList');
-
-            // Obtener la traducción de la receta según el idioma actual
-            const translatedRecipe = recipe.translations[currentLanguage];
-
-            // Dividir las instrucciones en pasos numerados
-            const steps = translatedRecipe.instructions.split('. ').filter(step => step.trim() !== '');
-
-            // Rellenar el modal con los datos de la receta
-            modalRecipeName.innerText = `${getCategoryEmoji(recipe.category)} ${translatedRecipe.name} 🍽️`;
-            modalIngredientsList.innerHTML = translatedRecipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('');
-            modalInstructionsList.innerHTML = steps.map((step, index) => `<li>Paso ${index + 1}: ${step.trim()}</li>`).join('');
-
-            // Mostrar el modal
-            modal.style.display = 'block';
-
-            // Cerrar el modal al hacer clic en la "X"
-            closeBtn.onclick = () => {
-                modal.style.display = 'none';
-            };
-
-            // Cerrar el modal al hacer clic fuera de él
-            window.onclick = event => {
-                if (event.target === modal) {
-                    modal.style.display = 'none';
-                }
-            };
-        }
-
-        // Cargar traducciones y recetas al iniciar
-        window.onload = async () => {
-            await loadTranslations();
-            await loadRecipes();
-        };
-    </script>
+    <script src="scripts.js"></script>
 </body>
 </html>
