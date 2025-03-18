@@ -1824,6 +1824,2897 @@
         ]
       }
     }
-  }
+  },
+  {
+    "id": 12,
+    "category": "Soup",
+    "metadata": {
+      "prepTime": 30,
+      "cookTime": 90,
+      "totalTime": 120,
+      "difficulty": "medium",
+      "servings": 6,
+      "author": "Diva in Bucatarie",
+      "tags": ["Romanian", "Soup", "Meatballs", "Traditional"],
+      "nutrition": {
+        "calories": 350,
+        "protein": 25,
+        "carbs": 35,
+        "fat": 12,
+        "fiber": 4,
+        "sugar": 6,
+        "sodium": 800,
+        "servingSize": "1 bowl"
+      }
+    },
+    "translations": {
+      "ro": {
+        "name": "Ciorbă de perisoare cu smântână",
+        "description": "O supă tradițională românească cu perisoare și smântână, perfectă pentru o masă reconfortantă.",
+        "ingredients": [
+          "500 g carne tocată",
+          "100 g orez",
+          "1 ou",
+          "sare după gust",
+          "piper după gust",
+          "4 linguri de făină",
+          "200 g oase afumate",
+          "3 linguri ulei",
+          "1 ceapă medie",
+          "2 morcovi mici răzuiți",
+          "1 felie de ardei roșu",
+          "1 felie de ardei galben",
+          "1 felie de ardei verde",
+          "1 felie mare de țelină",
+          "1 rădăcină de păstârnac",
+          "2 cartofi mici",
+          "2.5 - 3 l apă",
+          "sucul de la 2 lămâi medii",
+          "1 frunză de dafin",
+          "1 ramură de leuștean proaspăt sau 1 linguriță uscat",
+          "1 lingură Bulgarasi de Savoare Legume",
+          "piper măcinat după gust",
+          "1/2 linguriță piper boabe",
+          "200 ml cremă gastronomică",
+          "100 g smântână groasă",
+          "1 gălbenuș",
+          "1/2 linguriță făină"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Pregătirea oaselor afumate",
+            "text": "Se prăjesc oasele afumate în ulei încins.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 2,
+            "title": "Adăugarea legumelor",
+            "text": "Se adaugă morcovii răzuiți, ceapa și ardeii tăiați cubulețe. Se călesc până când legumele se înmoaie.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 3,
+            "title": "Adăugarea apei și a altor ingrediente",
+            "text": "Se adaugă apa, țelina, păstârnacul, cartofii, frunza de dafin și piperul boabe. Se fierbe la foc mic timp de 20 de minute.",
+            "time": "20 minutes"
+          },
+          {
+            "step": 4,
+            "title": "Pregătirea perisoarelor",
+            "text": "Se amestecă carnea tocată cu orezul, oul, sare și piper. Se formează perisoare și se trec prin făină.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 5,
+            "title": "Adăugarea perisoarelor în ciorbă",
+            "text": "Se adaugă perisoarele în supă și se fierb la foc mediu până când sunt gata. Se adaugă leușteanul.",
+            "time": "30 minutes"
+          },
+          {
+            "step": 6,
+            "title": "Pregătirea cremei de smântână",
+            "text": "Se amestecă smântâna cu gălbenușul și făina, apoi se adaugă câte puțin din supă. Se toarnă amestecul în ciorbă și se lasă să fiarbă încă 2 minute.",
+            "time": "5 minutes"
+          },
+          {
+            "step": 7,
+            "title": "Finalizarea ciorbei",
+            "text": "Se adaugă sucul de lămâie și se amestecă bine. Se oprește focul.",
+            "time": "5 minutes"
+          }
+        ],
+        "tips": [
+          "Pentru un gust mai intens, puteți adăuga un pic de pătrunjel proaspăt la servire.",
+          "Acidificați ciorba cu lămâie până când obțineți gustul dorit."
+        ]
+      },
+      "en": {
+        "name": "Romanian Meatball Soup with Sour Cream",
+        "description": "A traditional Romanian soup with meatballs and sour cream, perfect for a comforting meal.",
+        "ingredients": [
+          "500 g ground meat",
+          "100 g rice",
+          "1 egg",
+          "salt to taste",
+          "pepper to taste",
+          "4 tablespoons flour",
+          "200 g smoked bones",
+          "3 tablespoons oil",
+          "1 medium onion",
+          "2 small grated carrots",
+          "1 slice red pepper",
+          "1 slice yellow pepper",
+          "1 slice green pepper",
+          "1 large celery stalk",
+          "1 small parsnip root",
+          "2 small potatoes",
+          "2.5 - 3 l water",
+          "juice from 2 medium lemons",
+          "1 bay leaf",
+          "1 sprig fresh lovage or 1 teaspoon dried",
+          "1 tablespoon Bulgarasi de Savoare Legume",
+          "ground pepper to taste",
+          "1/2 teaspoon peppercorns",
+          "200 ml cooking cream",
+          "100 g thick sour cream",
+          "1 egg yolk",
+          "1/2 teaspoon flour"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepare the smoked bones",
+            "text": "Fry the smoked bones in hot oil.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 2,
+            "title": "Add the vegetables",
+            "text": "Add the grated carrots, chopped onion, and peppers. Sauté until softened.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 3,
+            "title": "Add water and other ingredients",
+            "text": "Add water, celery, parsnip, potatoes, bay leaf, and peppercorns. Simmer for 20 minutes.",
+            "time": "20 minutes"
+          },
+          {
+            "step": 4,
+            "title": "Prepare the meatballs",
+            "text": "Mix the ground meat with rice, egg, salt, and pepper. Form meatballs and coat them in flour.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 5,
+            "title": "Add meatballs to the soup",
+            "text": "Add the meatballs to the soup and cook over medium heat until they are done. Add the lovage.",
+            "time": "30 minutes"
+          },
+          {
+            "step": 6,
+            "title": "Prepare the sour cream mixture",
+            "text": "Mix the sour cream with egg yolk and flour, then gradually add some of the soup. Pour the mixture into the soup and cook for 2 more minutes.",
+            "time": "5 minutes"
+          },
+          {
+            "step": 7,
+            "title": "Finish the soup",
+            "text": "Add the lemon juice and mix well. Turn off the heat.",
+            "time": "5 minutes"
+          }
+        ],
+        "tips": [
+          "For a more intense flavor, you can add fresh parsley when serving.",
+          "Acidify the soup with lemon until you reach the desired taste."
+        ]
+      },
+      "es": {
+        "name": "Sopa Rumana de Albóndigas con Crema Ácida",
+        "description": "Una sopa tradicional rumana con albóndigas y crema ácida, perfecta para una comida reconfortante.",
+        "ingredients": [
+          "500 g carne molida",
+          "100 g arroz",
+          "1 huevo",
+          "sal al gusto",
+          "pimienta al gusto",
+          "4 cucharadas de harina",
+          "200 g huesos ahumados",
+          "3 cucharadas de aceite",
+          "1 cebolla mediana",
+          "2 zanahorias pequeñas ralladas",
+          "1 rebanada de pimiento rojo",
+          "1 rebanada de pimiento amarillo",
+          "1 rebanada de pimiento verde",
+          "1 rama grande de apio",
+          "1 raíz pequeña de chirivía",
+          "2 papas pequeñas",
+          "2.5 - 3 l de agua",
+          "jugo de 2 limones medianos",
+          "1 hoja de laurel",
+          "1 ramita de lechuga fresca o 1 cucharadita seca",
+          "1 cucharada de Bulgarasi de Savoare Legume",
+          "pimienta molida al gusto",
+          "1/2 cucharadita de pimienta en grano",
+          "200 ml de crema gastronómica",
+          "100 g de crema espesa",
+          "1 yema de huevo",
+          "1/2 cucharadita de harina"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Preparar los huesos ahumados",
+            "text": "Freír los huesos ahumados en aceite caliente.",
+            "time": "10 minutos"
+          },
+          {
+            "step": 2,
+            "title": "Agregar las verduras",
+            "text": "Añadir las zanahorias ralladas, la cebolla y los pimientos cortados en trozos. Sofreír hasta que las verduras se ablanden.",
+            "time": "10 minutos"
+          },
+          {
+            "step": 3,
+            "title": "Añadir agua e ingredientes restantes",
+            "text": "Agregar el agua, el apio, la raíz de chirivía, las papas, la hoja de laurel y la pimienta en grano. Cocinar a fuego lento durante 20 minutos.",
+            "time": "20 minutos"
+          },
+          {
+            "step": 4,
+            "title": "Preparar las albóndigas",
+            "text": "Mezclar la carne molida con arroz, huevo, sal y pimienta. Formar las albóndigas y pasarlas por harina.",
+            "time": "10 minutos"
+          },
+          {
+            "step": 5,
+            "title": "Añadir las albóndigas a la sopa",
+            "text": "Agregar las albóndigas a la sopa y cocer a fuego medio hasta que estén cocidas. Añadir la lechuga.",
+            "time": "30 minutos"
+          },
+          {
+            "step": 6,
+            "title": "Preparar la mezcla de crema",
+            "text": "Mezclar la crema con la yema de huevo y la harina, luego añadir un poco del caldo de la sopa. Incorporar a la sopa y cocinar por 2 minutos más.",
+            "time": "5 minutos"
+          },
+          {
+            "step": 7,
+            "title": "Terminar la sopa",
+            "text": "Agregar el jugo de limón y mezclar bien. Apagar el fuego.",
+            "time": "5 minutos"
+          }
+        ],
+        "tips": [
+          "Para un sabor más intenso, puedes agregar perejil fresco al momento de servir.",
+          "Acidifica la sopa con limón hasta obtener el sabor deseado."
+        ]
+      }
+    }
+  },
+  {
+    "id": 13,
+    "category": "Sopas",
+    "metadata": {
+      "prepTime": 30,
+      "cookTime": 90,
+      "totalTime": 120,
+      "difficulty": "medium",
+      "servings": 6,
+      "author": "Diva in Bucatarie",
+      "tags": ["supa", "gaina", "casera", "tipica", "facioasa"],
+      "nutrition": {
+        "calories": 200,
+        "protein": 25,
+        "carbs": 10,
+        "fat": 7,
+        "fiber": 2,
+        "sugar": 3,
+        "sodium": 350,
+        "servingSize": "1 cana"
+      }
+    },
+    "translations": {
+      "ro": {
+        "name": "Supa de Găină cu Tăiței de Casă",
+        "description": "O supă galben-aurie foarte gustoasă, făcută cu o găină crescută în curte, perfectă pentru prânz.",
+        "ingredients": [
+          "1 găină (de mărime medie)",
+          "4-5 morcovi mari",
+          "1 rădăcină de păstârnac și 1 rădăcină de pătrunjel",
+          "1 felie groasă de țelină",
+          "1 ceapă mare",
+          "1 cățel de usturoi",
+          "1 linguriță de boabe de piper",
+          "sare",
+          "pătrunjel verde pentru servit",
+          "1 ou mare",
+          "100 g de făină",
+          "1 praf de sare"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Fierberea găinii",
+            "text": "Punem găina la fiert în 3-4 litri de apă nesărată (cât să fie acoperită de apă) și o lăsăm să fiarbă timp de aproximativ 15-20 de minute la foc mediu.",
+            "time": "15-20 minute"
+          },
+          {
+            "step": 2,
+            "title": "Adăugarea legumelor",
+            "text": "Adăugăm morcovii, păstârnacul, pătrunjelul, țelina, usturoiul și piperul. Fierbem la foc mic cu capac timp de 1 oră și 30 minute.",
+            "time": "1h 30m"
+          },
+          {
+            "step": 3,
+            "title": "Adăugarea sarii",
+            "text": "Cu 5 minute înainte de a opri focul, adăugăm sare și luam supa de pe foc. O strecurăm pentru a o lăsa limpede.",
+            "time": "5 minute"
+          },
+          {
+            "step": 4,
+            "title": "Pregătirea tăițeilor de casă",
+            "text": "Frământăm făina cu ou și sare pentru a obține un aluat elastic. Lăsăm aluatul să se odihnească, apoi îl întindem și îl tăiem în fâșii subțiri.",
+            "time": "30 minute"
+          },
+          {
+            "step": 5,
+            "title": "Fierberea tăițeilor",
+            "text": "Fierbem doar tăițeii pe care dorim să îi servim. Servim cu pătrunjel verde.",
+            "time": "5-10 minute"
+          }
+        ],
+        "tips": [
+          "Pentru o supă mai limpede, nu lăsați supa să fiarbă prea tare și adunați spuma.",
+          "Folosiți o găină crescută natural pentru un gust mai intens."
+        ]
+      },
+      "en": {
+        "name": "Chicken Soup with Homemade Noodles",
+        "description": "A delicious golden chicken soup made with free-range chicken, perfect for a comforting lunch.",
+        "ingredients": [
+          "1 chicken (medium-sized)",
+          "4-5 large carrots",
+          "1 parsley root and 1 parsnip root",
+          "1 thick slice of celery",
+          "1 large onion",
+          "1 garlic clove",
+          "1 tsp peppercorns",
+          "salt",
+          "fresh parsley for serving",
+          "1 large egg",
+          "100g flour",
+          "1 pinch of salt"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Boil the chicken",
+            "text": "Place the chicken in 3-4 liters of unsalted water and boil for about 15-20 minutes over medium heat.",
+            "time": "15-20 minutes"
+          },
+          {
+            "step": 2,
+            "title": "Add vegetables",
+            "text": "Add the carrots, parsley root, celery, garlic, and peppercorns. Simmer on low heat for 1 hour and 30 minutes.",
+            "time": "1h 30m"
+          },
+          {
+            "step": 3,
+            "title": "Add salt",
+            "text": "Add salt 5 minutes before turning off the heat. Strain the soup to keep it clear.",
+            "time": "5 minutes"
+          },
+          {
+            "step": 4,
+            "title": "Make homemade noodles",
+            "text": "Mix the flour, egg, and salt to form a smooth dough. Let the dough rest, then roll it out and cut into noodles.",
+            "time": "30 minutes"
+          },
+          {
+            "step": 5,
+            "title": "Cook noodles",
+            "text": "Cook only the noodles you plan to serve in the soup. Serve with fresh parsley.",
+            "time": "5-10 minutes"
+          }
+        ],
+        "tips": [
+          "To keep the soup clear, don't let it boil too aggressively and skim off any foam.",
+          "For a richer flavor, use a naturally raised chicken."
+        ]
+      },
+      "es": {
+        "name": "Sopa de Pollo con Fideos Caseros",
+        "description": "Una sopa dorada y deliciosa hecha con pollo criado libremente, perfecta para un almuerzo reconfortante.",
+        "ingredients": [
+          "1 pollo (de tamaño mediano)",
+          "4-5 zanahorias grandes",
+          "1 raíz de perejil y 1 raíz de chirivía",
+          "1 rodaja gruesa de apio",
+          "1 cebolla grande",
+          "1 diente de ajo",
+          "1 cucharadita de pimienta en grano",
+          "sal",
+          "perejil fresco para servir",
+          "1 huevo grande",
+          "100 g de harina",
+          "1 pizca de sal"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Hervir el pollo",
+            "text": "Coloca el pollo en 3-4 litros de agua sin sal y hierve durante unos 15-20 minutos a fuego medio.",
+            "time": "15-20 minutos"
+          },
+          {
+            "step": 2,
+            "title": "Añadir las verduras",
+            "text": "Añadir las zanahorias, raíz de perejil, apio, ajo y pimienta. Cocinar a fuego bajo durante 1 hora y 30 minutos.",
+            "time": "1h 30m"
+          },
+          {
+            "step": 3,
+            "title": "Añadir sal",
+            "text": "Añadir sal 5 minutos antes de apagar el fuego. Colar la sopa para mantenerla clara.",
+            "time": "5 minutos"
+          },
+          {
+            "step": 4,
+            "title": "Preparar los fideos caseros",
+            "text": "Mezcla la harina, el huevo y la sal hasta obtener una masa suave. Deja reposar la masa, luego estírala y córtala en fideos.",
+            "time": "30 minutos"
+          },
+          {
+            "step": 5,
+            "title": "Cocinar los fideos",
+            "text": "Cocina solo los fideos que servirás en la sopa. Sirve con perejil fresco.",
+            "time": "5-10 minutos"
+          }
+        ],
+        "tips": [
+          "Para mantener la sopa clara, no dejes que hierva demasiado y quita la espuma.",
+          "Para un sabor más intenso, usa pollo criado de manera natural."
+        ]
+      }
+    }
+  },
+  {
+    "id": 14,
+    "category": "Sopas",
+    "metadata": {
+      "prepTime": 20,
+      "cookTime": 60,
+      "totalTime": 80,
+      "difficulty": "medium",
+      "servings": 6,
+      "author": "Diva in Bucatarie",
+      "tags": ["sopa", "pollo", "galuste", "gris", "casera"],
+      "nutrition": {
+        "calories": 180,
+        "protein": 25,
+        "carbs": 15,
+        "fat": 7,
+        "fiber": 2,
+        "sugar": 3,
+        "sodium": 350,
+        "servingSize": "1 taza"
+      }
+    },
+    "translations": {
+      "ro": {
+        "name": "Supa de Pui cu Găluște de Gris",
+        "description": "O supă ușoară și savuroasă cu găluște de griș, perfectă pentru o masă reconfortantă.",
+        "ingredients": [
+          "1 pui",
+          "3 morcovi mari",
+          "1 rădăcină de țelină",
+          "1 ceapă mare",
+          "1 cățel de usturoi",
+          "sare",
+          "piper",
+          "patrunjel proaspăt",
+          "2 ouă",
+          "4 linguri de griș",
+          "1 linguriță de ulei"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Pregătirea supelor",
+            "text": "Punem puiul în apă rece cu sare și îl lăsăm să fiarbă. Când începe să fiarbă, adunăm spuma și lăsăm să fiarbă pentru 40-45 de minute.",
+            "time": "40-45 minute"
+          },
+          {
+            "step": 2,
+            "title": "Adăugarea legumelor",
+            "text": "Adăugăm morcovii, țelina, ceapa și usturoiul tocate și continuăm să fierbem la foc mic încă 20 de minute.",
+            "time": "20 minute"
+          },
+          {
+            "step": 3,
+            "title": "Prepararea găluștelor de griș",
+            "text": "Batem ouăle bine, apoi adăugăm grișul și amestecăm până se formează un aluat gros. Lăsăm să se odihnească câteva minute.",
+            "time": "5-10 minute"
+          },
+          {
+            "step": 4,
+            "title": "Formarea găluștelor",
+            "text": "Formăm mici găluște cu mâna și le punem în supă, lăsându-le să fiarbă timp de 10 minute.",
+            "time": "10 minute"
+          },
+          {
+            "step": 5,
+            "title": "Servire",
+            "text": "Se adaugă piper, pătrunjel proaspăt tocat și se servește caldă.",
+            "time": "5 minute"
+          }
+        ],
+        "tips": [
+          "Pentru un gust mai intens, adăugați un strop de ulei de măsline în supă.",
+          "Este important să adunați spuma pentru a obține o supă limpede."
+        ]
+      },
+      "en": {
+        "name": "Chicken Soup with Semolina Dumplings",
+        "description": "A light and flavorful chicken soup with semolina dumplings, perfect for a comforting meal.",
+        "ingredients": [
+          "1 chicken",
+          "3 large carrots",
+          "1 celery root",
+          "1 large onion",
+          "1 garlic clove",
+          "salt",
+          "pepper",
+          "fresh parsley",
+          "2 eggs",
+          "4 tablespoons of semolina",
+          "1 teaspoon of oil"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepare the soup",
+            "text": "Place the chicken in cold salted water and let it boil. Once it starts boiling, skim off the foam and cook for about 40-45 minutes.",
+            "time": "40-45 minutes"
+          },
+          {
+            "step": 2,
+            "title": "Add the vegetables",
+            "text": "Add the chopped carrots, celery, onion, and garlic and continue to simmer on low heat for another 20 minutes.",
+            "time": "20 minutes"
+          },
+          {
+            "step": 3,
+            "title": "Make the semolina dumplings",
+            "text": "Whisk the eggs well, then add the semolina and mix until a thick dough forms. Let it rest for about 5-10 minutes.",
+            "time": "5-10 minutes"
+          },
+          {
+            "step": 4,
+            "title": "Form the dumplings",
+            "text": "Form small dumplings with your hands and drop them into the soup, cooking for about 10 minutes.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 5,
+            "title": "Serve",
+            "text": "Add pepper, fresh chopped parsley, and serve hot.",
+            "time": "5 minutes"
+          }
+        ],
+        "tips": [
+          "For a richer flavor, add a drizzle of olive oil to the soup.",
+          "Make sure to skim off the foam to get a clear broth."
+        ]
+      },
+      "es": {
+        "name": "Sopa de Pollo con Albóndigas de Sémola",
+        "description": "Una sopa ligera y sabrosa de pollo con albóndigas de sémola, perfecta para una comida reconfortante.",
+        "ingredients": [
+          "1 pollo",
+          "3 zanahorias grandes",
+          "1 raíz de apio",
+          "1 cebolla grande",
+          "1 diente de ajo",
+          "sal",
+          "pimienta",
+          "perejil fresco",
+          "2 huevos",
+          "4 cucharadas de sémola",
+          "1 cucharadita de aceite"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Preparar la sopa",
+            "text": "Colocamos el pollo en agua fría con sal y lo dejamos hervir. Cuando comience a hervir, retiramos la espuma y dejamos cocinar durante unos 40-45 minutos.",
+            "time": "40-45 minutos"
+          },
+          {
+            "step": 2,
+            "title": "Añadir las verduras",
+            "text": "Añadimos las zanahorias, el apio, la cebolla y el ajo picados, y cocinamos a fuego lento durante otros 20 minutos.",
+            "time": "20 minutos"
+          },
+          {
+            "step": 3,
+            "title": "Hacer las albóndigas de sémola",
+            "text": "Batimos bien los huevos, luego añadimos la sémola y mezclamos hasta que se forme una masa espesa. Dejamos reposar durante unos 5-10 minutos.",
+            "time": "5-10 minutos"
+          },
+          {
+            "step": 4,
+            "title": "Formar las albóndigas",
+            "text": "Formamos pequeñas albóndigas con las manos y las colocamos en la sopa, dejándolas hervir durante unos 10 minutos.",
+            "time": "10 minutos"
+          },
+          {
+            "step": 5,
+            "title": "Servir",
+            "text": "Añadimos pimienta, perejil fresco picado y servimos caliente.",
+            "time": "5 minutos"
+          }
+        ],
+        "tips": [
+          "Para un sabor más intenso, añade un chorrito de aceite de oliva a la sopa.",
+          "Es importante retirar la espuma para obtener un caldo claro."
+        ]
+      }
+    }
+  },
+  {
+    "id": 15,
+    "category": "Sopas",
+    "metadata": {
+      "prepTime": 30,
+      "cookTime": 90,
+      "totalTime": 120,
+      "difficulty": "medium",
+      "servings": 8,
+      "author": "Diva in Bucatarie",
+      "tags": ["sopa", "pollo", "crema", "tradicional"],
+      "nutrition": {
+        "calories": 220,
+        "protein": 28,
+        "carbs": 10,
+        "fat": 9,
+        "fiber": 2,
+        "sugar": 4,
+        "sodium": 400,
+        "servingSize": "1 taza"
+      }
+    },
+    "translations": {
+      "ro": {
+        "name": "Ciorbă Rădăuțeană",
+        "description": "O ciorbă tradițională de pui, cremoasă și savuroasă, perfectă pentru o masă reconfortantă.",
+        "ingredients": [
+          "1 pui întreg (1.7 kg)",
+          "1 felie groasă de țelină",
+          "1 rădăcină de păstârnac",
+          "1 rădăcină de pătrunjel",
+          "6 morcovi subțiri sau 4 medii",
+          "1 linguriță de boabe de piper",
+          "1 ceapă medie-mare",
+          "4 gălbenușuri",
+          "1 lingură de făină",
+          "400 ml smântână pentru gătit grasă",
+          "1 căpățână de usturoi",
+          "1 lingură vârfuită de sare"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepararea supei",
+            "text": "Punem puiul într-o oală și adăugăm apă rece (3.5l). Aducem la fierbere și adăugăm sare și boabele de piper. Lăsăm să fiarbă 15 minute, apoi îndepărtăm spuma și punem capacul.",
+            "time": "15 minute"
+          },
+          {
+            "step": 2,
+            "title": "Prepararea legumelor",
+            "text": "Curățăm și tăiem morcovii, păstârnacul, pătrunjelul și felia de ardei. Ceapa și țelina le lăsăm întregi și le punem în oală lângă pui. Lăsăm să fiarbă 45 de minute.",
+            "time": "45 minute"
+          },
+          {
+            "step": 3,
+            "title": "Prepararea usturoiului",
+            "text": "Dăm usturoiul prin presă și oparim cu 4 polonice de supă. Acoperim bolul cu o farfurie și lăsăm să se infuzeze.",
+            "time": "5 minute"
+          },
+          {
+            "step": 4,
+            "title": "Prepararea cărnii",
+            "text": "Strecurăm supa și păstrăm legumele pentru o salată. Îndepărtăm oasele și pielea de pe carne, apoi o rupem în fâșii.",
+            "time": "10 minute"
+          },
+          {
+            "step": 5,
+            "title": "Prepararea liezonului",
+            "text": "Amestecăm gălbenușurile cu sare, adăugăm făina și smântâna. Adăugăm câte un polonic de supă până când liezonul ajunge aproape la temperatura supei.",
+            "time": "10 minute"
+          },
+          {
+            "step": 6,
+            "title": "Fierberea cu carne și liezon",
+            "text": "Punem fâșiile de carne în oală și adăugăm lichidul cu usturoi. Adăugăm treptat liezonul, iar apoi lăsăm să fiarbă încă 5 minute.",
+            "time": "5 minute"
+          },
+          {
+            "step": 7,
+            "title": "Servire",
+            "text": "Servim ciorba cu pătrunjel tocat, smântână grasă și o lingură de oțet. Opțional, adăugăm ardei iute.",
+            "time": "5 minute"
+          }
+        ],
+        "tips": [
+          "Pentru un gust mai intens, adăugați mai mult usturoi.",
+          "Asigurați-vă că lipezionul nu se brânzește, adăugând supa treptat."
+        ]
+      },
+      "en": {
+        "name": "Rădăuțean Chicken Soup",
+        "description": "A traditional creamy and savory chicken soup, perfect for a comforting meal.",
+        "ingredients": [
+          "1 whole chicken (1.7 kg)",
+          "1 thick slice of celery",
+          "1 parsley root",
+          "1 parsnip",
+          "6 thin carrots or 4 medium",
+          "1 teaspoon of peppercorns",
+          "1 medium-large onion",
+          "4 egg yolks",
+          "1 tablespoon of flour",
+          "400 ml of heavy cooking cream",
+          "1 head of garlic",
+          "1 tablespoon heaping of salt"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepare the soup",
+            "text": "Place the chicken in a pot with cold water (3.5l). Add salt and peppercorns, and bring to a boil. Let it simmer for 15 minutes, then remove the foam and cover.",
+            "time": "15 minutes"
+          },
+          {
+            "step": 2,
+            "title": "Prepare the vegetables",
+            "text": "Peel and chop the carrots, parsnip, parsley root, and half of the celery slice. Leave the onion and celery whole and add to the pot. Let it cook for 45 minutes.",
+            "time": "45 minutes"
+          },
+          {
+            "step": 3,
+            "title": "Prepare the garlic",
+            "text": "Crush the garlic and blanch with 4 ladles of soup. Cover the bowl and let it infuse.",
+            "time": "5 minutes"
+          },
+          {
+            "step": 4,
+            "title": "Prepare the chicken",
+            "text": "Strain the soup and set the vegetables aside. Remove the bones and skin from the chicken and tear the meat into strips.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 5,
+            "title": "Make the liezon",
+            "text": "Mix the egg yolks with salt, then add flour and cooking cream. Gradually add ladles of soup until the liezon reaches a similar temperature to the soup.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 6,
+            "title": "Combine with the chicken and liezon",
+            "text": "Add the chicken strips back into the pot. Gradually pour in the liezon, and allow to simmer for 5 minutes.",
+            "time": "5 minutes"
+          },
+          {
+            "step": 7,
+            "title": "Serve",
+            "text": "Serve the soup with chopped parsley, heavy cream, and a tablespoon of vinegar. Optionally, add hot peppers.",
+            "time": "5 minutes"
+          }
+        ],
+        "tips": [
+          "For a stronger garlic flavor, add more garlic.",
+          "Ensure the liezon doesn't curdle by adding soup gradually."
+        ]
+      },
+      "es": {
+        "name": "Sopa Rădăuțeană de Pollo",
+        "description": "Una de las sopas tradicionales, cremosa y sabrosa, perfecta para una comida reconfortante.",
+        "ingredients": [
+          "1 pollo entero (1.7 kg)",
+          "1 rodaja gruesa de apio",
+          "1 raíz de perejil",
+          "1 raíz de chirivía",
+          "6 zanahorias delgadas o 4 medianas",
+          "1 cucharadita de granos de pimienta",
+          "1 cebolla mediana-grande",
+          "4 yemas de huevo",
+          "1 cucharada de harina",
+          "400 ml de crema de cocina espesa",
+          "1 cabeza de ajo",
+          "1 cucharada colmada de sal"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Preparar la sopa",
+            "text": "Ponemos el pollo en una olla con agua fría (3.5l), añadimos sal y granos de pimienta, y dejamos hervir durante 15 minutos. Luego retiramos la espuma y cubrimos.",
+            "time": "15 minutos"
+          },
+          {
+            "step": 2,
+            "title": "Preparar las verduras",
+            "text": "Pelar y cortar las zanahorias, chirivía, raíz de perejil y media rodaja de apio. Dejar la cebolla y el apio enteros y añadir a la olla. Cocinar durante 45 minutos.",
+            "time": "45 minutos"
+          },
+          {
+            "step": 3,
+            "title": "Preparar el ajo",
+            "text": "Aplastar el ajo y blanquearlo con 4 cucharones de sopa. Cubrir el bol y dejar infundir.",
+            "time": "5 minutos"
+          },
+          {
+            "step": 4,
+            "title": "Preparar la carne",
+            "text": "Colar la sopa y reservar las verduras. Retirar los huesos y piel del pollo y romper la carne en tiras.",
+            "time": "10 minutos"
+          },
+          {
+            "step": 5,
+            "title": "Preparar el liezon",
+            "text": "Mezclar las yemas de huevo con sal, añadir harina y crema de cocina. Agregar gradualmente cucharones de sopa hasta que el liezon tenga la misma temperatura que la sopa.",
+            "time": "10 minutos"
+          },
+          {
+            "step": 6,
+            "title": "Combinar con la carne y el liezon",
+            "text": "Añadir las tiras de carne a la olla y verter gradualmente el liezon. Cocinar a fuego lento durante 5 minutos.",
+            "time": "5 minutos"
+          },
+          {
+            "step": 7,
+            "title": "Servir",
+            "text": "Servir la sopa con perejil picado, crema espesa y una cucharada de vinagre. Opcionalmente, añadir ají picante.",
+            "time": "5 minutos"
+          }
+        ],
+        "tips": [
+          "Para un sabor más fuerte a ajo, añade más ajo.",
+          "Asegúrate de que el liezon no se corte agregando la sopa poco a poco."
+        ]
+      }
+    }
+  },
+  {
+    "id": 16,
+    "category": "Sopas",
+    "metadata": {
+      "prepTime": 20,
+      "cookTime": 120,
+      "totalTime": 140,
+      "difficulty": "medium",
+      "servings": 6,
+      "author": "Diva in Bucatarie",
+      "tags": ["sopa", "cordero", "tradicional", "árdelena"],
+      "nutrition": {
+        "calories": 250,
+        "protein": 35,
+        "carbs": 10,
+        "fat": 12,
+        "fiber": 3,
+        "sugar": 5,
+        "sodium": 500,
+        "servingSize": "1 taza"
+      }
+    },
+    "translations": {
+      "ro": {
+        "name": "Ciorbă Ardeleană de Miel",
+        "description": "O ciorbă tradițională din Ardeal, gustoasă și plină de arome, cu carne de miel, smântână și leuștean.",
+        "ingredients": [
+          "capul și bucăți de carne de miel",
+          "3 morcovi",
+          "1 pătrunjel",
+          "1 țelină",
+          "1 ceapă albă",
+          "2 cepe verzi",
+          "1 cățel de usturoi",
+          "300 ml smântână pentru gătit",
+          "3 gălbenușuri",
+          "2 linguri ulei",
+          "3 linguri orez",
+          "3 linguri oțet pentru oparit",
+          "1 lingură oțet/zeamă de lămâie/borș",
+          "1 lingură făină",
+          "sare",
+          "piper boabe",
+          "1 frunză dafin",
+          "frunze de leuștean"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepararea cărnii",
+            "text": "Spălăm și curățăm carnea. O opărim în apă cu oțet, apoi aruncăm apa și punem carnea la fiert în apă rece cu sare, acoperind-o.",
+            "time": "20 minute"
+          },
+          {
+            "step": 2,
+            "title": "Prepararea legumelor",
+            "text": "Tăiem legumele mărunt și le călim în ulei. Le adăugăm în oală împreună cu usturoiul, frunza de dafin și boabele de piper.",
+            "time": "30 minute"
+          },
+          {
+            "step": 3,
+            "title": "Gătirea orezului",
+            "text": "Fierbem orezul separat și îl adăugăm în oală odată ce carnea este fiartă.",
+            "time": "15 minute"
+          },
+          {
+            "step": 4,
+            "title": "Pregătirea dressingului",
+            "text": "Amestecăm gălbenușurile, smântâna, făina și diluăm cu 4-5 polonice de zeamă fierbinte. Adăugăm în oală treptat.",
+            "time": "10 minute"
+          },
+          {
+            "step": 5,
+            "title": "Fierberea finală",
+            "text": "Lăsăm să fiarbă câteva clocote, adăugăm oțet după gust și ajustăm sarea.",
+            "time": "10 minute"
+          }
+        ],
+        "tips": [
+          "Dacă doriți o ciorbă mai acrișoară, adăugați mai mult borș sau zeamă de lămâie.",
+          "Este esențial să adăugați dressingul treptat pentru a preveni brânzirea."
+        ]
+      },
+      "en": {
+        "name": "Transylvanian Lamb Soup",
+        "description": "A traditional Transylvanian soup, rich in flavor, made with lamb, sour cream, and tarragon.",
+        "ingredients": [
+          "head and pieces of lamb meat",
+          "3 carrots",
+          "1 parsley root",
+          "1 celery root",
+          "1 white onion",
+          "2 green onions",
+          "1 garlic clove",
+          "300 ml cooking cream",
+          "3 egg yolks",
+          "2 tablespoons oil",
+          "3 tablespoons rice",
+          "3 tablespoons vinegar (for blanching)",
+          "1 tablespoon vinegar/lemon juice/borscht",
+          "1 tablespoon flour",
+          "salt",
+          "peppercorns",
+          "1 bay leaf",
+          "tarragon leaves"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepare the meat",
+            "text": "Wash and clean the meat. Blanch it in water with vinegar, discard the water, and cook the meat in cold water with salt, covering it.",
+            "time": "20 minutes"
+          },
+          {
+            "step": 2,
+            "title": "Prepare the vegetables",
+            "text": "Chop the vegetables finely and sauté them in oil. Add them to the pot along with garlic, bay leaf, and peppercorns.",
+            "time": "30 minutes"
+          },
+          {
+            "step": 3,
+            "title": "Cook the rice",
+            "text": "Cook the rice separately and add it to the pot once the meat is cooked.",
+            "time": "15 minutes"
+          },
+          {
+            "step": 4,
+            "title": "Prepare the dressing",
+            "text": "Mix the egg yolks, sour cream, and flour, then dilute with 4-5 ladles of hot broth. Gradually add it to the pot.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 5,
+            "title": "Final cooking",
+            "text": "Let it simmer for a few more minutes, add vinegar to taste, and adjust the salt.",
+            "time": "10 minutes"
+          }
+        ],
+        "tips": [
+          "If you want a more tangy soup, add more borscht or lemon juice.",
+          "It is essential to add the dressing gradually to prevent curdling."
+        ]
+      },
+      "es": {
+        "name": "Sopa Transilvana de Cordero",
+        "description": "Una sopa tradicional de Transilvania, rica en sabor, hecha con cordero, crema agria y estragón.",
+        "ingredients": [
+          "cabeza y piezas de carne de cordero",
+          "3 zanahorias",
+          "1 raíz de perejil",
+          "1 raíz de apio",
+          "1 cebolla blanca",
+          "2 cebollas verdes",
+          "1 diente de ajo",
+          "300 ml de crema para cocinar",
+          "3 yemas de huevo",
+          "2 cucharadas de aceite",
+          "3 cucharadas de arroz",
+          "3 cucharadas de vinagre (para blanquear)",
+          "1 cucharada de vinagre/jugo de limón/borș",
+          "1 cucharada de harina",
+          "sal",
+          "pimienta en grano",
+          "1 hoja de laurel",
+          "hojas de estragón"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Preparar la carne",
+            "text": "Lavar y limpiar la carne. Blanquearla en agua con vinagre, desechar el agua y cocinarla en agua fría con sal, cubriéndola.",
+            "time": "20 minutos"
+          },
+          {
+            "step": 2,
+            "title": "Preparar las verduras",
+            "text": "Cortar las verduras finamente y sofreírlas en aceite. Añadirlas a la olla junto con el ajo, la hoja de laurel y los granos de pimienta.",
+            "time": "30 minutos"
+          },
+          {
+            "step": 3,
+            "title": "Cocinar el arroz",
+            "text": "Cocinar el arroz por separado y añadirlo a la olla una vez que la carne esté cocida.",
+            "time": "15 minutos"
+          },
+          {
+            "step": 4,
+            "title": "Preparar el aderezo",
+            "text": "Mezclar las yemas de huevo, la crema agria y la harina, luego diluir con 4-5 cucharones de caldo caliente. Añadirlo gradualmente a la olla.",
+            "time": "10 minutos"
+          },
+          {
+            "step": 5,
+            "title": "Cocción final",
+            "text": "Dejar hervir por unos minutos más, añadir vinagre al gusto y ajustar la sal.",
+            "time": "10 minutos"
+          }
+        ],
+        "tips": [
+          "Si deseas una sopa más ácida, agrega más borș o jugo de limón.",
+          "Es esencial añadir el aderezo gradualmente para evitar que se corte."
+        ]
+      }
+    }
+  },
+  {
+    "id": 17,
+    "category": "Carnes",
+    "metadata": {
+      "prepTime": 5,
+      "cookTime": 40,
+      "totalTime": 45,
+      "difficulty": "easy",
+      "servings": 4,
+      "author": "Diva in Bucatarie",
+      "tags": ["pollo", "tradicional", "frito", "rural"],
+      "nutrition": {
+        "calories": 350,
+        "protein": 40,
+        "carbs": 5,
+        "fat": 20,
+        "fiber": 1,
+        "sugar": 2,
+        "sodium": 600,
+        "servingSize": "1 pieza"
+      }
+    },
+    "translations": {
+      "ro": {
+        "name": "Pui întreg la ceaun",
+        "description": "O rețetă simplă și gustoasă de pui prăjit, crocant pe exterior și fraged în interior, preparat într-un ceaun.",
+        "ingredients": [
+          "1 pui (1.7-1.8 kg)",
+          "sare",
+          "piper",
+          "boia dulce de ardei",
+          "4 linguri untură",
+          "aproape 2 l ulei"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Pregătirea puiului",
+            "text": "Curățați puiul de măruntaie, spălați-l bine la interior și ardeți-l pentru a îndepărta puful. Asezonați-l cu sare, piper și boia pe toate părțile.",
+            "time": "5 minute"
+          },
+          {
+            "step": 2,
+            "title": "Fried in the pot",
+            "text": "Într-un ceaun, puneți untura și măsurați uleiul, apoi încălziți-le. Adăugați o linguriță de sare, și când grăsimea este încinsă, puneți puiul în ceaun și prăjiți-l timp de 30-40 de minute, până devine auriu și crocant.",
+            "time": "30-40 minute"
+          }
+        ],
+        "tips": [
+          "Puiul prăjit în untură are un gust mult mai bun, comparativ cu uleiul.",
+          "Pentru o crocănțeală mai mare, puteți pune un capac pe ceaun în timpul prăjirii."
+        ]
+      },
+      "en": {
+        "name": "Whole Chicken in a Pot",
+        "description": "A simple and delicious fried chicken recipe, crispy on the outside and tender inside, cooked in a pot.",
+        "ingredients": [
+          "1 whole chicken (1.7-1.8 kg)",
+          "salt",
+          "pepper",
+          "sweet paprika",
+          "4 tablespoons lard",
+          "about 2 liters of oil"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepare the chicken",
+            "text": "Clean the chicken, wash it well inside, and burn off any feathers. Season it with salt, pepper, and paprika on all sides.",
+            "time": "5 minutes"
+          },
+          {
+            "step": 2,
+            "title": "Fry the chicken",
+            "text": "In a pot, place the lard and measure the oil, then heat them up. Add a teaspoon of salt, and once the fat is hot, place the chicken in the pot and fry it for 30-40 minutes until golden and crispy.",
+            "time": "30-40 minutes"
+          }
+        ],
+        "tips": [
+          "Frying the chicken in lard gives it a much better taste compared to oil.",
+          "For extra crispiness, you can cover the pot while frying."
+        ]
+      },
+      "es": {
+        "name": "Pollo entero en cazuela",
+        "description": "Una receta simple y deliciosa de pollo frito, crujiente por fuera y tierno por dentro, cocinado en una cazuela.",
+        "ingredients": [
+          "1 pollo entero (1.7-1.8 kg)",
+          "sal",
+          "pimienta",
+          "pimentón dulce",
+          "4 cucharadas de manteca de cerdo",
+          "aproximadamente 2 litros de aceite"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Preparar el pollo",
+            "text": "Limpie el pollo, lávelo bien por dentro y queme las plumas. Sazónelo con sal, pimienta y pimentón por todos los lados.",
+            "time": "5 minutos"
+          },
+          {
+            "step": 2,
+            "title": "Freír el pollo",
+            "text": "En una cazuela, ponga la manteca de cerdo y mida el aceite, luego caliéntelos. Agregue una cucharadita de sal, y cuando la grasa esté caliente, coloque el pollo en la cazuela y fríalo durante 30-40 minutos hasta que esté dorado y crujiente.",
+            "time": "30-40 minutos"
+          }
+        ],
+        "tips": [
+          "Freír el pollo en manteca de cerdo le da un sabor mucho mejor que el aceite.",
+          "Para mayor crocancia, puede cubrir la cazuela mientras fríe."
+        ]
+      }
+    }
+  },
+  {
+    "id": 18,
+    "category": "Carnes",
+    "metadata": {
+      "prepTime": 15,
+      "cookTime": 60,
+      "totalTime": 75,
+      "difficulty": "medium",
+      "servings": 4,
+      "author": "Diva in Bucatarie",
+      "tags": ["cerdo", "tradicional", "salsa", "moldavo"],
+      "nutrition": {
+        "calories": 650,
+        "protein": 40,
+        "carbs": 20,
+        "fat": 45,
+        "fiber": 2,
+        "sugar": 5,
+        "sodium": 800,
+        "servingSize": "1 porción"
+      }
+    },
+    "translations": {
+      "ro": {
+        "name": "Tochitura moldovenească",
+        "description": "O rețetă tradițională moldovenească de tochitură de porc, cu sos de roșii, servită cu mămăligă și ouă ochiuri.",
+        "ingredients": [
+          "700 g cotlet de porc",
+          "300 g piept de porc",
+          "300 g cârnați afumați",
+          "2 linguri untură",
+          "3 linguri ulei",
+          "300 ml apă",
+          "200 ml vin alb",
+          "4 căței de usturoi",
+          "1 lingură pastă de tomate",
+          "3 linguri suc de roșii gros",
+          "1/4 linguriță cimbru",
+          "1 frunză dafin",
+          "boia dulce de ardei",
+          "sare",
+          "4-5 boabe de piper",
+          "piper"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepararea cărnii",
+            "text": "Se pune untura și uleiul într-o tigaie sau tuci și se prăjesc cotletul și pieptul de porc până se albesc uniform.",
+            "time": "10 minute"
+          },
+          {
+            "step": 2,
+            "title": "Adăugarea ingredientelor",
+            "text": "Adăugați apă, frunza de dafin, cimbru, piper și usturoiul pisat. Lăsați la foc mic timp de 10 minute, apoi îndepărtați capacul și lăsați să se evapore lichidul.",
+            "time": "15 minute"
+          },
+          {
+            "step": 3,
+            "title": "Prăjirea cârnaților",
+            "text": "Când carnea este bine gătită, adăugați cârnații și lăsați-i să se prăjească. După aceea, adăugați vinul alb, pasta de tomate și sucul de roșii.",
+            "time": "15 minute"
+          },
+          {
+            "step": 4,
+            "title": "Finalizarea sosului",
+            "text": "Lăsați sosul să se evapore la foc mic, ajustând gustul cu sare, piper și zahăr, dacă este necesar.",
+            "time": "15 minute"
+          }
+        ],
+        "tips": [
+          "Pentru un gust mai intens, adăugați câțiva căței de usturoi suplimentari.",
+          "Serviți cu mămăligă fierbinte și brânză rasă, alături de un ou ochi."
+        ]
+      },
+      "en": {
+        "name": "Moldavian Tochitura",
+        "description": "A traditional Moldavian recipe for pork stew, with tomato sauce, served with polenta and fried eggs.",
+        "ingredients": [
+          "700 g pork chops",
+          "300 g pork breast",
+          "300 g smoked sausages",
+          "2 tablespoons lard",
+          "3 tablespoons oil",
+          "300 ml water",
+          "200 ml white wine",
+          "4 garlic cloves",
+          "1 tablespoon tomato paste",
+          "3 tablespoons thick tomato juice",
+          "1/4 teaspoon thyme",
+          "1 bay leaf",
+          "sweet paprika",
+          "salt",
+          "4-5 black peppercorns",
+          "pepper"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Preparing the meat",
+            "text": "Heat the lard and oil in a pan or pot, then fry the pork chops and breast until they turn white.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 2,
+            "title": "Adding ingredients",
+            "text": "Add water, bay leaf, thyme, pepper, and crushed garlic. Let simmer for 10 minutes, then remove the lid and allow the liquid to evaporate.",
+            "time": "15 minutes"
+          },
+          {
+            "step": 3,
+            "title": "Frying the sausages",
+            "text": "Once the meat is cooked, add the sausages and fry them. Then, add the white wine, tomato paste, and tomato juice.",
+            "time": "15 minutes"
+          },
+          {
+            "step": 4,
+            "title": "Finishing the sauce",
+            "text": "Let the sauce evaporate over low heat, adjusting the taste with salt, pepper, and sugar if necessary.",
+            "time": "15 minutes"
+          }
+        ],
+        "tips": [
+          "For a more intense flavor, add a few extra garlic cloves.",
+          "Serve with hot polenta, grated cheese, and a fried egg."
+        ]
+      },
+      "es": {
+        "name": "Tochitura moldava",
+        "description": "Una receta tradicional moldava de estofado de cerdo con salsa de tomate, servido con mămăligă y huevos fritos.",
+        "ingredients": [
+          "700 g de chuletas de cerdo",
+          "300 g de pechuga de cerdo",
+          "300 g de salchichones ahumados",
+          "2 cucharadas de manteca de cerdo",
+          "3 cucharadas de aceite",
+          "300 ml de agua",
+          "200 ml de vino blanco",
+          "4 dientes de ajo",
+          "1 cucharada de pasta de tomate",
+          "3 cucharadas de jugo de tomate espeso",
+          "1/4 cucharadita de tomillo",
+          "1 hoja de laurel",
+          "pimentón dulce",
+          "sal",
+          "4-5 granos de pimienta",
+          "pimienta"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Preparación de la carne",
+            "text": "Calienta la manteca y el aceite en una sartén o cazuela, luego fríe las chuletas y la pechuga de cerdo hasta que se vuelvan blancas.",
+            "time": "10 minutos"
+          },
+          {
+            "step": 2,
+            "title": "Añadir los ingredientes",
+            "text": "Agrega agua, la hoja de laurel, tomillo, pimienta y ajo triturado. Deja hervir a fuego lento durante 10 minutos, luego retira la tapa y deja que se evapore el líquido.",
+            "time": "15 minutos"
+          },
+          {
+            "step": 3,
+            "title": "Freír las salchichas",
+            "text": "Cuando la carne esté cocida, añade las salchichas y fríelas. Luego, agrega el vino blanco, la pasta de tomate y el jugo de tomate.",
+            "time": "15 minutos"
+          },
+          {
+            "step": 4,
+            "title": "Terminar la salsa",
+            "text": "Deja que la salsa se evapore a fuego lento, ajustando el sabor con sal, pimienta y azúcar si es necesario.",
+            "time": "15 minutos"
+          }
+        ],
+        "tips": [
+          "Para un sabor más intenso, agrega algunos dientes de ajo adicionales.",
+          "Sirve con mămăligă caliente, queso rallado y un huevo frito."
+        ]
+      }
+    }
+  },
+  {
+    "id": 19,
+    "category": "Carnes",
+    "metadata": {
+      "prepTime": 20,
+      "cookTime": 90,
+      "totalTime": 110,
+      "difficulty": "medium",
+      "servings": 4,
+      "author": "Diva in Bucatarie",
+      "tags": ["cerdo", "col", "moldavo", "horno"],
+      "nutrition": {
+        "calories": 550,
+        "protein": 35,
+        "carbs": 25,
+        "fat": 35,
+        "fiber": 5,
+        "sugar": 8,
+        "sodium": 750,
+        "servingSize": "1 porción"
+      }
+    },
+    "translations": {
+      "ro": {
+        "name": "Varza a la Cluj",
+        "description": "O rețetă tradițională moldovenească, cu varză murată, carne tocată, orez și sos de roșii, gătită la cuptor.",
+        "ingredients": [
+          "700 g carne tocată de porc",
+          "1 ceapă medie",
+          "2 verze murate mici-medii",
+          "100 g orez",
+          "ulei de măsline",
+          "200 g smântână",
+          "1 foaie de dafin",
+          "1/4 linguriță de cimbru",
+          "1 praf de piper",
+          "sare",
+          "3-4 linguri suc de roșii",
+          "2 roșii mari"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepararea varzei",
+            "text": "Se spală varza murată în mai multe ape, apoi se taie fideluță, îndepărtând nervurile groase. Se călește în 4 linguri de ulei de măsline, adăugând apă și foaia de dafin, gătindu-se la foc mic sau la cuptor timp de 1 oră.",
+            "time": "10 minute pe foc + 50 minute la cuptor"
+          },
+          {
+            "step": 2,
+            "title": "Prepararea orezului",
+            "text": "Se călește orezul în 3 linguri de ulei de măsline, apoi se adaugă 1/2 litru de apă fierbinte și se lasă la cuptor să fiarbă timp de 15-20 minute.",
+            "time": "20 minute"
+          },
+          {
+            "step": 3,
+            "title": "Prepararea cărnii",
+            "text": "Se călește ceapa tăiată mărunt în 4-5 linguri de ulei de măsline, apoi se adaugă carnea tocată și se perpelește la foc mic timp de 30 de minute. Se adaugă sare, piper și cimbru.",
+            "time": "30 minute"
+          },
+          {
+            "step": 4,
+            "title": "Asamblarea",
+            "text": "Se amestecă carnea cu orezul. Într-un vas termorezistent, se pune un strat subțire de varză, urmat de un strat de carne, și astfel până se termină ingredientele. Se acoperă cu sos de roșii și se decorează cu roșii feliate. Se dă la cuptor pentru încă 15-20 de minute.",
+            "time": "20 minute"
+          }
+        ],
+        "tips": [
+          "Serviți cu smântână proaspătă și mămăligă caldă.",
+          "Pentru un gust mai intens, adăugați câteva linguri de vin alb în sosul de roșii."
+        ]
+      },
+      "en": {
+        "name": "Varza a la Cluj",
+        "description": "A traditional Moldavian recipe made with sauerkraut, ground meat, rice, and tomato sauce, baked in the oven.",
+        "ingredients": [
+          "700 g ground pork",
+          "1 medium onion",
+          "2 small-medium sauerkraut cabbages",
+          "100 g rice",
+          "olive oil",
+          "200 g sour cream",
+          "1 bay leaf",
+          "1/4 teaspoon thyme",
+          "pinch of pepper",
+          "salt",
+          "3-4 tablespoons tomato juice",
+          "2 large tomatoes"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepare the cabbage",
+            "text": "Wash the sauerkraut in several changes of water, then cut it into thin strips, removing the thick veins. Sauté in 4 tablespoons of olive oil, adding water and the bay leaf, cooking over low heat or in the oven for 1 hour.",
+            "time": "10 minutes on the stove + 50 minutes in the oven"
+          },
+          {
+            "step": 2,
+            "title": "Prepare the rice",
+            "text": "Sauté the rice in 3 tablespoons of olive oil, then add 1/2 liter of hot water and bake it for 15-20 minutes.",
+            "time": "20 minutes"
+          },
+          {
+            "step": 3,
+            "title": "Prepare the meat",
+            "text": "Sauté the finely chopped onion in 4-5 tablespoons of olive oil, then add the ground meat and cook on low heat for 30 minutes. Season with salt, pepper, and thyme.",
+            "time": "30 minutes"
+          },
+          {
+            "step": 4,
+            "title": "Assemble the dish",
+            "text": "Mix the meat with the rice. In a baking dish, place a thin layer of cabbage, followed by a layer of meat, and repeat until all ingredients are used. Cover with tomato sauce and garnish with sliced tomatoes. Bake for another 15-20 minutes.",
+            "time": "20 minutes"
+          }
+        ],
+        "tips": [
+          "Serve with fresh sour cream and warm polenta.",
+          "For a more intense flavor, add a few tablespoons of white wine to the tomato sauce."
+        ]
+      },
+      "es": {
+        "name": "Varza a la Cluj",
+        "description": "Una receta tradicional moldava hecha con col agria, carne molida, arroz y salsa de tomate, horneada en el horno.",
+        "ingredients": [
+          "700 g de carne de cerdo molida",
+          "1 cebolla mediana",
+          "2 coles agrias pequeñas-medias",
+          "100 g de arroz",
+          "aceite de oliva",
+          "200 g de crema agria",
+          "1 hoja de laurel",
+          "1/4 cucharadita de tomillo",
+          "pimienta",
+          "sal",
+          "3-4 cucharadas de jugo de tomate",
+          "2 tomates grandes"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Preparar la col",
+            "text": "Lave la col agria en varias aguas, luego córtela en tiras finas, eliminando las venas gruesas. Sofría en 4 cucharadas de aceite de oliva, añadiendo agua y la hoja de laurel, cocinándola a fuego lento o en el horno durante 1 hora.",
+            "time": "10 minutos en la estufa + 50 minutos en el horno"
+          },
+          {
+            "step": 2,
+            "title": "Preparar el arroz",
+            "text": "Sofría el arroz en 3 cucharadas de aceite de oliva, luego agregue 1/2 litro de agua caliente y hornee durante 15-20 minutos.",
+            "time": "20 minutos"
+          },
+          {
+            "step": 3,
+            "title": "Preparar la carne",
+            "text": "Sofría la cebolla finamente picada en 4-5 cucharadas de aceite de oliva, luego agregue la carne molida y cocine a fuego lento durante 30 minutos. Sazone con sal, pimienta y tomillo.",
+            "time": "30 minutos"
+          },
+          {
+            "step": 4,
+            "title": "Montar el plato",
+            "text": "Mezcle la carne con el arroz. En una fuente para hornear, coloque una capa delgada de col, seguida de una capa de carne, y repita hasta que se terminen los ingredientes. Cubra con salsa de tomate y decore con rodajas de tomate. Hornee durante otros 15-20 minutos.",
+            "time": "20 minutos"
+          }
+        ],
+        "tips": [
+          "Sirva con crema agria fresca y polenta caliente.",
+          "Para un sabor más intenso, agregue algunas cucharadas de vino blanco a la salsa de tomate."
+        ]
+      }
+    }
+  },
+  {
+    "id": 20,
+    "category": "Carnes",
+    "metadata": {
+      "prepTime": 30,
+      "cookTime": 120,
+      "totalTime": 150,
+      "difficulty": "medium",
+      "servings": 6,
+      "author": "Diva in Bucatarie",
+      "tags": ["carne de vițel", "tocăniță", "vin", "ciuperci"],
+      "nutrition": {
+        "calories": 400,
+        "protein": 45,
+        "carbs": 20,
+        "fat": 15,
+        "fiber": 3,
+        "sugar": 6,
+        "sodium": 600,
+        "servingSize": "1 porción"
+      }
+    },
+    "translations": {
+      "ro": {
+        "name": "Tocăniță de vițel",
+        "description": "O tocăniță savuroasă, gătită lent, cu carne de vițel, legume, ciuperci și vin, perfectă pentru o masă de familie.",
+        "ingredients": [
+          "500 g carne de vițel",
+          "2 linguri de făină",
+          "2 linguri de ulei de palmier",
+          "2 linguri de unt",
+          "1 ceapă medie",
+          "100 g arpagic",
+          "1 morcov mic",
+          "1 tulpină mică de țelină",
+          "1 linguriță de muștar",
+          "3 căței de usturoi",
+          "1 praf de boia dulce",
+          "200 g ciuperci champignon",
+          "200 ml supă de vită",
+          "150 ml vin",
+          "1 cană de suc de roșii",
+          "2 linguri pastă de roșii",
+          "1 lingură (vârfuită) de creme fraiche (sau smântână pentru gătit)",
+          "1/2 linguriță de cimbru",
+          "1-2 frunze de dafin",
+          "boabe de piper",
+          "sare"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepararea cărnii",
+            "text": "Tăvălim carnea tăiată cubulețe în făină, apoi o călim pe ambele părți în ulei și unt până își schimbă culoarea.",
+            "time": "10 minute"
+          },
+          {
+            "step": 2,
+            "title": "Prepararea legumelor",
+            "text": "Scoatem carnea și călim morcovul ras, ceapa tocată mărunt, arpagicul și țelina tăiată. Adăugăm muștarul, usturoiul pisat și un praf de boia dulce. Continuăm să călim amestecând continuu.",
+            "time": "5 minute"
+          },
+          {
+            "step": 3,
+            "title": "Adăugarea lichidelor",
+            "text": "Punem carnea înapoi în tigaie, adăugăm supa, vinul, sucul de roșii, pasta de roșii, frunzele de dafin, cimbrul și boabele de piper. Lăsăm să fiarbă la foc mic.",
+            "time": "2 minute"
+          },
+          {
+            "step": 4,
+            "title": "Gătirea la cuptor",
+            "text": "Transferăm tocănița într-un vas de fontă sau yena, o acoperim și o punem la cuptor la 160°C timp de 1 oră, apoi la 180°C pentru încă 30-45 de minute. Adăugăm ciupercile și lăsăm să se evapore lichidul.",
+            "time": "90 minute"
+          },
+          {
+            "step": 5,
+            "title": "Finalizarea preparatului",
+            "text": "Adăugăm creme fraiche și sare după gust. Preparăm pastele și le servim cu tocănița.",
+            "time": "10 minute"
+          }
+        ],
+        "tips": [
+          "Pentru un gust mai intens, adăugați câteva linguri de vin roșu.",
+          "Serviți cu mămăligă sau pâine proaspătă."
+        ]
+      },
+      "en": {
+        "name": "Veal Stew",
+        "description": "A flavorful, slow-cooked stew made with veal, vegetables, mushrooms, and wine, perfect for a family meal.",
+        "ingredients": [
+          "500 g veal",
+          "2 tablespoons flour",
+          "2 tablespoons palm oil",
+          "2 tablespoons butter",
+          "1 medium onion",
+          "100 g spring onion",
+          "1 small carrot",
+          "1 small celery stalk",
+          "1 teaspoon mustard",
+          "3 garlic cloves",
+          "pinch of sweet paprika",
+          "200 g champignon mushrooms",
+          "200 ml beef broth",
+          "150 ml wine",
+          "1 cup tomato juice",
+          "2 tablespoons tomato paste",
+          "1 tablespoon (heaping) crème fraiche (or cooking cream)",
+          "1/2 teaspoon thyme",
+          "1-2 bay leaves",
+          "black peppercorns",
+          "salt"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepare the meat",
+            "text": "Toss the veal cubes in flour and brown them on both sides in oil and butter until they change color.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 2,
+            "title": "Prepare the vegetables",
+            "text": "Remove the veal and sauté the grated carrot, chopped onion, spring onion, and chopped celery. Add mustard, crushed garlic, and a pinch of sweet paprika. Sauté, stirring constantly.",
+            "time": "5 minutes"
+          },
+          {
+            "step": 3,
+            "title": "Add the liquids",
+            "text": "Return the veal to the pan, add broth, wine, tomato juice, tomato paste, bay leaves, thyme, and peppercorns. Let it simmer.",
+            "time": "2 minutes"
+          },
+          {
+            "step": 4,
+            "title": "Bake",
+            "text": "Transfer the stew to a casserole dish, cover it, and bake at 160°C for 1 hour, then increase the temperature to 180°C and bake for another 30-45 minutes. Add the mushrooms and let it cook until the sauce thickens.",
+            "time": "90 minutes"
+          },
+          {
+            "step": 5,
+            "title": "Finish the dish",
+            "text": "Add crème fraiche and salt to taste. Serve the stew with pasta.",
+            "time": "10 minutes"
+          }
+        ],
+        "tips": [
+          "For a more intense flavor, add a few tablespoons of red wine.",
+          "Serve with polenta or fresh bread."
+        ]
+      },
+      "es": {
+        "name": "Estofado de ternera",
+        "description": "Un delicioso estofado cocido lentamente con ternera, verduras, champiñones y vino, ideal para una comida familiar.",
+        "ingredients": [
+          "500 g de ternera",
+          "2 cucharadas de harina",
+          "2 cucharadas de aceite de palma",
+          "2 cucharadas de mantequilla",
+          "1 cebolla mediana",
+          "100 g de cebollino",
+          "1 zanahoria pequeña",
+          "1 tallo pequeño de apio",
+          "1 cucharadita de mostaza",
+          "3 dientes de ajo",
+          "pizca de pimentón dulce",
+          "200 g de champiñones",
+          "200 ml de caldo de carne",
+          "150 ml de vino",
+          "1 taza de jugo de tomate",
+          "2 cucharadas de pasta de tomate",
+          "1 cucharada (colmada) de crema fresca (o crema de cocinar)",
+          "1/2 cucharadita de tomillo",
+          "1-2 hojas de laurel",
+          "granos de pimienta",
+          "sal"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Preparar la carne",
+            "text": "Reboza los cubos de ternera en harina y dóralos por ambos lados en aceite y mantequilla hasta que cambien de color.",
+            "time": "10 minutos"
+          },
+          {
+            "step": 2,
+            "title": "Preparar las verduras",
+            "text": "Saca la carne y sofríe la zanahoria rallada, la cebolla picada, el cebollino y el apio picado. Añade la mostaza, el ajo triturado y una pizca de pimentón dulce. Sofríe, revolviendo constantemente.",
+            "time": "5 minutos"
+          },
+          {
+            "step": 3,
+            "title": "Añadir los líquidos",
+            "text": "Vuelve a poner la carne en la sartén, agrega el caldo, el vino, el jugo de tomate, la pasta de tomate, las hojas de laurel, el tomillo y los granos de pimienta. Deja cocinar a fuego lento.",
+            "time": "2 minutos"
+          },
+          {
+            "step": 4,
+            "title": "Hornear",
+            "text": "Transfiere el estofado a una cazuela, cúbrelo y hornea a 160°C durante 1 hora, luego aumenta la temperatura a 180°C y hornea durante 30-45 minutos más. Añade los champiñones y deja cocinar hasta que la salsa espese.",
+            "time": "90 minutos"
+          },
+          {
+            "step": 5,
+            "title": "Finalizar el plato",
+            "text": "Añade la crema fresca y sal al gusto. Sirve el estofado con pasta.",
+            "time": "10 minutos"
+          }
+        ],
+        "tips": [
+          "Para un sabor más intenso, agrega unas cucharadas de vino tinto.",
+          "Sirve con polenta o pan fresco."
+        ]
+      }
+    }
+  },
+  {
+    "id": 21,
+    "category": "Carnes",
+    "metadata": {
+      "prepTime": 30,
+      "cookTime": 60,
+      "totalTime": 90,
+      "difficulty": "medium",
+      "servings": 4,
+      "author": "Diva in Bucatarie",
+      "tags": ["ardei", "carne amestec", "sos de rosii", "mancare traditionala"],
+      "nutrition": {
+        "calories": 350,
+        "protein": 30,
+        "carbs": 30,
+        "fat": 15,
+        "fiber": 5,
+        "sugar": 8,
+        "sodium": 500,
+        "servingSize": "1 porción"
+      }
+    },
+    "translations": {
+      "ro": {
+        "name": "Ardei umpluți cu carne amestec",
+        "description": "Ardei umpluți cu carne de porc, vită și pasăre, serviți într-un sos de roșii delicios.",
+        "ingredients": [
+          "8 ardei grași de mărime medie",
+          "500 g carne tocată amestec (200 g porc + 200 g vită + 100 g pasăre)",
+          "2 linguri orez",
+          "2 linguri ulei",
+          "300 ml suc de roșii",
+          "2 cepe medii spre mari",
+          "boia de ardei",
+          "1 lingură bulion de roșii concentrat",
+          "1 linguriță făină",
+          "2 roșii mari",
+          "sare",
+          "piper proaspăt măcinat",
+          "boabe de piper",
+          "1 frunză dafin",
+          "½ legătură mărar/pătrunjel",
+          "câteva crenguțe de cimbru"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Pregătirea ingredientelor",
+            "text": "Curăță și toacă ceapa, apoi călește-o în ulei încins. Scoate o lingură de ceapă pentru sos. Curăță ardeii, îndepărtează semințele și spală-i.",
+            "time": "10 minute"
+          },
+          {
+            "step": 2,
+            "title": "Umplerea ardeilor",
+            "text": "Amestecă carnea tocată cu orez, sare, piper, ceapa călită și mărar sau pătrunjel. Umple ardeii cu această compoziție.",
+            "time": "10 minute"
+          },
+          {
+            "step": 3,
+            "title": "Prepararea sosului",
+            "text": "Într-un bol, amestecă sucul de roșii cu făina, boia, sare, piper, bulionul de roșii și restul de ceapă călită.",
+            "time": "5 minute"
+          },
+          {
+            "step": 4,
+            "title": "Gătirea la cuptor",
+            "text": "Așază feliile de roșii într-un vas termorezistent, pune ardeii umpluți, toarnă sosul de roșii și adaugă boabele de piper și crenguțele de cimbru. Coace la 200°C timp de 30 de minute.",
+            "time": "30 minute"
+          },
+          {
+            "step": 5,
+            "title": "Servirea",
+            "text": "Ardeii umpluți sunt gata când sosul se îngroașă și ardeii se rumenesc. Servește-i calzi, cu smântână, dacă dorești.",
+            "time": "5 minute"
+          }
+        ],
+        "tips": [
+          "Pentru un gust mai intens, adaugă puțin vin în sosul de roșii.",
+          "Poți înlocui smântâna cu iaurt pentru o variantă mai ușoară."
+        ]
+      },
+      "en": {
+        "name": "Stuffed Peppers with Mixed Meat",
+        "description": "Stuffed bell peppers filled with a mixture of pork, beef, and chicken, served in a delicious tomato sauce.",
+        "ingredients": [
+          "8 medium-sized bell peppers",
+          "500 g mixed ground meat (200 g pork + 200 g beef + 100 g chicken)",
+          "2 tablespoons rice",
+          "2 tablespoons oil",
+          "300 ml tomato juice",
+          "2 medium-large onions",
+          "paprika",
+          "1 tablespoon tomato paste",
+          "1 teaspoon flour",
+          "2 large tomatoes",
+          "salt",
+          "freshly ground pepper",
+          "peppercorns",
+          "1 bay leaf",
+          "½ bunch dill/parsley",
+          "a few sprigs of thyme"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepare the ingredients",
+            "text": "Peel and chop the onion, then sauté it in hot oil. Take one tablespoon of sautéed onion for the sauce. Clean the peppers, remove the seeds, and wash them.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 2,
+            "title": "Stuff the peppers",
+            "text": "Mix the ground meat with rice, salt, pepper, sautéed onion, and dill or parsley. Stuff the peppers with the mixture.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 3,
+            "title": "Prepare the sauce",
+            "text": "In a bowl, mix the tomato juice with flour, paprika, salt, pepper, tomato paste, and the rest of the sautéed onion.",
+            "time": "5 minutes"
+          },
+          {
+            "step": 4,
+            "title": "Bake",
+            "text": "Place slices of tomatoes in a baking dish, add the stuffed peppers, pour the tomato sauce over them, and add peppercorns and thyme sprigs. Bake at 200°C for 30 minutes.",
+            "time": "30 minutes"
+          },
+          {
+            "step": 5,
+            "title": "Serving",
+            "text": "The stuffed peppers are ready when the sauce thickens and the peppers start to brown. Serve warm with sour cream, if desired.",
+            "time": "5 minutes"
+          }
+        ],
+        "tips": [
+          "For a more intense flavor, add a little wine to the tomato sauce.",
+          "You can replace sour cream with yogurt for a lighter version."
+        ]
+      },
+      "es": {
+        "name": "Pimientos rellenos con carne mixta",
+        "description": "Pimientos rellenos con una mezcla de carne de cerdo, res y pollo, servidos en una deliciosa salsa de tomate.",
+        "ingredients": [
+          "8 pimientos grandes de tamaño medio",
+          "500 g de carne picada mixta (200 g cerdo + 200 g res + 100 g pollo)",
+          "2 cucharadas de arroz",
+          "2 cucharadas de aceite",
+          "300 ml de jugo de tomate",
+          "2 cebollas medianas a grandes",
+          "pimentón",
+          "1 cucharada de pasta de tomate",
+          "1 cucharadita de harina",
+          "2 tomates grandes",
+          "sal",
+          "pimienta negra recién molida",
+          "granos de pimienta",
+          "1 hoja de laurel",
+          "½ ramo de eneldo/perejil",
+          "algunas ramitas de tomillo"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Preparar los ingredientes",
+            "text": "Pela y pica la cebolla, luego sofríela en aceite caliente. Reserva una cucharada de cebolla sofrita para la salsa. Limpia los pimientos, quítales las semillas y lávalos.",
+            "time": "10 minutos"
+          },
+          {
+            "step": 2,
+            "title": "Rellenar los pimientos",
+            "text": "Mezcla la carne picada con el arroz, sal, pimienta, la cebolla sofrita y el eneldo o perejil. Rellena los pimientos con la mezcla.",
+            "time": "10 minutos"
+          },
+          {
+            "step": 3,
+            "title": "Preparar la salsa",
+            "text": "En un bol, mezcla el jugo de tomate con la harina, pimentón, sal, pimienta, pasta de tomate y el resto de la cebolla sofrita.",
+            "time": "5 minutos"
+          },
+          {
+            "step": 4,
+            "title": "Hornear",
+            "text": "Coloca las rodajas de tomate en una fuente para horno, agrega los pimientos rellenos, vierte la salsa de tomate sobre ellos y añade los granos de pimienta y las ramitas de tomillo. Hornea a 200°C durante 30 minutos.",
+            "time": "30 minutos"
+          },
+          {
+            "step": 5,
+            "title": "Servir",
+            "text": "Los pimientos rellenos están listos cuando la salsa se espesa y los pimientos empiezan a dorarse. Sirve calientes con crema agria, si lo deseas.",
+            "time": "5 minutos"
+          }
+        ],
+        "tips": [
+          "Para un sabor más intenso, agrega un poco de vino a la salsa de tomate.",
+          "Puedes sustituir la crema agria por yogur para una versión más ligera."
+        ]
+      }
+    }
+  },
+  {
+    "id": 22,
+    "category": "Carnes",
+    "metadata": {
+      "prepTime": 30,
+      "cookTime": 60,
+      "totalTime": 90,
+      "difficulty": "medium",
+      "servings": 4,
+      "author": "Diva in Bucatarie",
+      "tags": ["musaca", "cartofi", "carne tocata", "mancaruri traditionale"],
+      "nutrition": {
+        "calories": 450,
+        "protein": 35,
+        "carbs": 40,
+        "fat": 20,
+        "fiber": 5,
+        "sugar": 7,
+        "sodium": 600,
+        "servingSize": "1 porción"
+      }
+    },
+    "translations": {
+      "ro": {
+        "name": "Musaca de cartofi",
+        "description": "Musaca de cartofi este un preparat simplu și gustos, cu cartofi prăjiți, carne tocată și un sos delicios de roșii.",
+        "ingredients": [
+          "500 g carne de porc",
+          "500 g carne de vitel",
+          "1 ceapă mare",
+          "2 ouă",
+          "1,5 kg cartofi",
+          "250 ml ulei",
+          "100 ml vin alb",
+          "50 ml apă",
+          "1/4 legătură pătrunjel verde",
+          "1 linguriță de sare",
+          "1 praf de piper",
+          "1 linguriță de cimbru uscat",
+          "1 cească de suc de roșii",
+          "2-3 roșii mari pentru topping"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Pregătirea ingredientelor",
+            "text": "Toacă carnea, adaugă verdeața și ceapa tocată mărunt, ouăle, cimbru, sare și piper. Amestecă bine compoziția.",
+            "time": "10 minute"
+          },
+          {
+            "step": 2,
+            "title": "Prepararea cartofilor",
+            "text": "Taie cartofii felii rotunde și prăjește-i puțin în ulei.",
+            "time": "10 minute"
+          },
+          {
+            "step": 3,
+            "title": "Asamblarea musacalei",
+            "text": "Așază într-un vas un strat de cartofi, unul de carne, realizând alternativ straturi de cartofi și carne. Vei obține două straturi de carne și trei de cartofi.",
+            "time": "5 minute"
+          },
+          {
+            "step": 4,
+            "title": "Gătirea la cuptor",
+            "text": "Adaugă vinul și apa peste straturi, apoi acoperă cu suc de roșii și felii de roșii. Introdu vasul în cuptorul preîncălzit la 180°C și coace timp de 40-45 minute.",
+            "time": "40-45 minute"
+          },
+          {
+            "step": 5,
+            "title": "Servirea",
+            "text": "Servește musacaua caldă, cu puțină smântână.",
+            "time": "5 minute"
+          }
+        ],
+        "tips": [
+          "Pentru o aromă mai intensă, adaugă vin alb sec în loc de apă.",
+          "Poți adăuga brânză rasă la final pentru un strat crocant."
+        ]
+      },
+      "en": {
+        "name": "Potato Moussaka",
+        "description": "Potato moussaka is a simple and tasty dish made with fried potatoes, ground meat, and a delicious tomato sauce.",
+        "ingredients": [
+          "500 g pork meat",
+          "500 g beef meat",
+          "1 large onion",
+          "2 eggs",
+          "1.5 kg potatoes",
+          "250 ml oil",
+          "100 ml white wine",
+          "50 ml water",
+          "1/4 bunch parsley",
+          "1 teaspoon salt",
+          "1 pinch of pepper",
+          "1 teaspoon dried thyme",
+          "1 cup tomato juice",
+          "2-3 large tomatoes for topping"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepare the ingredients",
+            "text": "Chop the meat, add finely chopped parsley and onion, eggs, thyme, salt, and pepper. Mix everything well.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 2,
+            "title": "Prepare the potatoes",
+            "text": "Slice the potatoes into rounds and fry them lightly in oil.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 3,
+            "title": "Assemble the moussaka",
+            "text": "In a baking dish, layer potatoes and meat alternately, with two layers of meat and three layers of potatoes.",
+            "time": "5 minutes"
+          },
+          {
+            "step": 4,
+            "title": "Bake",
+            "text": "Pour the wine and water over the layers, then cover with tomato juice and tomato slices. Bake in a preheated oven at 180°C for 40-45 minutes.",
+            "time": "40-45 minutes"
+          },
+          {
+            "step": 5,
+            "title": "Serve",
+            "text": "Serve the moussaka warm, with a little sour cream.",
+            "time": "5 minutes"
+          }
+        ],
+        "tips": [
+          "For a stronger flavor, replace the water with dry white wine.",
+          "You can add grated cheese at the end for a crispy topping."
+        ]
+      },
+      "es": {
+        "name": "Musaca de patatas",
+        "description": "La musaca de patatas es un plato simple y sabroso, hecho con papas fritas, carne molida y una deliciosa salsa de tomate.",
+        "ingredients": [
+          "500 g de carne de cerdo",
+          "500 g de carne de res",
+          "1 cebolla grande",
+          "2 huevos",
+          "1,5 kg de papas",
+          "250 ml de aceite",
+          "100 ml de vino blanco",
+          "50 ml de agua",
+          "1/4 de ramo de perejil",
+          "1 cucharadita de sal",
+          "1 pizca de pimienta",
+          "1 cucharadita de tomillo seco",
+          "1 taza de jugo de tomate",
+          "2-3 tomates grandes para la cobertura"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Preparar los ingredientes",
+            "text": "Pica la carne, agrega el perejil y la cebolla picados, los huevos, el tomillo, la sal y la pimienta. Mezcla bien la preparación.",
+            "time": "10 minutos"
+          },
+          {
+            "step": 2,
+            "title": "Preparar las papas",
+            "text": "Corta las papas en rodajas y fríelas ligeramente en aceite.",
+            "time": "10 minutos"
+          },
+          {
+            "step": 3,
+            "title": "Montar la musaca",
+            "text": "En un molde para hornear, coloca las papas y la carne alternadamente, con dos capas de carne y tres de papas.",
+            "time": "5 minutos"
+          },
+          {
+            "step": 4,
+            "title": "Hornear",
+            "text": "Vierte el vino y el agua sobre las capas, luego cubre con jugo de tomate y rodajas de tomate. Hornea en un horno precalentado a 180°C durante 40-45 minutos.",
+            "time": "40-45 minutos"
+          },
+          {
+            "step": 5,
+            "title": "Servir",
+            "text": "Sirve la musaca caliente, con un poco de crema agria.",
+            "time": "5 minutos"
+          }
+        ],
+        "tips": [
+          "Para un sabor más intenso, reemplaza el agua por vino blanco seco.",
+          "Puedes agregar queso rallado al final para un topping crujiente."
+        ]
+      }
+    }
+  },
+  {
+    "id": 23,
+    "category": "Carnes",
+    "metadata": {
+      "prepTime": 20,
+      "cookTime": 180,
+      "totalTime": 200,
+      "difficulty": "medium",
+      "servings": 4,
+      "author": "Diva in Bucatarie",
+      "tags": ["rata", "varza", "cuptor", "mancaruri traditionale"],
+      "nutrition": {
+        "calories": 600,
+        "protein": 50,
+        "carbs": 30,
+        "fat": 35,
+        "fiber": 6,
+        "sugar": 5,
+        "sodium": 700,
+        "servingSize": "1 porción"
+      }
+    },
+    "translations": {
+      "ro": {
+        "name": "Rata pe varza calita la cuptor",
+        "description": "Rata pe varza calita la cuptor este o reteta traditionala, gustoasa, cu o carne frageda si o varza savuroasa.",
+        "ingredients": [
+          "2 verze murate medii",
+          "1 varza proaspata",
+          "1 rata maricica",
+          "1 ceapa",
+          "1 cana suc de rosii",
+          "boabe de piper",
+          "2 frunze dafin",
+          "2 linguri ulei de trufe",
+          "cimbru uscat",
+          "sare grunjoasa",
+          "2 crengute cimbru",
+          "1 creanga mica busuioc",
+          "cate frunze de salvie",
+          "3 linguri vin",
+          "3 linguri apa",
+          "3 felii slanina de porc"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepararea ratei",
+            "text": "Spalam rata sub jet de apa rece, o frecam cu sare, ulei de trufe, piper si cimbru. O punem intr-un vas termorezistent si adaugam vin si apa. Acoperim cu folie de staniol si o lasam la cuptorul preincalzit la 140°C timp de 90 minute.",
+            "time": "90 minute"
+          },
+          {
+            "step": 2,
+            "title": "Prepararea verzei",
+            "text": "Tocam marunt verza proaspata si murata si o calim cu ceapa, o felie de slanina si suc de rosii.",
+            "time": "30 minute"
+          },
+          {
+            "step": 3,
+            "title": "Asamblarea mancarii",
+            "text": "Punem verza in vasul cu rata, adaugam slanina ramasa si o crenguta de cimbru. Daca rata lasa prea multa grasime, o scurgem si adaugam putin pe parcurs.",
+            "time": "5 minute"
+          },
+          {
+            "step": 4,
+            "title": "Finalizarea preparatului",
+            "text": "Acoperim vasul cu folie si il punem in cuptor pentru inca 90 de minute la 140°C, apoi il lasam inca 30-60 minute la 200°C, lasand vasul neacoperit.",
+            "time": "120 minute"
+          },
+          {
+            "step": 5,
+            "title": "Servire",
+            "text": "Servim rata cu varza calita si mamaliga.",
+            "time": "5 minute"
+          }
+        ],
+        "tips": [
+          "Pentru un gust mai intens, adauga putin vin alb in varza calita.",
+          "Se poate adauga o crusta crocanta de branza rasa deasupra."
+        ]
+      },
+      "en": {
+        "name": "Duck with Braised Cabbage in the Oven",
+        "description": "Duck with braised cabbage in the oven is a traditional, delicious recipe with tender meat and flavorful cabbage.",
+        "ingredients": [
+          "2 medium pickled cabbages",
+          "1 fresh cabbage",
+          "1 medium duck",
+          "1 onion",
+          "1 cup tomato juice",
+          "peppercorns",
+          "2 bay leaves",
+          "2 tablespoons truffle oil",
+          "dried thyme",
+          "coarse salt",
+          "2 sprigs thyme",
+          "1 small basil sprig",
+          "some sage leaves",
+          "3 tablespoons wine",
+          "3 tablespoons water",
+          "3 slices of pork belly"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepare the duck",
+            "text": "Wash the duck under cold water, rub with salt, truffle oil, pepper, and thyme. Place in an ovenproof dish, add wine and water, cover with foil, and bake in a preheated oven at 140°C for 90 minutes.",
+            "time": "90 minutes"
+          },
+          {
+            "step": 2,
+            "title": "Prepare the cabbage",
+            "text": "Finely chop both the fresh and pickled cabbage and sauté with onion, a slice of pork belly, and tomato juice.",
+            "time": "30 minutes"
+          },
+          {
+            "step": 3,
+            "title": "Assemble the dish",
+            "text": "Place the cabbage in the dish with the duck, add the remaining pork belly and a sprig of thyme. If the duck has released too much fat, drain it and add some back if needed.",
+            "time": "5 minutes"
+          },
+          {
+            "step": 4,
+            "title": "Finish cooking",
+            "text": "Cover the dish with foil and return it to the oven at 140°C for another 90 minutes, then bake uncovered at 200°C for 30-60 minutes.",
+            "time": "120 minutes"
+          },
+          {
+            "step": 5,
+            "title": "Serve",
+            "text": "Serve the duck with the braised cabbage and polenta.",
+            "time": "5 minutes"
+          }
+        ],
+        "tips": [
+          "For a stronger flavor, add a little white wine to the cabbage.",
+          "You can top with a crispy cheese crust."
+        ]
+      },
+      "es": {
+        "name": "Pato con col guisada al horno",
+        "description": "El pato con col guisada al horno es una receta tradicional, deliciosa, con carne tierna y una col sabrosa.",
+        "ingredients": [
+          "2 coles agrias medianas",
+          "1 col fresca",
+          "1 pato mediano",
+          "1 cebolla",
+          "1 taza de jugo de tomate",
+          "granos de pimienta",
+          "2 hojas de laurel",
+          "2 cucharadas de aceite de trufa",
+          "tomillo seco",
+          "sal gruesa",
+          "2 ramitas de tomillo",
+          "1 ramita de albahaca",
+          "algunas hojas de salvia",
+          "3 cucharadas de vino",
+          "3 cucharadas de agua",
+          "3 rodajas de tocino de cerdo"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Preparar el pato",
+            "text": "Lava el pato bajo agua fría, frota con sal, aceite de trufa, pimienta y tomillo. Colócalo en un recipiente apto para horno, agrega vino y agua, cúbrelo con papel de aluminio y hornea en un horno precalentado a 140°C durante 90 minutos.",
+            "time": "90 minutos"
+          },
+          {
+            "step": 2,
+            "title": "Preparar la col",
+            "text": "Pica finamente la col fresca y la agria, y sofríelas con cebolla, una rodaja de tocino y jugo de tomate.",
+            "time": "30 minutos"
+          },
+          {
+            "step": 3,
+            "title": "Montar el plato",
+            "text": "Coloca la col en el recipiente con el pato, agrega el tocino restante y una ramita de tomillo. Si el pato ha soltado demasiada grasa, escúrrela y agrega un poco si es necesario.",
+            "time": "5 minutos"
+          },
+          {
+            "step": 4,
+            "title": "Terminar de cocinar",
+            "text": "Cubre el recipiente con papel de aluminio y vuelve a hornear a 140°C durante otros 90 minutos, luego hornea sin tapar a 200°C durante 30-60 minutos.",
+            "time": "120 minutos"
+          },
+          {
+            "step": 5,
+            "title": "Servir",
+            "text": "Sirve el pato con la col guisada y polenta.",
+            "time": "5 minutos"
+          }
+        ],
+        "tips": [
+          "Para un sabor más fuerte, agrega un poco de vino blanco a la col.",
+          "Puedes agregar una capa crujiente de queso al final."
+        ]
+      }
+    }
+  },
+  {
+    "id": 24,
+    "category": "Carnes",
+    "metadata": {
+      "prepTime": 20,
+      "cookTime": 90,
+      "totalTime": 110,
+      "difficulty": "medium",
+      "servings": 4,
+      "author": "Diva in Bucatarie",
+      "tags": ["porc", "varza", "gulas", "mancaruri traditionale"],
+      "nutrition": {
+        "calories": 500,
+        "protein": 40,
+        "carbs": 35,
+        "fat": 25,
+        "fiber": 5,
+        "sugar": 6,
+        "sodium": 650,
+        "servingSize": "1 porción"
+      }
+    },
+    "translations": {
+      "ro": {
+        "name": "Varza calita secuiasca cu carne de porc (Székelygulyás)",
+        "description": "Un preparat tradițional din zona secuiască, cu varză murată, carne de porc, și condimente aromate.",
+        "ingredients": [
+          "1 kg carne de porc",
+          "2 linguri untura",
+          "1 kg varza murata",
+          "2 cepe medii",
+          "2 catei usturoi",
+          "1/2 lingurita piper proaspat macinat",
+          "1 lingurita pudra de chimen",
+          "1.5 lingurite cimbru uscat",
+          "2 linguri paprika (boia dulce)",
+          "700 - 800 ml apa"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Pregătirea ingredientelor",
+            "text": "Tăiem carnea de porc în cuburi medii, iar ceapa și usturoiul le tocăm mărunt. Tăiem varza fideluță și o lăsăm să se scurgă.",
+            "time": "10 minute"
+          },
+          {
+            "step": 2,
+            "title": "Gătirea cărnii",
+            "text": "Topim untura într-un vas mare, adăugăm bucățile de carne și le rumenim pe toate părțile. Adăugăm ceapa și usturoiul și continuăm să călim.",
+            "time": "15 minute"
+          },
+          {
+            "step": 3,
+            "title": "Adăugarea condimentelor",
+            "text": "Asezonăm cu piper, cimbru, chimen și paprika. Amestecăm bine.",
+            "time": "5 minute"
+          },
+          {
+            "step": 4,
+            "title": "Adăugarea verzei",
+            "text": "Punem varza peste carne, amestecăm și lăsăm să se înăbușească 1 minut.",
+            "time": "5 minute"
+          },
+          {
+            "step": 5,
+            "title": "Adăugarea lichidului",
+            "text": "Adăugăm 700 ml apă, acoperim cu un capac și lăsăm la foc mic spre mediu timp de 30 minute, amestecând din când în când.",
+            "time": "30 minute"
+          },
+          {
+            "step": 6,
+            "title": "Finalizarea preparatului",
+            "text": "Verificăm lichidul și adăugăm apă dacă este necesar. Lăsăm la foc mic încă 30 de minute, fără capac, pentru a se reduce.",
+            "time": "30 minute"
+          },
+          {
+            "step": 7,
+            "title": "Servire",
+            "text": "Servim cu o felie de pâine, smântână și sos din gulas.",
+            "time": "5 minute"
+          }
+        ],
+        "tips": [
+          "Dacă varza este prea sărată, o lăsați la înmuiat în apă timp de o oră.",
+          "Pentru un gust mai intens, puteți adăuga smântână amestecată cu făină."
+        ]
+      },
+      "en": {
+        "name": "Szekelygulyas (Secui-style Braised Cabbage with Pork)",
+        "description": "A traditional dish from the Szekler region, featuring sauerkraut, pork, and aromatic spices.",
+        "ingredients": [
+          "1 kg pork meat",
+          "2 tablespoons lard",
+          "1 kg sauerkraut",
+          "2 medium onions",
+          "2 garlic cloves",
+          "1/2 teaspoon freshly ground pepper",
+          "1 teaspoon ground caraway",
+          "1.5 teaspoons dried thyme",
+          "2 tablespoons sweet paprika",
+          "700 - 800 ml water"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepare ingredients",
+            "text": "Cut the pork into medium cubes, chop the onion and garlic. Slice the sauerkraut and drain.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 2,
+            "title": "Cook the meat",
+            "text": "Melt the lard in a large pot, add the pork pieces, and brown them on all sides. Add the onion and garlic and sauté.",
+            "time": "15 minutes"
+          },
+          {
+            "step": 3,
+            "title": "Add spices",
+            "text": "Season with pepper, thyme, caraway, and paprika. Stir well.",
+            "time": "5 minutes"
+          },
+          {
+            "step": 4,
+            "title": "Add cabbage",
+            "text": "Add the sauerkraut to the meat, stir, and let it cook for 1 minute.",
+            "time": "5 minutes"
+          },
+          {
+            "step": 5,
+            "title": "Add liquid",
+            "text": "Pour in 700 ml of water, cover with a lid, and simmer on low to medium heat for 30 minutes, stirring occasionally.",
+            "time": "30 minutes"
+          },
+          {
+            "step": 6,
+            "title": "Finish cooking",
+            "text": "Check the liquid level and add more water if necessary. Let it simmer for another 30 minutes without a lid to reduce the liquid.",
+            "time": "30 minutes"
+          },
+          {
+            "step": 7,
+            "title": "Serve",
+            "text": "Serve with a slice of bread, sour cream, and goulash sauce.",
+            "time": "5 minutes"
+          }
+        ],
+        "tips": [
+          "If the sauerkraut is too salty, soak it in water for an hour.",
+          "For a richer taste, add sour cream mixed with flour."
+        ]
+      },
+      "es": {
+        "name": "Varza calita secuiasca con carne de cerdo (Székelygulyás)",
+        "description": "Un plato tradicional de la región Szekler, con chucrut, carne de cerdo y especias aromáticas.",
+        "ingredients": [
+          "1 kg carne de cerdo",
+          "2 cucharadas de manteca",
+          "1 kg chucrut",
+          "2 cebollas medianas",
+          "2 dientes de ajo",
+          "1/2 cucharadita de pimienta recién molida",
+          "1 cucharadita de alcarraza molida",
+          "1.5 cucharaditas de tomillo seco",
+          "2 cucharadas de pimentón dulce",
+          "700 - 800 ml de agua"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Preparar los ingredientes",
+            "text": "Corta la carne de cerdo en cubos medianos, pica la cebolla y el ajo. Corta el chucrut en tiras y escúrrelo.",
+            "time": "10 minutos"
+          },
+          {
+            "step": 2,
+            "title": "Cocinar la carne",
+            "text": "Derrite la manteca en una olla grande, agrega los trozos de carne y dóralos por todos lados. Agrega la cebolla y el ajo y sofríe.",
+            "time": "15 minutos"
+          },
+          {
+            "step": 3,
+            "title": "Agregar especias",
+            "text": "Sazona con pimienta, tomillo, alcarraza y pimentón. Mezcla bien.",
+            "time": "5 minutos"
+          },
+          {
+            "step": 4,
+            "title": "Agregar el chucrut",
+            "text": "Agrega el chucrut a la carne, mezcla y deja cocinar durante 1 minuto.",
+            "time": "5 minutos"
+          },
+          {
+            "step": 5,
+            "title": "Agregar líquido",
+            "text": "Vierte 700 ml de agua, cubre con una tapa y cocina a fuego lento durante 30 minutos, revolviendo ocasionalmente.",
+            "time": "30 minutos"
+          },
+          {
+            "step": 6,
+            "title": "Finalizar la cocción",
+            "text": "Verifica el nivel de líquido y agrega más agua si es necesario. Cocina durante otros 30 minutos sin tapa para reducir el líquido.",
+            "time": "30 minutos"
+          },
+          {
+            "step": 7,
+            "title": "Servir",
+            "text": "Sirve con una rebanada de pan, crema agria y salsa de goulash.",
+            "time": "5 minutos"
+          }
+        ],
+        "tips": [
+          "Si el chucrut está demasiado salado, remójalo en agua durante una hora.",
+          "Para un sabor más intenso, agrega crema agria mezclada con harina."
+        ]
+      }
+    }
+  },
+  {
+    "id": 12,
+    "category": "Meat",
+    "metadata": {
+      "prepTime": 30,
+      "cookTime": 60,
+      "totalTime": 90,
+      "difficulty": "medium",
+      "servings": 4,
+      "author": "Diva in Bucatarie",
+      "tags": ["meatballs", "marinated", "traditional"],
+      "nutrition": {
+        "calories": 350,
+        "protein": 25,
+        "carbs": 25,
+        "fat": 20,
+        "fiber": 3,
+        "sugar": 10,
+        "sodium": 500,
+        "servingSize": "1 serving"
+      }
+    },
+    "translations": {
+      "ro": {
+        "name": "Chifteluțe marinate",
+        "description": "Reteta clasica de chifteluțe marinate este gustoasa, usor de preparat si foarte populara in Romania.",
+        "ingredients": [
+          "250 g carne de porc",
+          "500 g carne de vita",
+          "250 g carne de miel",
+          "2 cepe medii tocate",
+          "2 morcovi rasi",
+          "o felie groasa franzela",
+          "150 ml lapte",
+          "1 cartof ras",
+          "2 oua",
+          "20 ml apa minerala",
+          "2 catei usturoi pisati",
+          "1/2 legatura marar",
+          "2 crengute cimbru",
+          "sare, piper, nucsoara",
+          "250 g faina pentru tavaleala",
+          "ulei pentru prajit",
+          "700 ml sos de rosii",
+          "2 linguri zahar",
+          "20 ml otet",
+          "1 lingurita boabe piper",
+          "1 frunza dafin"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Pregătirea chifteluțelor",
+            "text": "Se amestecă cele trei tipuri de carne tocate, se adaugă condimentele și se adaugă apa minerală și mararul. Painea inmuiata in lapte si ceapa calita se adauga la carne.",
+            "time": "10 minute"
+          },
+          {
+            "step": 2,
+            "title": "Formarea chifteluțelor",
+            "text": "Se formează bile de carne, apoi se dau prin faina și se prăjesc în ulei încins.",
+            "time": "20 minute"
+          },
+          {
+            "step": 3,
+            "title": "Prepararea sosului",
+            "text": "Se fierbe sosul de rosii cu zahar, otet, piper, usturoi și dafin până când se îngroașă, apoi se adaugă peste chifteluțe.",
+            "time": "15 minute"
+          }
+        ],
+        "tips": [
+          "Puteți servi chifteluțele cu piure de cartofi sau paste.",
+          "Pentru o variantă mai ușoară, folosiți carne de pui sau legume."
+        ]
+      },
+      "en": {
+        "name": "Marinated Meatballs",
+        "description": "The classic marinated meatball recipe is flavorful, easy to prepare, and very popular in Romania.",
+        "ingredients": [
+          "250 g pork meat",
+          "500 g beef meat",
+          "250 g lamb meat",
+          "2 medium onions, finely chopped",
+          "2 young carrots, grated",
+          "1 thick slice of bread",
+          "150 ml milk",
+          "1 medium potato, grated",
+          "2 eggs",
+          "20 ml sparkling water",
+          "2 garlic cloves, minced",
+          "1/2 bunch of dill",
+          "2 sprigs thyme",
+          "salt, pepper, nutmeg",
+          "250 g flour for rolling",
+          "oil for frying",
+          "700 ml tomato sauce",
+          "2 tablespoons sugar",
+          "20 ml vinegar",
+          "1 teaspoon peppercorns",
+          "1 bay leaf"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepare the meatballs",
+            "text": "Mix the three types of minced meat, add spices, sparkling water, and dill. Soak the bread in milk and add the sautéed onion.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 2,
+            "title": "Form the meatballs",
+            "text": "Shape the mixture into balls, roll in flour, and fry in hot oil.",
+            "time": "20 minutes"
+          },
+          {
+            "step": 3,
+            "title": "Prepare the sauce",
+            "text": "Cook the tomato sauce with sugar, vinegar, pepper, garlic, and bay leaf until thick, then pour it over the meatballs.",
+            "time": "15 minutes"
+          }
+        ],
+        "tips": [
+          "You can serve the meatballs with mashed potatoes or pasta.",
+          "For a lighter version, use chicken or vegetable meatballs."
+        ]
+      },
+      "es": {
+        "name": "Albóndigas marinadas",
+        "description": "La receta clásica de albóndigas marinadas es sabrosa, fácil de preparar y muy popular en Rumanía.",
+        "ingredients": [
+          "250 g carne de cerdo",
+          "500 g carne de res",
+          "250 g carne de cordero",
+          "2 cebollas medianas picadas finamente",
+          "2 zanahorias jóvenes ralladas",
+          "1 rebanada gruesa de pan",
+          "150 ml leche",
+          "1 papa mediana rallada",
+          "2 huevos",
+          "20 ml agua con gas",
+          "2 dientes de ajo picados",
+          "1/2 ramo de eneldo",
+          "2 ramitas de tomillo",
+          "sal, pimienta, nuez moscada",
+          "250 g harina para empanizar",
+          "aceite para freír",
+          "700 ml salsa de tomate",
+          "2 cucharadas de azúcar",
+          "20 ml vinagre",
+          "1 cucharadita de pimienta en grano",
+          "1 hoja de laurel"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Preparar las albóndigas",
+            "text": "Mezclar las tres carnes picadas, añadir especias, agua con gas y eneldo. Empapar el pan en leche y agregar la cebolla sofrita.",
+            "time": "10 minutos"
+          },
+          {
+            "step": 2,
+            "title": "Formar las albóndigas",
+            "text": "Dar forma a la mezcla en bolas, pasarlas por harina y freírlas en aceite caliente.",
+            "time": "20 minutos"
+          },
+          {
+            "step": 3,
+            "title": "Preparar la salsa",
+            "text": "Cocinar la salsa de tomate con azúcar, vinagre, pimienta, ajo y laurel hasta que espese, luego verterla sobre las albóndigas.",
+            "time": "15 minutos"
+          }
+        ],
+        "tips": [
+          "Puedes servir las albóndigas con puré de papas o pasta.",
+          "Para una versión más ligera, usa albóndigas de pollo o vegetales."
+        ]
+      }
+    }
+  },
+  {
+    "id": 12,
+    "category": "Meat",
+    "metadata": {
+      "prepTime": 20,
+      "cookTime": 35,
+      "totalTime": 55,
+      "difficulty": "easy",
+      "servings": 4,
+      "author": "Diva in Bucatarie",
+      "tags": ["liver", "chicken", "oven-baked"],
+      "nutrition": {
+        "calories": 200,
+        "protein": 30,
+        "carbs": 8,
+        "fat": 8,
+        "fiber": 2,
+        "sugar": 3,
+        "sodium": 300,
+        "servingSize": "1 serving"
+      }
+    },
+    "translations": {
+      "ro": {
+        "name": "Ficatei de pui cu ceapă la cuptor",
+        "description": "O rețetă simplă și delicioasă de ficatei de pui cu ceapă, gătită la cuptor, perfectă pentru o masă rapidă și gustoasă.",
+        "ingredients": [
+          "1 ceapă mare",
+          "700 g ficat de pui",
+          "6 căței de usturoi",
+          "1/4 linguriță busuioc uscat",
+          "3 linguri ulei de măsline",
+          "150 ml vin alb",
+          "piper",
+          "pentru servit: mamaligă, mujdei de usturoi"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Pregătește ingredientele",
+            "text": "Călește ceapa tocată în ulei de măsline până devine aurie.",
+            "time": "5 minute"
+          },
+          {
+            "step": 2,
+            "title": "Pregătește ficatul",
+            "text": "Așează ficatul de pui într-un vas termorezistent, adaugă ceapa călită, usturoiul tocat, vinul și condimentele.",
+            "time": "10 minute"
+          },
+          {
+            "step": 3,
+            "title": "Coace ficatul",
+            "text": "Acoperă vasul cu folie de aluminiu și pune-l la cuptor la 180°C pentru 15 minute. După acest timp, adaugă restul de usturoi și lasă-l la cuptor încă 5 minute.",
+            "time": "20 minute"
+          },
+          {
+            "step": 4,
+            "title": "Finalizare",
+            "text": "Scoate folia de aluminiu și lasă ficatul să se rumenească. Servește-l cu mamaligă și mujdei de usturoi.",
+            "time": "10 minute"
+          }
+        ],
+        "tips": [
+          "Este recomandat să servești ficatul cu mamaligă sau legume sotate.",
+          "Nu pune sare pe ficat în timpul preparării, deoarece poate deveni uscat."
+        ]
+      },
+      "en": {
+        "name": "Oven-baked Chicken Liver with Onions",
+        "description": "A simple and delicious recipe for chicken liver with onions, baked in the oven, perfect for a quick and tasty meal.",
+        "ingredients": [
+          "1 large onion",
+          "700 g chicken liver",
+          "6 garlic cloves",
+          "1/4 tsp dried basil",
+          "3 tbsp olive oil",
+          "150 ml white wine",
+          "pepper",
+          "for serving: polenta, garlic sauce"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepare the ingredients",
+            "text": "Sauté the chopped onion in olive oil until golden.",
+            "time": "5 minutes"
+          },
+          {
+            "step": 2,
+            "title": "Prepare the liver",
+            "text": "Place the chicken liver in a baking dish, add the sautéed onion, chopped garlic, wine, and seasonings.",
+            "time": "10 minutes"
+          },
+          {
+            "step": 3,
+            "title": "Bake the liver",
+            "text": "Cover the dish with aluminum foil and bake at 180°C for 15 minutes. Afterward, add the remaining garlic and bake for another 5 minutes.",
+            "time": "20 minutes"
+          },
+          {
+            "step": 4,
+            "title": "Finishing touches",
+            "text": "Remove the foil and let the liver brown. Serve with polenta and garlic sauce.",
+            "time": "10 minutes"
+          }
+        ],
+        "tips": [
+          "It is recommended to serve the liver with polenta or sautéed vegetables.",
+          "Do not add salt while cooking the liver, as it may become dry."
+        ]
+      },
+      "es": {
+        "name": "Hígados de pollo al horno con cebolla",
+        "description": "Una receta simple y deliciosa de hígado de pollo con cebolla, cocinado al horno, perfecta para una comida rápida y sabrosa.",
+        "ingredients": [
+          "1 cebolla grande",
+          "700 g hígado de pollo",
+          "6 dientes de ajo",
+          "1/4 cucharadita de albahaca seca",
+          "3 cucharadas de aceite de oliva",
+          "150 ml vino blanco",
+          "pimienta",
+          "para servir: polenta, salsa de ajo"
+        ],
+        "instructions": [
+          {
+            "step": 1,
+            "title": "Prepara los ingredientes",
+            "text": "Sofríe la cebolla picada en aceite de oliva hasta que se dore.",
+            "time": "5 minutos"
+          },
+          {
+            "step": 2,
+            "title": "Prepara el hígado",
+            "text": "Coloca el hígado de pollo en una fuente para hornear, agrega la cebolla sofrita, el ajo picado, el vino y los condimentos.",
+            "time": "10 minutos"
+          },
+          {
+            "step": 3,
+            "title": "Hornea el hígado",
+            "text": "Cubre la fuente con papel aluminio y hornea a 180°C durante 15 minutos. Luego, agrega el resto del ajo y hornea otros 5 minutos.",
+            "time": "20 minutos"
+          },
+          {
+            "step": 4,
+            "title": "Toques finales",
+            "text": "Retira el papel aluminio y deja que el hígado se dore. Sírvelo con polenta y salsa de ajo.",
+            "time": "10 minutos"
+          }
+        ],
+        "tips": [
+          "Se recomienda servir el hígado con polenta o verduras salteadas.",
+          "No añadas sal al hígado durante la cocción, ya que puede secarse."
+        ]
+      }
+    }
+  }               
+  
+  
   
 ]
