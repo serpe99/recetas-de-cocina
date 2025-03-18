@@ -238,7 +238,7 @@ function renderMetadata(recipe) {
     return `
         <div class="recipe-metadata">
             <h4>📋 ${translations[currentLanguage].recipeLabels.details}</h4>
-            <ul>
+            <ul style="list-style-type: none; padding-left: 0;"> <!-- Quitamos los puntos -->
                 <li>⏱️ ${labels.prepTime}: ${recipe.metadata.prepTime} ${labels.minutes}</li>
                 <li>👥 ${labels.servings}: ${recipe.metadata.servings}</li>
                 <li>📊 ${labels.difficulty}: ${translations[currentLanguage].metadata.difficulty[recipe.metadata.difficulty]}</li>
@@ -257,7 +257,7 @@ function renderNutrition(recipe) {
     return `
         <div class="nutrition-info">
             <h4>🥗 ${translations[currentLanguage].recipeLabels.nutritionalInfo}</h4>
-            <ul>
+            <ul style="list-style-type: none; padding-left: 0;"> <!-- Quitamos los puntos -->
                 <li>🔥 ${nutritionLabels.calories}: ${nutrition.calories} kcal</li>
                 <li>🥩 ${nutritionLabels.protein}: ${nutrition.protein}g</li>
                 <li>🍚 ${nutritionLabels.carbs}: ${nutrition.carbs}g</li>
@@ -342,7 +342,7 @@ function renderIngredients(translatedRecipe) {
                     ${Object.entries(ingredients).map(([section, items]) => `
                         <div class="ingredients-section">
                             <h5>${section.charAt(0).toUpperCase() + section.slice(1)}</h5>
-                            <ul>
+                            <ul style="list-style-type: none;"> <!-- Eliminamos el punto -->
                                 ${items.map(ing => `<li>${getIngredientEmoji(ing)}${ing}</li>`).join('')}
                             </ul>
                         </div>
@@ -356,7 +356,7 @@ function renderIngredients(translatedRecipe) {
     return `
         <div class="recipe-ingredients">
             <h4>🧂 ${translations[currentLanguage].recipeLabels.ingredients}</h4>
-            <ul>
+            <ul style="list-style-type: none;"> <!-- Eliminamos el punto -->
                 ${ingredients.map(ing => `<li>${getIngredientEmoji(ing)}${ing}</li>`).join('')}
             </ul>
         </div>
